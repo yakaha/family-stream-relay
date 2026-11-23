@@ -16,6 +16,7 @@ import glob
 PORT = 8888
 HLS_DIR = "/tmp/hls"
 CHANNELS_FILE = os.path.join(os.path.dirname(__file__), "channels.json")
+CURATED_CHANNELS_FILE = os.path.join(os.path.dirname(__file__), "curated_channels.json")
 CONFIG_FILE = os.path.join(os.path.dirname(__file__), "source_config.json")
 PLAYLIST_FILE = os.path.join(os.path.dirname(__file__), "playlist.m3u")
 
@@ -249,78 +250,276 @@ def save_source_config(cfg):
         print(f"[Config] Error saving source_config.json: {e}", flush=True)
         return False
 
+TARGET_DEFS = [
+    {
+        "id": "bein_1",
+        "name": "beIN SPORTS 1",
+        "category": "beIN Sports (Arabe)",
+        "patterns": [r"\bbein\s*sports?\s*1\b", r"\bbein\s*1\b"],
+        "exclude": [r"france", r"\bfr\b", r"english", r"\ben\b", r"xtra", r"afc", r"max", r"nba"]
+    },
+    {
+        "id": "bein_2",
+        "name": "beIN SPORTS 2",
+        "category": "beIN Sports (Arabe)",
+        "patterns": [r"\bbein\s*sports?\s*2\b", r"\bbein\s*2\b"],
+        "exclude": [r"france", r"\bfr\b", r"english", r"\ben\b", r"xtra", r"afc", r"max"]
+    },
+    {
+        "id": "bein_3",
+        "name": "beIN SPORTS 3",
+        "category": "beIN Sports (Arabe)",
+        "patterns": [r"\bbein\s*sports?\s*3\b", r"\bbein\s*3\b"],
+        "exclude": [r"france", r"\bfr\b", r"english", r"\ben\b", r"xtra", r"afc", r"max"]
+    },
+    {
+        "id": "bein_4",
+        "name": "beIN SPORTS 4",
+        "category": "beIN Sports (Arabe)",
+        "patterns": [r"\bbein\s*sports?\s*4\b", r"\bbein\s*4\b"],
+        "exclude": [r"france", r"\bfr\b", r"english", r"\ben\b", r"xtra", r"afc", r"max"]
+    },
+    {
+        "id": "canal_foot",
+        "name": "CANAL+ FOOT",
+        "category": "France Sports",
+        "patterns": [r"canal\+\s*foot"],
+        "exclude": []
+    },
+    {
+        "id": "canal_sport",
+        "name": "CANAL+ SPORT",
+        "category": "France Sports",
+        "patterns": [r"canal\+\s*sport\b"],
+        "exclude": [r"360"]
+    },
+    {
+        "id": "canal_sport_360",
+        "name": "CANAL+ SPORT 360",
+        "category": "France Sports",
+        "patterns": [r"canal\+\s*sport\s*360"],
+        "exclude": []
+    },
+    {
+        "id": "bein_1_fr",
+        "name": "beIN SPORTS 1 FR",
+        "category": "France Sports",
+        "patterns": [r"(?:fr|france).*bein\s*sports?\s*1\b", r"bein\s*sports?\s*1.*(?:fr|france)"],
+        "exclude": [r"max", r"xtra"]
+    },
+    {
+        "id": "bein_2_fr",
+        "name": "beIN SPORTS 2 FR",
+        "category": "France Sports",
+        "patterns": [r"(?:fr|france).*bein\s*sports?\s*2\b", r"bein\s*sports?\s*2.*(?:fr|france)"],
+        "exclude": [r"max", r"xtra"]
+    },
+    {
+        "id": "rmc_1",
+        "name": "RMC SPORT 1",
+        "category": "France Sports",
+        "patterns": [r"rmc\s*sport\s*1\b"],
+        "exclude": [r"live"]
+    },
+    {
+        "id": "dazn_1",
+        "name": "DAZN 1 FRANCE",
+        "category": "France Sports",
+        "patterns": [r"(?:fr|france).*dazn\s*1\b", r"dazn\s*1.*(?:fr|france)", r"\bdazn\s*1\b"],
+        "exclude": [r"dazn\s*1\d", r"\bes\b", r"\bbe\b", r"\bde\b"]
+    }
+]
+
+def auto_discover_channels(raw_streams):
+    curated = []
+    flat = []
+    
+    for t in TARGET_DEFS:
+        matches = []
+        for s in raw_streams:
+            s_name = s.get("name", "")
+            if any(re.search(ex, s_name, re.IGNORECASE) for ex in t["exclude"]):
+                continue
+            if any(re.search(pat, s_name, re.IGNORECASE) for pat in t["patterns"]):
+                matches.append(s)
+                
+        v_4k = None
+        v_fhd = None
+        v_sd = None
+        
+        for m in matches:
+            n = m.get("name", "").lower()
+            sid = str(m.get("id") or m.get("stream_id"))
+            
+            if not v_4k and ("4k" in n or "uhd" in n or "2160" in n):
+                v_4k = {"id": sid, "name": m.get("name"), "quality": "4K", "label": "4K Ultra HD"}
+            elif not v_fhd and ("fhd" in n or "1080" in n or "ultra" in n or "hevc" in n or "ʰᵉᵛᶜ" in n):
+                v_fhd = {"id": sid, "name": m.get("name"), "quality": "FHD", "label": "Full HD 1080p"}
+            elif not v_sd and ("sd" in n or "lq" in n or "480" in n or "low" in n or "720" in n or ("hd" in n and not "uhd" in n and not "fhd" in n)):
+                v_sd = {"id": sid, "name": m.get("name"), "quality": "SD", "label": "SD Eco"}
+                
+        if not v_fhd and matches:
+            m = matches[0]
+            v_fhd = {"id": str(m.get("id") or m.get("stream_id")), "name": m.get("name"), "quality": "FHD", "label": "Full HD 1080p"}
+        if not v_4k:
+            v_4k = v_fhd
+        if not v_sd:
+            v_sd = v_fhd
+            
+        if v_fhd:
+            ch_item = {
+                "id": t["id"],
+                "name": t["name"],
+                "category": t["category"],
+                "default_stream_id": v_fhd["id"],
+                "stream_id": v_fhd["id"],
+                "variants": {
+                    "4k": v_4k,
+                    "fhd": v_fhd,
+                    "sd": v_sd
+                }
+            }
+            curated.append(ch_item)
+            flat.append({
+                "id": t["id"],
+                "stream_id": v_fhd["id"],
+                "name": t["name"],
+                "category": t["category"]
+            })
+            
+    return curated, flat
+
+def load_curated_channels():
+    if os.path.exists(CURATED_CHANNELS_FILE):
+        try:
+            with open(CURATED_CHANNELS_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"Error loading curated_channels.json: {e}", flush=True)
+    return []
+
 def load_channels():
+    curated = load_curated_channels()
+    if curated:
+        return curated
     if os.path.exists(CHANNELS_FILE):
         try:
             with open(CHANNELS_FILE, "r", encoding="utf-8") as f:
                 return json.load(f)
-        except Exception as e:
-            print(f"Error loading channels.json: {e}", flush=True)
+        except Exception:
+            pass
     return []
 
+def resolve_stream_id(requested_id):
+    if not requested_id:
+        return DEFAULT_CHANNEL_ID
+    requested_id = str(requested_id).strip()
+    
+    curated = load_curated_channels()
+    target_quality = None
+    clean_id = requested_id
+    for q in ["4k", "fhd", "sd"]:
+        if clean_id.lower().endswith(f"_{q}") or clean_id.lower().endswith(f":{q}"):
+            clean_id = clean_id[:-len(f"_{q}")]
+            target_quality = q
+            break
+            
+    for ch in curated:
+        if ch.get("id") == clean_id or ch.get("name") == clean_id:
+            variants = ch.get("variants", {})
+            if target_quality and target_quality in variants:
+                var = variants[target_quality]
+                if isinstance(var, dict) and var.get("id"):
+                    return str(var["id"])
+            if ch.get("default_stream_id"):
+                return str(ch["default_stream_id"])
+            if "fhd" in variants and variants["fhd"].get("id"):
+                return str(variants["fhd"]["id"])
+                
+    return requested_id
+
 def get_channel_by_id(stream_id):
-    channels = load_channels()
-    for ch in channels:
-        if str(ch.get("id")) == str(stream_id):
+    real_id = resolve_stream_id(stream_id)
+    curated = load_curated_channels()
+    for ch in curated:
+        if str(ch.get("id")) == str(stream_id) or str(ch.get("default_stream_id")) == str(real_id):
+            return ch
+        variants = ch.get("variants", {})
+        for v in variants.values():
+            if str(v.get("id")) == str(real_id):
+                return ch
+    for ch in load_channels():
+        if str(ch.get("id")) == str(real_id):
             return ch
     return None
 
-def sync_xtream_channels(cfg=None):
+def sync_channels(cfg=None):
     if cfg is None:
         cfg = load_source_config()
-    if cfg.get("type") != "xtream":
-        return load_channels()
+    stype = cfg.get("type", "xtream")
+    print(f"[Sync] Running auto-discovery for source type '{stype}' ...", flush=True)
+    raw_streams = []
 
-    raw_host = cfg.get("host", "http://line.liondnscloud.ru:80").rstrip("/")
-    if not raw_host.startswith("http"):
-        raw_host = f"http://{raw_host}"
-    u = cfg.get("username", "5b596694")
-    p = cfg.get("password", "c750a8bf")
-
-    print(f"[Sync] Synchronizing channels from Xtream server: {raw_host} ...", flush=True)
-    categories_to_fetch = [
-        ('1340', 'FR SPORTS | TV'),
-        ('1531', 'FR CANAL+ LIVE | TV'),
-        ('1526', 'FR LIGUE1 + | TV'),
-        ('1590', 'FR LIGUE 1+ VIP | TV'),
-        ('1666', 'FR DAZN LA LIGA | TV'),
-        ('1510', "FR L'EQUIPE LIVE | TV"),
-        ('1660', 'FR SOCCER PPV | TV'),
-        ('1337', 'FRANCE FHD | TV'),
-        ('1164', '[AR] BEIN SPORTS'),
-        ('1433', '[AR] BEIN SPORTS UHD'),
-        ('789',  '[AR] BEIN SPORTS 4K'),
-        ('1118', '[AR] BEIN PREMIUM'),
-        ('1075', '[UK] SPORTS')
-    ]
-
-    channels = []
-    for cid, cname in categories_to_fetch:
-        url = f"{raw_host}/player_api.php?username={u}&password={p}&action=get_live_streams&category_id={cid}"
+    if stype == "xtream":
+        raw_host = cfg.get("host", "http://line.liondnscloud.ru:80").rstrip("/")
+        if not raw_host.startswith("http"):
+            raw_host = f"http://{raw_host}"
+        u = cfg.get("username", "5b596694")
+        p = cfg.get("password", "c750a8bf")
+        
+        # 1. Try fetching all live streams directly
+        url_all = f"{raw_host}/player_api.php?username={u}&password={p}&action=get_live_streams"
         try:
-            req = urllib.request.Request(url, headers={'User-Agent': 'VLC/3.0.18'})
-            with urllib.request.urlopen(req, timeout=12) as r:
-                streams = json.loads(r.read().decode('utf-8', errors='ignore'))
-                for s in streams:
-                    channels.append({
-                        'id': str(s.get('stream_id')),
-                        'name': s.get('name', ''),
-                        'category': cname,
-                        'category_id': cid,
-                        'logo': s.get('stream_icon', '')
-                    })
-            time.sleep(0.3)
+            req = urllib.request.Request(url_all, headers={'User-Agent': 'VLC/3.0.18'})
+            with urllib.request.urlopen(req, timeout=20) as r:
+                raw_streams = json.loads(r.read().decode('utf-8', errors='ignore'))
+                print(f"[Sync] Fetched {len(raw_streams)} total live streams from Xtream server", flush=True)
         except Exception as e:
-            print(f"[Sync] Warning on {cname}: {e}", flush=True)
+            print(f"[Sync] Fetch all streams failed ({e}), falling back to sport categories...", flush=True)
+            cat_ids = ['1340', '1531', '1526', '1590', '1666', '1510', '1660', '1337', '1164', '1433', '789', '1118', '1075']
+            for cid in cat_ids:
+                try:
+                    curl = f"{raw_host}/player_api.php?username={u}&password={p}&action=get_live_streams&category_id={cid}"
+                    creq = urllib.request.Request(curl, headers={'User-Agent': 'VLC/3.0.18'})
+                    with urllib.request.urlopen(creq, timeout=8) as cr:
+                        part = json.loads(cr.read().decode('utf-8', errors='ignore'))
+                        raw_streams.extend(part)
+                except Exception:
+                    pass
 
-    if channels:
-        try:
-            with open(CHANNELS_FILE, "w", encoding="utf-8") as f:
-                json.dump(channels, f, ensure_ascii=False, indent=2)
-            print(f"[Sync] Successfully updated channels.json with {len(channels)} channels!", flush=True)
-        except Exception as e:
-            print(f"[Sync] Error saving channels.json: {e}", flush=True)
-    return channels
+    elif stype in ["m3u_file", "m3u_direct"]:
+        if os.path.exists(PLAYLIST_FILE):
+            try:
+                with open(PLAYLIST_FILE, "r", encoding="utf-8", errors="ignore") as f:
+                    lines = f.readlines()
+                current_name = ""
+                for line in lines:
+                    line = line.strip()
+                    if line.startswith("#EXTINF"):
+                        parts = line.split(",", 1)
+                        current_name = parts[1].strip() if len(parts) > 1 else "Canal"
+                    elif line and not line.startswith("#"):
+                        raw_streams.append({"id": str(len(raw_streams) + 1), "name": current_name, "url": line})
+            except Exception as e:
+                print(f"[Sync] Error reading playlist.m3u: {e}", flush=True)
+
+    if raw_streams:
+        curated, flat = auto_discover_channels(raw_streams)
+        if curated:
+            try:
+                with open(CURATED_CHANNELS_FILE, "w", encoding="utf-8") as f:
+                    json.dump(curated, f, ensure_ascii=False, indent=2)
+                with open(CHANNELS_FILE, "w", encoding="utf-8") as f:
+                    json.dump(flat, f, ensure_ascii=False, indent=2)
+                print(f"[Sync] Auto-discovery successful: {len(curated)} target channels configured with 4K/FHD/SD variants!", flush=True)
+                return curated
+            except Exception as e:
+                print(f"[Sync] Error saving curated_channels.json: {e}", flush=True)
+
+    return load_curated_channels() or load_channels()
+
+def sync_xtream_channels(cfg=None):
+    return sync_channels(cfg)
 
 def build_stream_url_for_channel(stream_id, ch=None):
     cfg = load_source_config()
@@ -409,9 +608,10 @@ def start_stream_for_channel(stream_id, force_restart=False):
                         pass
             del ACTIVE_STREAMS[stream_id]
 
-        ch = get_channel_by_id(stream_id)
+        real_stream_id = resolve_stream_id(stream_id)
+        ch = get_channel_by_id(real_stream_id)
         ch_name = ch.get("name", f"Canal {stream_id}") if ch else f"Canal {stream_id}"
-        stream_url = build_stream_url_for_channel(stream_id, ch)
+        stream_url = build_stream_url_for_channel(real_stream_id, ch)
 
         os.makedirs(HLS_DIR, exist_ok=True)
 
@@ -555,16 +755,22 @@ class OnDemandRelayHandler(http.server.SimpleHTTPRequestHandler):
             })
             return
 
-        # 5. Channels API
+        # 5. Channels API (Returns curated channels with 4K/FHD/SD variants)
         if path == "/api/channels":
-            channels = load_channels()
-            self.render_json(channels)
+            format_type = urllib.parse.parse_qs(parsed.query).get("format", ["curated"])[0]
+            if format_type == "flat":
+                self.render_json(load_channels())
+            else:
+                curated = load_curated_channels()
+                if not curated:
+                    curated = sync_channels()
+                self.render_json(curated)
             return
 
-        # 5b. Force Sync Channels API
-        if path == "/api/sync_channels":
-            channels = sync_xtream_channels()
-            self.render_json({"success": True, "count": len(channels)})
+        # 5b. Force Sync / Auto-Discovery Channels API
+        if path in ["/api/sync_channels", "/api/discover"]:
+            channels = sync_channels()
+            self.render_json({"success": True, "count": len(channels), "channels": channels})
             return
 
         # 6. Source Config API
@@ -685,8 +891,7 @@ class OnDemandRelayHandler(http.server.SimpleHTTPRequestHandler):
                 body = self.rfile.read(length).decode('utf-8')
                 new_cfg = json.loads(body)
                 save_source_config(new_cfg)
-                if new_cfg.get("type") == "xtream":
-                    threading.Thread(target=sync_xtream_channels, args=(new_cfg,), daemon=True).start()
+                threading.Thread(target=sync_channels, args=(new_cfg,), daemon=True).start()
                 # Restart active streams with new source
                 with STREAMS_LOCK:
                     current_sids = list(ACTIVE_STREAMS.keys())
