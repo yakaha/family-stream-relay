@@ -1,12 +1,8 @@
 {
-    "username":  "5b596694",
-    "filename":  "playlist.m3u",
-    "type":  "xtream",
-    "m3u_url":  "",
-    "password":  "c750a8bf",
-    "mac":  "",
-    "name":  "Serveur Xtream Codes",
-    "host":  "http://line.liondnscloud.ru:80",
-    "port":  80,
-    "xtream_url":  ""
+  "type": "xtream",
+  "name": "Serveur Xtream KlixTV",
+  "host": "http://klixtv.vip:80",
+  "username": "MrZengue",
+  "password": "2S6DM2J",
+  "port": 80
 }
