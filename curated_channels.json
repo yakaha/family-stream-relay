@@ -2,7 +2,7 @@
   {
     "id": "bein_1",
     "name": "beIN SPORTS 1",
-    "category": "beIN Sports (Arabe)",
+    "category": "🇸🇦 beIN Sports (Arabe)",
     "default_stream_id": "551241",
     "variants": {
       "4k": {
@@ -23,12 +23,13 @@
         "quality": "SD",
         "label": "SD Eco"
       }
-    }
+    },
+    "category_id": "vip_bein_ar"
   },
   {
     "id": "bein_2",
     "name": "beIN SPORTS 2",
-    "category": "beIN Sports (Arabe)",
+    "category": "🇸🇦 beIN Sports (Arabe)",
     "default_stream_id": "27897",
     "variants": {
       "4k": {
@@ -49,12 +50,13 @@
         "quality": "SD",
         "label": "SD Eco"
       }
-    }
+    },
+    "category_id": "vip_bein_ar"
   },
   {
     "id": "bein_3",
     "name": "beIN SPORTS 3",
-    "category": "beIN Sports (Arabe)",
+    "category": "🇸🇦 beIN Sports (Arabe)",
     "default_stream_id": "551294",
     "variants": {
       "4k": {
@@ -75,12 +77,13 @@
         "quality": "SD",
         "label": "SD Eco"
       }
-    }
+    },
+    "category_id": "vip_bein_ar"
   },
   {
     "id": "bein_4",
     "name": "beIN SPORTS 4",
-    "category": "beIN Sports (Arabe)",
+    "category": "🇸🇦 beIN Sports (Arabe)",
     "default_stream_id": "551275",
     "variants": {
       "4k": {
@@ -101,12 +104,13 @@
         "quality": "SD",
         "label": "SD Eco"
       }
-    }
+    },
+    "category_id": "vip_bein_ar"
   },
   {
     "id": "bein_5",
     "name": "beIN SPORTS 5",
-    "category": "beIN Sports (Arabe)",
+    "category": "🇸🇦 beIN Sports (Arabe)",
     "default_stream_id": "551276",
     "variants": {
       "4k": {
@@ -127,12 +131,13 @@
         "quality": "SD",
         "label": "SD Eco"
       }
-    }
+    },
+    "category_id": "vip_bein_ar"
   },
   {
     "id": "bein_6",
     "name": "beIN SPORTS 6",
-    "category": "beIN Sports (Arabe)",
+    "category": "🇸🇦 beIN Sports (Arabe)",
     "default_stream_id": "551277",
     "variants": {
       "4k": {
@@ -153,12 +158,13 @@
         "quality": "SD",
         "label": "SD Eco"
       }
-    }
+    },
+    "category_id": "vip_bein_ar"
   },
   {
     "id": "bein_7",
     "name": "beIN SPORTS 7",
-    "category": "beIN Sports (Arabe)",
+    "category": "🇸🇦 beIN Sports (Arabe)",
     "default_stream_id": "551278",
     "variants": {
       "4k": {
@@ -179,12 +185,13 @@
         "quality": "SD",
         "label": "SD Eco"
       }
-    }
+    },
+    "category_id": "vip_bein_ar"
   },
   {
     "id": "bein_8",
     "name": "beIN SPORTS 8",
-    "category": "beIN Sports (Arabe)",
+    "category": "🇸🇦 beIN Sports (Arabe)",
     "default_stream_id": "551279",
     "variants": {
       "4k": {
@@ -205,12 +212,13 @@
         "quality": "SD",
         "label": "SD Eco"
       }
-    }
+    },
+    "category_id": "vip_bein_ar"
   },
   {
     "id": "bein_9",
     "name": "beIN SPORTS 9",
-    "category": "beIN Sports (Arabe)",
+    "category": "🇸🇦 beIN Sports (Arabe)",
     "default_stream_id": "551280",
     "variants": {
       "4k": {
@@ -231,12 +239,13 @@
         "quality": "SD",
         "label": "SD Eco"
       }
-    }
+    },
+    "category_id": "vip_bein_ar"
   },
   {
     "id": "bein_news",
     "name": "beIN SPORTS NEWS",
-    "category": "beIN Sports (Arabe)",
+    "category": "🇸🇦 beIN Sports (Arabe)",
     "default_stream_id": "27925",
     "variants": {
       "4k": {
@@ -257,12 +266,13 @@
         "quality": "SD",
         "label": "SD Eco"
       }
-    }
+    },
+    "category_id": "vip_bein_ar"
   },
   {
     "id": "bein_uhd",
     "name": "beIN SPORTS 4K UHD",
-    "category": "beIN Sports (Arabe)",
+    "category": "🇸🇦 beIN Sports (Arabe)",
     "default_stream_id": "1441958",
     "variants": {
       "4k": {
@@ -283,12 +293,13 @@
         "quality": "SD",
         "label": "SD Eco"
       }
-    }
+    },
+    "category_id": "vip_bein_ar"
   },
   {
     "id": "canal_foot",
     "name": "CANAL+ FOOT",
-    "category": "France Sports",
+    "category": "🇫🇷 Canal+ & Sports France",
     "default_stream_id": "311116",
     "variants": {
       "4k": {
@@ -309,12 +320,13 @@
         "quality": "SD",
         "label": "SD Eco"
       }
-    }
+    },
+    "category_id": "vip_france"
   },
   {
     "id": "canal_sport",
     "name": "CANAL+ SPORT",
-    "category": "France Sports",
+    "category": "🇫🇷 Canal+ & Sports France",
     "default_stream_id": "56644",
     "variants": {
       "4k": {
@@ -335,12 +347,13 @@
         "quality": "SD",
         "label": "SD Eco"
       }
-    }
+    },
+    "category_id": "vip_france"
   },
   {
     "id": "canal_sport_360",
     "name": "CANAL+ SPORT 360",
-    "category": "France Sports",
+    "category": "🇫🇷 Canal+ & Sports France",
     "default_stream_id": "311207",
     "variants": {
       "4k": {
@@ -361,12 +374,13 @@
         "quality": "SD",
         "label": "SD Eco"
       }
-    }
+    },
+    "category_id": "vip_france"
   },
   {
     "id": "canal_premier_league",
     "name": "CANAL+ PREMIER LEAGUE",
-    "category": "France Sports",
+    "category": "🇫🇷 Canal+ & Sports France",
     "default_stream_id": "203876",
     "variants": {
       "4k": {
@@ -387,12 +401,13 @@
         "quality": "SD",
         "label": "SD Eco"
       }
-    }
+    },
+    "category_id": "vip_france"
   },
   {
     "id": "canal_live_1",
     "name": "CANAL+ LIVE 1",
-    "category": "France Sports",
+    "category": "🇫🇷 Canal+ & Sports France",
     "default_stream_id": "1069960",
     "variants": {
       "4k": {
@@ -413,12 +428,13 @@
         "quality": "SD",
         "label": "SD Eco"
       }
-    }
+    },
+    "category_id": "vip_france"
   },
   {
     "id": "canal_live_2",
     "name": "CANAL+ LIVE 2",
-    "category": "France Sports",
+    "category": "🇫🇷 Canal+ & Sports France",
     "default_stream_id": "1069961",
     "variants": {
       "4k": {
@@ -439,12 +455,13 @@
         "quality": "SD",
         "label": "SD Eco"
       }
-    }
+    },
+    "category_id": "vip_france"
   },
   {
     "id": "canal_live_3",
     "name": "CANAL+ LIVE 3",
-    "category": "France Sports",
+    "category": "🇫🇷 Canal+ & Sports France",
     "default_stream_id": "1069962",
     "variants": {
       "4k": {
@@ -465,12 +482,13 @@
         "quality": "SD",
         "label": "SD Eco"
       }
-    }
+    },
+    "category_id": "vip_france"
   },
   {
     "id": "canal_live_4",
     "name": "CANAL+ LIVE 4",
-    "category": "France Sports",
+    "category": "🇫🇷 Canal+ & Sports France",
     "default_stream_id": "1069963",
     "variants": {
       "4k": {
@@ -491,12 +509,13 @@
         "quality": "SD",
         "label": "SD Eco"
       }
-    }
+    },
+    "category_id": "vip_france"
   },
   {
     "id": "canal_live_5",
     "name": "CANAL+ LIVE 5",
-    "category": "France Sports",
+    "category": "🇫🇷 Canal+ & Sports France",
     "default_stream_id": "1069964",
     "variants": {
       "4k": {
@@ -517,12 +536,13 @@
         "quality": "SD",
         "label": "SD Eco"
       }
-    }
+    },
+    "category_id": "vip_france"
   },
   {
     "id": "bein_1_fr",
     "name": "beIN SPORTS 1 FR",
-    "category": "France Sports",
+    "category": "🇫🇷 beIN Sports (France)",
     "default_stream_id": "56655",
     "variants": {
       "4k": {
@@ -543,6 +563,7 @@
         "quality": "SD",
         "label": "SD Eco"
       }
-    }
+    },
+    "category_id": "vip_bein_fr"
   }
 ]
