@@ -812,7 +812,76 @@ class OnDemandRelayHandler(http.server.SimpleHTTPRequestHandler):
                 self.render_json({"success": False, "error": str(e)}, 500)
                 return
 
-        # 7. Web Control page
+        # ── XTREAM POOL API ──────────────────────────────────────────────────────
+        # 7a. Assignation exclusive d'un serveur pool à un utilisateur
+        if path == "/api/pool/assign":
+            pin = params.get("pin", [None])[0]
+            channel = params.get("channel", ["bein_1"])[0]
+            if not pin:
+                self.render_json({"success": False, "error": "pin requis"}, 400)
+                return
+            try:
+                from xtream_assign import assign_stream
+                result = assign_stream(pin, channel)
+                self.render_json(result)
+            except Exception as e:
+                self.render_json({"success": False, "error": str(e)}, 500)
+            return
+
+        # 7b. Changer de serveur (swap) pour la même chaîne
+        if path == "/api/pool/swap":
+            pin = params.get("pin", [None])[0]
+            channel = params.get("channel", ["bein_1"])[0]
+            if not pin:
+                self.render_json({"success": False, "error": "pin requis"}, 400)
+                return
+            try:
+                from xtream_assign import swap_stream
+                result = swap_stream(pin, channel)
+                self.render_json(result)
+            except Exception as e:
+                self.render_json({"success": False, "error": str(e)}, 500)
+            return
+
+        # 7c. Libérer la session d'un utilisateur
+        if path == "/api/pool/release":
+            pin = params.get("pin", [None])[0]
+            if not pin:
+                self.render_json({"success": False, "error": "pin requis"}, 400)
+                return
+            try:
+                from xtream_assign import release_stream
+                result = release_stream(pin)
+                self.render_json(result)
+            except Exception as e:
+                self.render_json({"success": False, "error": str(e)}, 500)
+            return
+
+        # 7d. Status session utilisateur
+        if path == "/api/pool/status":
+            pin = params.get("pin", [None])[0]
+            if not pin:
+                self.render_json({"success": False, "error": "pin requis"}, 400)
+                return
+            try:
+                from xtream_assign import get_session_status
+                result = get_session_status(pin)
+                self.render_json(result)
+            except Exception as e:
+                self.render_json({"success": False, "error": str(e)}, 500)
+            return
+
+        # 7e. Stats du pool (admin)
+        if path == "/api/pool/stats":
+            try:
+                from xtream_assign import get_pool_stats
+                self.render_json(get_pool_stats())
+            except Exception as e:
+                self.render_json({"error": str(e)}, 500)
+            return
+        # ─────────────────────────────────────────────────────────────────────
+
+        # 8. Web Control page
         if path == "/control":
             self.render_control_page()
             return
