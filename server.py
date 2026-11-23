@@ -22,14 +22,14 @@ PLAYLIST_FILE = os.path.join(os.path.dirname(__file__), "playlist.m3u")
 
 DEFAULT_SOURCE_CONFIG = {
     "type": "xtream",
-    "name": "Serveur Xtream Codes",
-    "host": "http://line.liondnscloud.ru:80",
+    "name": "Serveur Xtream KlixTV",
+    "host": "http://klixtv.vip:80",
     "port": 80,
     "mac": "",
-    "username": "5b596694",
-    "password": "c750a8bf",
+    "username": "MrZengue",
+    "password": "2S6DM2J",
     "m3u_url": "",
-    "xtream_url": "",
+    "xtream_url": "http://klixtv.vip:80/get.php?username=MrZengue&password=2S6DM2J&type=m3u_plus",
     "filename": "playlist.m3u"
 }
 
@@ -39,7 +39,7 @@ ACTIVE_STREAMS = {}
 STREAMS_LOCK = threading.Lock()
 MAX_CONCURRENT_CHANNELS = 4
 STREAM_IDLE_TIMEOUT = 50.0 # seconds of no requests before stopping an unviewed channel
-DEFAULT_CHANNEL_ID = "832106"
+DEFAULT_CHANNEL_ID = "56655"
 
 # In-Memory RAM Segment Cache for ultra-fast response
 SEGMENT_CACHE = {}       # filename -> bytes
@@ -526,11 +526,11 @@ def build_stream_url_for_channel(stream_id, ch=None):
     stype = cfg.get("type", "xtream")
 
     if stype == "xtream":
-        raw_host = cfg.get("host", "http://line.liondnscloud.ru:80").rstrip("/")
+        raw_host = cfg.get("host", "http://klixtv.vip:80").rstrip("/")
         if not raw_host.startswith("http"):
             raw_host = f"http://{raw_host}"
-        u = cfg.get("username", "5b596694")
-        p = cfg.get("password", "c750a8bf")
+        u = cfg.get("username", "MrZengue")
+        p = cfg.get("password", "2S6DM2J")
         return f"{raw_host}/live/{u}/{p}/{stream_id}.ts"
 
     elif stype == "mac_portal":
@@ -545,6 +545,13 @@ def build_stream_url_for_channel(stream_id, ch=None):
         raw = cfg.get("xtream_url", "").strip()
         if "{stream_id}" in raw:
             return raw.replace("{stream_id}", str(stream_id))
+        if "username=" in raw and "password=" in raw:
+            parsed_u = urllib.parse.urlparse(raw)
+            qs = urllib.parse.parse_qs(parsed_u.query)
+            u = qs.get("username", ["MrZengue"])[0]
+            p = qs.get("password", ["2S6DM2J"])[0]
+            host = f"{parsed_u.scheme}://{parsed_u.netloc}"
+            return f"{host}/live/{u}/{p}/{stream_id}.ts"
         elif raw.endswith(".ts") or raw.endswith(".m3u8"):
             return raw
         else:
@@ -556,7 +563,7 @@ def build_stream_url_for_channel(stream_id, ch=None):
     if ch and ch.get("url"):
         return ch.get("url")
 
-    return f"http://line.liondnscloud.ru:80/live/5b596694/c750a8bf/{stream_id}.ts"
+    return f"http://klixtv.vip:80/live/MrZengue/2S6DM2J/{stream_id}.ts"
 
 def start_stream_for_channel(stream_id, force_restart=False):
     global last_global_request_time
@@ -777,6 +784,23 @@ class OnDemandRelayHandler(http.server.SimpleHTTPRequestHandler):
         if path == "/api/source":
             self.render_json(load_source_config())
             return
+
+        # 6b. Remote Git Update & Hot Restart API
+        if path == "/api/update":
+            try:
+                repo_dir = os.path.dirname(os.path.abspath(__file__))
+                subprocess.run(["git", "fetch", "origin", "main"], cwd=repo_dir, timeout=15)
+                res = subprocess.run(["git", "reset", "--hard", "origin/main"], cwd=repo_dir, capture_output=True, text=True, timeout=15)
+                self.render_json({"success": True, "git": res.stdout.strip()})
+                def _do_restart():
+                    time.sleep(1)
+                    subprocess.run(["pkill", "-9", "-f", "ffmpeg"])
+                    os.execv(sys.executable, [sys.executable] + sys.argv)
+                threading.Thread(target=_do_restart, daemon=True).start()
+                return
+            except Exception as e:
+                self.render_json({"success": False, "error": str(e)}, 500)
+                return
 
         # 7. Web Control page
         if path == "/control":
