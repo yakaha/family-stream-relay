@@ -3,23 +3,23 @@
     "id": "bein_1",
     "name": "beIN SPORTS 1",
     "category": "beIN Sports (Arabe)",
-    "default_stream_id": "1178403",
+    "default_stream_id": "551241",
     "variants": {
       "4k": {
-        "id": "1016920",
-        "name": "BEIN SPORTS 1 ᵁᴴᴰ 4K",
+        "id": "1023969",
+        "name": "AR - BEIN SPORTS 1 4K",
         "quality": "4K",
         "label": "4K Ultra HD"
       },
       "fhd": {
-        "id": "1178403",
-        "name": "8K - BEIN SPORTS 1 ʰᵉᵛᶜ",
+        "id": "551241",
+        "name": "AR - BEIN SPORTS 1 FHD",
         "quality": "FHD",
         "label": "Full HD 1080p"
       },
       "sd": {
-        "id": "1178433",
-        "name": "8K - BEIN SPORTS 1 SD",
+        "id": "27898",
+        "name": "AR - BEIN SPORTS 1 HD",
         "quality": "SD",
         "label": "SD Eco"
       }
@@ -29,23 +29,23 @@
     "id": "bein_2",
     "name": "beIN SPORTS 2",
     "category": "beIN Sports (Arabe)",
-    "default_stream_id": "1178402",
+    "default_stream_id": "27897",
     "variants": {
       "4k": {
-        "id": "1016921",
-        "name": "BEIN SPORTS 2 ᵁᴴᴰ 4K",
+        "id": "551242",
+        "name": "AR - BEIN SPORTS 2 4K",
         "quality": "4K",
         "label": "4K Ultra HD"
       },
       "fhd": {
-        "id": "1178402",
-        "name": "8K - BEIN SPORTS 2 ʰᵉᵛᶜ",
+        "id": "27897",
+        "name": "AR - BEIN SPORTS 2 FHD",
         "quality": "FHD",
         "label": "Full HD 1080p"
       },
       "sd": {
-        "id": "1178432",
-        "name": "8K - BEIN SPORTS 2 SD",
+        "id": "18110",
+        "name": "AR - BEIN SPORTS 2 HD",
         "quality": "SD",
         "label": "SD Eco"
       }
@@ -55,23 +55,23 @@
     "id": "bein_3",
     "name": "beIN SPORTS 3",
     "category": "beIN Sports (Arabe)",
-    "default_stream_id": "1178401",
+    "default_stream_id": "551294",
     "variants": {
       "4k": {
-        "id": "1016922",
-        "name": "BEIN SPORTS 3 ᵁᴴᴰ 4K",
+        "id": "986975",
+        "name": "AR - BEIN SPORTS 3 4K",
         "quality": "4K",
         "label": "4K Ultra HD"
       },
       "fhd": {
-        "id": "1178401",
-        "name": "8K - BEIN SPORTS 3 ʰᵉᵛᶜ",
+        "id": "551294",
+        "name": "AR - BEIN SPORTS 3 FHD",
         "quality": "FHD",
         "label": "Full HD 1080p"
       },
       "sd": {
-        "id": "1178431",
-        "name": "8K - BEIN SPORTS 3 SD",
+        "id": "551274",
+        "name": "AR - BEIN SPORTS 3 HD",
         "quality": "SD",
         "label": "SD Eco"
       }
@@ -81,23 +81,205 @@
     "id": "bein_4",
     "name": "beIN SPORTS 4",
     "category": "beIN Sports (Arabe)",
-    "default_stream_id": "1178400",
+    "default_stream_id": "551275",
     "variants": {
       "4k": {
-        "id": "1016923",
-        "name": "BEIN SPORTS 4 ᵁᴴᴰ 4K",
+        "id": "986976",
+        "name": "AR - BEIN SPORTS 4 4K",
         "quality": "4K",
         "label": "4K Ultra HD"
       },
       "fhd": {
-        "id": "1178400",
-        "name": "8K - BEIN SPORTS 4 ʰᵉᵛᶜ",
+        "id": "551275",
+        "name": "AR - BEIN SPORTS 4 FHD",
         "quality": "FHD",
         "label": "Full HD 1080p"
       },
       "sd": {
-        "id": "1178430",
-        "name": "8K - BEIN SPORTS 4 SD",
+        "id": "551244",
+        "name": "AR - BEIN SPORTS 4 HD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "bein_5",
+    "name": "beIN SPORTS 5",
+    "category": "beIN Sports (Arabe)",
+    "default_stream_id": "551276",
+    "variants": {
+      "4k": {
+        "id": "986977",
+        "name": "AR - BEIN SPORTS 5 4K",
+        "quality": "4K",
+        "label": "4K Ultra HD"
+      },
+      "fhd": {
+        "id": "551276",
+        "name": "AR - BEIN SPORTS 5 FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "551245",
+        "name": "AR - BEIN SPORTS 5 HD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "bein_6",
+    "name": "beIN SPORTS 6",
+    "category": "beIN Sports (Arabe)",
+    "default_stream_id": "551277",
+    "variants": {
+      "4k": {
+        "id": "986978",
+        "name": "AR - BEIN SPORTS 6 4K",
+        "quality": "4K",
+        "label": "4K Ultra HD"
+      },
+      "fhd": {
+        "id": "551277",
+        "name": "AR - BEIN SPORTS 6 FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "551246",
+        "name": "AR - BEIN SPORTS 6 HD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "bein_7",
+    "name": "beIN SPORTS 7",
+    "category": "beIN Sports (Arabe)",
+    "default_stream_id": "551278",
+    "variants": {
+      "4k": {
+        "id": "986979",
+        "name": "AR - BEIN SPORTS 7 4K",
+        "quality": "4K",
+        "label": "4K Ultra HD"
+      },
+      "fhd": {
+        "id": "551278",
+        "name": "AR - BEIN SPORTS 7 FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "551247",
+        "name": "AR - BEIN SPORTS 7 HD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "bein_8",
+    "name": "beIN SPORTS 8",
+    "category": "beIN Sports (Arabe)",
+    "default_stream_id": "551279",
+    "variants": {
+      "4k": {
+        "id": "986980",
+        "name": "AR - BEIN SPORTS 8 4K",
+        "quality": "4K",
+        "label": "4K Ultra HD"
+      },
+      "fhd": {
+        "id": "551279",
+        "name": "AR - BEIN SPORTS 8 FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "551248",
+        "name": "AR - BEIN SPORTS 8 HD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "bein_9",
+    "name": "beIN SPORTS 9",
+    "category": "beIN Sports (Arabe)",
+    "default_stream_id": "551280",
+    "variants": {
+      "4k": {
+        "id": "986981",
+        "name": "AR - BEIN SPORTS 9 4K",
+        "quality": "4K",
+        "label": "4K Ultra HD"
+      },
+      "fhd": {
+        "id": "551280",
+        "name": "AR - BEIN SPORTS 9 FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "551249",
+        "name": "AR - BEIN SPORTS 9 HD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "bein_news",
+    "name": "beIN SPORTS NEWS",
+    "category": "beIN Sports (Arabe)",
+    "default_stream_id": "27925",
+    "variants": {
+      "4k": {
+        "id": "27925",
+        "name": "AR - BEIN SPORTS NEWS 4K",
+        "quality": "4K",
+        "label": "4K Ultra HD"
+      },
+      "fhd": {
+        "id": "27925",
+        "name": "AR - BEIN SPORTS NEWS",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "27925",
+        "name": "AR - BEIN SPORTS NEWS",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "bein_uhd",
+    "name": "beIN SPORTS 4K UHD",
+    "category": "beIN Sports (Arabe)",
+    "default_stream_id": "1441958",
+    "variants": {
+      "4k": {
+        "id": "1441958",
+        "name": "AR - BEIN SPORTS 4K UHD",
+        "quality": "4K",
+        "label": "4K Ultra HD"
+      },
+      "fhd": {
+        "id": "1441958",
+        "name": "AR - BEIN SPORTS 4K UHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "1441958",
+        "name": "AR - BEIN SPORTS 4K UHD",
         "quality": "SD",
         "label": "SD Eco"
       }
@@ -107,25 +289,25 @@
     "id": "canal_foot",
     "name": "CANAL+ FOOT",
     "category": "France Sports",
-    "default_stream_id": "845393",
+    "default_stream_id": "311116",
     "variants": {
       "4k": {
-        "id": "807390",
-        "name": "FR - CANAL+ FOOT UHD",
+        "id": "311117",
+        "name": "FR - CANAL+ FOOT HEVC",
         "quality": "4K",
-        "label": "4K Ultra HD"
+        "label": "4K / HEVC"
       },
       "fhd": {
-        "id": "845393",
-        "name": "FR - CANAL+ FOOT HEVC",
+        "id": "311116",
+        "name": "FR - CANAL+ FOOT FHD",
         "quality": "FHD",
         "label": "Full HD 1080p"
       },
       "sd": {
-        "id": "845393",
-        "name": "FR - CANAL+ FOOT HEVC",
-        "quality": "FHD",
-        "label": "Full HD 1080p"
+        "id": "853546",
+        "name": "FR - CANAL+ FOOT HD",
+        "quality": "SD",
+        "label": "SD Eco"
       }
     }
   },
@@ -133,25 +315,25 @@
     "id": "canal_sport",
     "name": "CANAL+ SPORT",
     "category": "France Sports",
-    "default_stream_id": "845395",
+    "default_stream_id": "56644",
     "variants": {
       "4k": {
-        "id": "543382",
-        "name": "FR - CANAL+ SPORT UHD",
+        "id": "56569",
+        "name": "FR - CANAL+ SPORT HEVC",
         "quality": "4K",
-        "label": "4K Ultra HD"
+        "label": "4K / HEVC"
       },
       "fhd": {
-        "id": "845395",
-        "name": "FR - CANAL+ SPORT HEVC",
+        "id": "56644",
+        "name": "FR - CANAL+ SPORT FHD",
         "quality": "FHD",
         "label": "Full HD 1080p"
       },
       "sd": {
-        "id": "845395",
-        "name": "FR - CANAL+ SPORT HEVC",
-        "quality": "FHD",
-        "label": "Full HD 1080p"
+        "id": "56533",
+        "name": "FR - CANAL+ SPORT SD",
+        "quality": "SD",
+        "label": "SD Eco"
       }
     }
   },
@@ -159,25 +341,181 @@
     "id": "canal_sport_360",
     "name": "CANAL+ SPORT 360",
     "category": "France Sports",
-    "default_stream_id": "845394",
+    "default_stream_id": "311207",
     "variants": {
       "4k": {
-        "id": "807391",
-        "name": "FR - CANAL+ SPORT 360 UHD",
+        "id": "311208",
+        "name": "FR - CANAL+ 360 HEVC",
         "quality": "4K",
-        "label": "4K Ultra HD"
+        "label": "4K / HEVC"
       },
       "fhd": {
-        "id": "845394",
-        "name": "FR - CANAL+ SPORT 360 HEVC",
+        "id": "311207",
+        "name": "FR - CANAL+ 360 FHD",
         "quality": "FHD",
         "label": "Full HD 1080p"
       },
       "sd": {
-        "id": "845394",
-        "name": "FR - CANAL+ SPORT 360 HEVC",
+        "id": "311209",
+        "name": "FR - CANAL+ 360 SD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "canal_premier_league",
+    "name": "CANAL+ PREMIER LEAGUE",
+    "category": "France Sports",
+    "default_stream_id": "203876",
+    "variants": {
+      "4k": {
+        "id": "203880",
+        "name": "FR - CANAL+ PREMIER LEAGUE HEVC",
+        "quality": "4K",
+        "label": "4K / HEVC"
+      },
+      "fhd": {
+        "id": "203876",
+        "name": "FR - CANAL+ PREMIER LEAGUE FHD",
         "quality": "FHD",
         "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "203881",
+        "name": "FR - CANAL+ PREMIER LEAGUE SD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "canal_live_1",
+    "name": "CANAL+ LIVE 1",
+    "category": "France Sports",
+    "default_stream_id": "1069960",
+    "variants": {
+      "4k": {
+        "id": "1069960",
+        "name": "FR - CANAL+ LIVE 1 FHD",
+        "quality": "4K",
+        "label": "4K / FHD"
+      },
+      "fhd": {
+        "id": "1069960",
+        "name": "FR - CANAL+ LIVE 1 FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "1019732",
+        "name": "FR - CANAL+ LIVE 1 HD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "canal_live_2",
+    "name": "CANAL+ LIVE 2",
+    "category": "France Sports",
+    "default_stream_id": "1069961",
+    "variants": {
+      "4k": {
+        "id": "1069961",
+        "name": "FR - CANAL+ LIVE 2 FHD",
+        "quality": "4K",
+        "label": "4K / FHD"
+      },
+      "fhd": {
+        "id": "1069961",
+        "name": "FR - CANAL+ LIVE 2 FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "1019733",
+        "name": "FR - CANAL+ LIVE 2 HD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "canal_live_3",
+    "name": "CANAL+ LIVE 3",
+    "category": "France Sports",
+    "default_stream_id": "1069962",
+    "variants": {
+      "4k": {
+        "id": "1069962",
+        "name": "FR - CANAL+ LIVE 3 FHD",
+        "quality": "4K",
+        "label": "4K / FHD"
+      },
+      "fhd": {
+        "id": "1069962",
+        "name": "FR - CANAL+ LIVE 3 FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "1019734",
+        "name": "FR - CANAL+ LIVE 3 HD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "canal_live_4",
+    "name": "CANAL+ LIVE 4",
+    "category": "France Sports",
+    "default_stream_id": "1069963",
+    "variants": {
+      "4k": {
+        "id": "1069963",
+        "name": "FR - CANAL+ LIVE 4 FHD",
+        "quality": "4K",
+        "label": "4K / FHD"
+      },
+      "fhd": {
+        "id": "1069963",
+        "name": "FR - CANAL+ LIVE 4 FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "1019735",
+        "name": "FR - CANAL+ LIVE 4 HD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "canal_live_5",
+    "name": "CANAL+ LIVE 5",
+    "category": "France Sports",
+    "default_stream_id": "1069964",
+    "variants": {
+      "4k": {
+        "id": "1069964",
+        "name": "FR - CANAL+ LIVE 5 FHD",
+        "quality": "4K",
+        "label": "4K / FHD"
+      },
+      "fhd": {
+        "id": "1069964",
+        "name": "FR - CANAL+ LIVE 5 FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "1019736",
+        "name": "FR - CANAL+ LIVE 5 HD",
+        "quality": "SD",
+        "label": "SD Eco"
       }
     }
   },
@@ -185,75 +523,23 @@
     "id": "bein_1_fr",
     "name": "beIN SPORTS 1 FR",
     "category": "France Sports",
-    "default_stream_id": "845390",
+    "default_stream_id": "56655",
     "variants": {
       "4k": {
-        "id": "543394",
-        "name": "FR - BEIN SPORTS 1 UHD",
+        "id": "56580",
+        "name": "FR - BEIN SPORTS 1 HEVC",
         "quality": "4K",
-        "label": "4K Ultra HD"
+        "label": "4K / HEVC"
       },
       "fhd": {
-        "id": "845390",
-        "name": "FR - beIN SPORTS 1 HEVC",
+        "id": "56655",
+        "name": "FR - BEIN SPORTS 1 FHD",
         "quality": "FHD",
         "label": "Full HD 1080p"
       },
       "sd": {
-        "id": "845390",
-        "name": "FR - beIN SPORTS 1 HEVC",
-        "quality": "FHD",
-        "label": "Full HD 1080p"
-      }
-    }
-  },
-  {
-    "id": "rmc_1",
-    "name": "RMC SPORT 1",
-    "category": "France Sports",
-    "default_stream_id": "845387",
-    "variants": {
-      "4k": {
-        "id": "756577",
-        "name": "FR - RMC SPORT 1 UHD",
-        "quality": "4K",
-        "label": "4K Ultra HD"
-      },
-      "fhd": {
-        "id": "845387",
-        "name": "FR - RMC SPORT 1 HEVC",
-        "quality": "FHD",
-        "label": "Full HD 1080p"
-      },
-      "sd": {
-        "id": "845387",
-        "name": "FR - RMC SPORT 1 HEVC",
-        "quality": "FHD",
-        "label": "Full HD 1080p"
-      }
-    }
-  },
-  {
-    "id": "dazn_1",
-    "name": "DAZN 1 FRANCE",
-    "category": "France Sports",
-    "default_stream_id": "1410044",
-    "variants": {
-      "4k": {
-        "id": "250642",
-        "name": "PT - DAZN 1 UHD",
-        "quality": "4K",
-        "label": "4K Ultra HD"
-      },
-      "fhd": {
-        "id": "1410044",
-        "name": "FR - DAZN 1 FHD",
-        "quality": "FHD",
-        "label": "Full HD 1080p"
-      },
-      "sd": {
-        "id": "1141409",
-        "name": "FR - DAZN 1 SD",
+        "id": "56544",
+        "name": "FR - BEIN SPORTS 1 SD",
         "quality": "SD",
         "label": "SD Eco"
       }
