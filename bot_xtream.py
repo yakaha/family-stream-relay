@@ -4,10 +4,10 @@ Family Stream - Bot Telegram Xtream Pool
 =========================================
 Scrape t.me/Xtream_Iptv_Code (et autres canaux configurés),
 teste chaque Xtream Code, garde les serveurs valides avec beIN Sports
-dans un pool Firebase Firestore avec système d'assignation exclusive.
+dans un pool local JSON (xtream_pool.json) avec système d'assignation exclusive.
 
-Usage: python bot_xtream.py
-Dépendances: pip install telethon requests firebase-admin
+Usage: python3 bot_xtream.py
+Dépendances: pip install telethon requests
 """
 
 import asyncio
@@ -24,11 +24,6 @@ from datetime import datetime, timezone, timedelta
 
 # ─── Telethon (Telegram) ───────────────────────────────────────────────────────
 from telethon import TelegramClient, events
-from telethon.tl.types import MessageEntityUrl, MessageEntityTextUrl
-
-# ─── Firebase Admin ────────────────────────────────────────────────────────────
-import firebase_admin
-from firebase_admin import credentials, firestore
 
 # ══════════════════════════════════════════════════════════════════════════════
 #  CONFIGURATION
@@ -38,19 +33,16 @@ API_ID   = 39352626
 API_HASH = "938a87cb1245b0a95c1d85827082fecc"
 SESSION  = "xtream_bot_session"  # Fichier .session sauvegardé localement
 
-# Canaux Telegram à scraper (ajoute-en autant que tu veux)
+# Canaux Telegram à scraper
 TELEGRAM_CHANNELS = [
     "https://t.me/Xtream_Iptv_Code",
     "https://t.me/xtream_code_iptv",
     "https://t.me/FreeIPTVxtream",
 ]
 
-# Firebase - chemin vers la clé de service
-FIREBASE_CRED_PATH = os.path.join(os.path.dirname(__file__), "firebase_service_key.json")
-FIREBASE_PROJECT   = "familysteam-09"
-
-# Collection Firestore
-POOL_COLLECTION = "xtream_pool"
+# Stockage local JSON (pas besoin de Firebase sur le Codespace)
+POOL_FILE = os.path.join(os.path.dirname(__file__), "xtream_pool.json")
+POOL_LOCK = threading.Lock()
 
 # Mots-clés pour détecter les chaînes beIN Sports
 BEIN_KEYWORDS = [
@@ -80,22 +72,25 @@ logging.basicConfig(
 log = logging.getLogger("xtream_bot")
 
 # ══════════════════════════════════════════════════════════════════════════════
-#  FIREBASE
+#  STOCKAGE JSON LOCAL (remplace Firebase)
 # ══════════════════════════════════════════════════════════════════════════════
 
-db = None
+def _load_pool() -> dict:
+    """Charge le pool depuis le fichier JSON local"""
+    with POOL_LOCK:
+        if not os.path.exists(POOL_FILE):
+            return {}
+        try:
+            with open(POOL_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            return {}
 
-def init_firebase():
-    global db
-    if not firebase_admin._apps:
-        if os.path.exists(FIREBASE_CRED_PATH):
-            cred = credentials.Certificate(FIREBASE_CRED_PATH)
-        else:
-            # Sur Codespace : utilise les Application Default Credentials
-            cred = credentials.ApplicationDefault()
-        firebase_admin.initialize_app(cred, {"projectId": FIREBASE_PROJECT})
-    db = firestore.client()
-    log.info("✅ Firebase connecté")
+def _save_pool(pool: dict):
+    """Sauvegarde le pool dans le fichier JSON local"""
+    with POOL_LOCK:
+        with open(POOL_FILE, "w", encoding="utf-8") as f:
+            json.dump(pool, f, ensure_ascii=False, indent=2)
 
 # ══════════════════════════════════════════════════════════════════════════════
 #  PARSING DES XTREAM CODES
@@ -286,49 +281,40 @@ def extract_channel_number(name: str, prefix: str) -> str | None:
     return None
 
 # ══════════════════════════════════════════════════════════════════════════════
-#  FIRESTORE - POOL MANAGEMENT
+#  POOL MANAGEMENT (JSON local)
 # ══════════════════════════════════════════════════════════════════════════════
 
 def server_doc_id(host: str, username: str) -> str:
-    """ID unique du document Firestore pour un serveur"""
+    """ID unique d'un serveur"""
     clean = re.sub(r'[^a-zA-Z0-9]', '_', f"{host}_{username}")
     return clean[:100]
 
 def save_server_to_pool(server_info: dict):
-    """Sauvegarde ou met à jour un serveur dans Firestore"""
-    if not db:
-        return
+    """Sauvegarde ou met à jour un serveur dans le pool JSON local"""
     doc_id = server_doc_id(server_info["host"], server_info["username"])
-    ref = db.collection(POOL_COLLECTION).document(doc_id)
+    pool = _load_pool()
     # Ne pas écraser l'assignation en cours
-    existing = ref.get()
-    if existing.exists:
-        old = existing.to_dict()
-        if old.get("assigned_to"):
-            # Mise à jour partielle (pas toucher à l'assignation)
-            server_info["assigned_to"] = old["assigned_to"]
-            server_info["assigned_channel"] = old.get("assigned_channel")
-            server_info["assigned_at"] = old.get("assigned_at")
-            server_info["status"] = old.get("status", "available")
-    ref.set(server_info)
-    log.info(f"  💾 Sauvegardé: {doc_id}")
+    existing = pool.get(doc_id)
+    if existing and existing.get("assigned_to"):
+        server_info["assigned_to"] = existing["assigned_to"]
+        server_info["assigned_channel"] = existing.get("assigned_channel")
+        server_info["assigned_at"] = existing.get("assigned_at")
+        server_info["status"] = existing.get("status", "available")
+    pool[doc_id] = server_info
+    _save_pool(pool)
+    log.info(f"  💾 Sauvegardé dans pool: {doc_id}")
 
 def cleanup_expired_servers():
     """Supprime les serveurs expirés ou invalides du pool"""
-    if not db:
-        return
     now = datetime.now(tz=timezone.utc)
     cutoff = now - timedelta(seconds=SERVER_TTL)
-    docs = db.collection(POOL_COLLECTION).stream()
-    removed = 0
-    for doc in docs:
-        d = doc.to_dict()
-        # Vérifie TTL
+    pool = _load_pool()
+    to_delete = []
+    for doc_id, d in pool.items():
         try:
             added = datetime.fromisoformat(d.get("added_at", ""))
             if added < cutoff:
-                doc.reference.delete()
-                removed += 1
+                to_delete.append(doc_id)
                 continue
         except Exception:
             pass
@@ -337,17 +323,18 @@ def cleanup_expired_servers():
             try:
                 assigned = datetime.fromisoformat(d["assigned_at"])
                 if (now - assigned).total_seconds() > SESSION_TTL:
-                    doc.reference.update({
-                        "status": "available",
-                        "assigned_to": None,
-                        "assigned_channel": None,
-                        "assigned_at": None,
-                    })
-                    log.info(f"  🔓 Session expirée libérée: {doc.id}")
+                    d["status"] = "available"
+                    d["assigned_to"] = None
+                    d["assigned_channel"] = None
+                    d["assigned_at"] = None
+                    log.info(f"  🔓 Session expirée libérée: {doc_id}")
             except Exception:
                 pass
-    if removed:
-        log.info(f"  🗑️ {removed} serveurs expirés supprimés")
+    for doc_id in to_delete:
+        del pool[doc_id]
+    _save_pool(pool)
+    if to_delete:
+        log.info(f"  🗑️ {len(to_delete)} serveurs expirés supprimés")
 
 # ══════════════════════════════════════════════════════════════════════════════
 #  VÉRIFICATION PÉRIODIQUE DES SERVEURS EXISTANTS
@@ -355,35 +342,32 @@ def cleanup_expired_servers():
 
 def reverify_pool():
     """Re-teste tous les serveurs du pool pour supprimer ceux qui ne marchent plus"""
-    if not db:
-        return
-    docs = list(db.collection(POOL_COLLECTION).stream())
-    log.info(f"🔄 Re-vérification de {len(docs)} serveurs du pool...")
-    for doc in docs:
-        d = doc.to_dict()
+    pool = _load_pool()
+    log.info(f"🔄 Re-vérification de {len(pool)} serveurs du pool...")
+    to_delete = []
+    for doc_id, d in pool.items():
         host = d.get("host", "")
         user = d.get("username", "")
         pwd  = d.get("password", "")
         if not host or not user or not pwd:
-            doc.reference.delete()
+            to_delete.append(doc_id)
             continue
         result = test_xtream_server(host, user, pwd)
         if result:
             # Mise à jour sans toucher à l'assignation
-            update = {
-                "bein_channels": result["bein_channels"],
-                "bein_fr_channels": result["bein_fr_channels"],
-                "canal_channels": result["canal_channels"],
-                "total_sport_channels": result["total_sport_channels"],
-                "max_connections": result["max_connections"],
-                "last_verified": datetime.now(tz=timezone.utc).isoformat(),
-            }
-            doc.reference.update(update)
+            d["bein_channels"] = result["bein_channels"]
+            d["bein_fr_channels"] = result["bein_fr_channels"]
+            d["canal_channels"] = result["canal_channels"]
+            d["total_sport_channels"] = result["total_sport_channels"]
+            d["max_connections"] = result["max_connections"]
+            d["last_verified"] = datetime.now(tz=timezone.utc).isoformat()
         else:
-            # Serveur mort : supprime seulement s'il n'est pas en cours d'utilisation
             if not d.get("assigned_to"):
-                doc.reference.delete()
-                log.info(f"  🗑️ Serveur mort supprimé: {doc.id}")
+                to_delete.append(doc_id)
+                log.info(f"  🗑️ Serveur mort supprimé: {doc_id}")
+    for doc_id in to_delete:
+        del pool[doc_id]
+    _save_pool(pool)
 
 # ══════════════════════════════════════════════════════════════════════════════
 #  BACKGROUND WORKER: SCRAPING CONTINU
@@ -447,10 +431,7 @@ async def periodic_maintenance():
 async def main():
     log.info("🚀 Family Stream - Bot Xtream Pool démarré")
 
-    # Init Firebase
-    init_firebase()
-
-    # Nettoyage initial
+    # Nettoyage initial du pool
     cleanup_expired_servers()
 
     # Démarrage client Telegram
@@ -478,7 +459,8 @@ async def main():
 
     asyncio.create_task(hourly_rescrape())
 
-    log.info("✅ Bot actif - En attente de nouveaux codes Xtream...")
+    pool = _load_pool()
+    log.info(f"✅ Bot actif - Pool: {len(pool)} serveurs | En attente de nouveaux codes Xtream...")
     await client.run_until_disconnected()
 
 if __name__ == "__main__":
