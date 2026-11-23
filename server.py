@@ -586,34 +586,24 @@ def start_stream_for_channel(stream_id, force_restart=False):
                 info["last_active"] = now
                 return True
 
-        # 2. If max concurrent channels reached, stop the oldest idle stream
-        if len(ACTIVE_STREAMS) >= MAX_CONCURRENT_CHANNELS:
-            oldest_sid = min(ACTIVE_STREAMS.keys(), key=lambda k: ACTIVE_STREAMS[k]["last_active"])
-            old_info = ACTIVE_STREAMS.pop(oldest_sid)
-            print(f"[Multi-Stream] Max concurrent channels ({MAX_CONCURRENT_CHANNELS}) reached. Stopping oldest: {oldest_sid}", flush=True)
-            if old_info.get("proc"):
-                try:
-                    old_info["proc"].terminate()
-                    old_info["proc"].wait(timeout=1.0)
-                except Exception:
+        # 2. STRICT SINGLE-STREAM ENFORCEMENT:
+        # Upstream IPTV accounts strictly allow only 1 concurrent connection (max_connections = 1).
+        # Stop ALL previous FFmpeg streams immediately before starting the new one!
+        for other_sid in list(ACTIVE_STREAMS.keys()):
+            if other_sid != stream_id:
+                old_info = ACTIVE_STREAMS.pop(other_sid, None)
+                if old_info and old_info.get("proc"):
+                    print(f"[Single-Connection] Killing previous stream {other_sid} to free connection slot...", flush=True)
                     try:
                         old_info["proc"].kill()
                     except Exception:
                         pass
-
-        # 3. Terminate any previous dead process for this channel
-        if stream_id in ACTIVE_STREAMS:
-            old_proc = ACTIVE_STREAMS[stream_id].get("proc")
-            if old_proc:
-                try:
-                    old_proc.terminate()
-                    old_proc.wait(timeout=1.0)
-                except Exception:
-                    try:
-                        old_proc.kill()
-                    except Exception:
-                        pass
-            del ACTIVE_STREAMS[stream_id]
+        try:
+            subprocess.run(["pkill", "-9", "-f", "ffmpeg"], timeout=1)
+        except Exception:
+            pass
+        time.sleep(0.12)
+        ACTIVE_STREAMS.clear()
 
         real_stream_id = resolve_stream_id(stream_id)
         ch = get_channel_by_id(real_stream_id)
@@ -638,21 +628,21 @@ def start_stream_for_channel(stream_id, force_restart=False):
 
         cmd = [
             "ffmpeg",
-            "-rw_timeout", "10000000",
+            "-rw_timeout", "6000000",
             "-fflags", "nobuffer+fastseek+flush_packets",
-            "-analyzeduration", "500000",
-            "-probesize", "500000",
+            "-analyzeduration", "100000",
+            "-probesize", "100000",
             "-reconnect", "1",
             "-reconnect_at_eof", "1",
             "-reconnect_streamed", "1",
-            "-reconnect_delay_max", "3",
-            "-user_agent", "VLC/3.0.18",
+            "-reconnect_delay_max", "2",
+            "-user_agent", "VLC/3.0.18 LibVLC/3.0.18",
             "-i", stream_url,
             "-c", "copy",
             "-f", "hls",
             "-hls_init_time", "1",
-            "-hls_time", "3",
-            "-hls_list_size", "15",
+            "-hls_time", "2",
+            "-hls_list_size", "10",
             "-hls_flags", "delete_segments+append_list",
             "-hls_segment_type", "mpegts",
             "-hls_segment_filename", segment_template,
@@ -814,8 +804,8 @@ class OnDemandRelayHandler(http.server.SimpleHTTPRequestHandler):
 
     def serve_channel_m3u8(self, stream_id):
         playlist_path = os.path.join(HLS_DIR, f"{stream_id}.m3u8")
-        # If playlist not ready yet (e.g. FFmpeg starting chunk 0), wait up to 3.5s
-        for _ in range(35):
+        # If playlist not ready yet (e.g. FFmpeg starting chunk 0), wait up to 6.0s
+        for _ in range(60):
             if os.path.exists(playlist_path) and os.path.getsize(playlist_path) > 10:
                 break
             time.sleep(0.1)
