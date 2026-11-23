@@ -2,7 +2,11 @@
   "type": "xtream",
   "name": "Serveur Xtream KlixTV",
   "host": "http://klixtv.vip:80",
+  "port": 80,
+  "mac": "",
   "username": "MrZengue",
   "password": "2S6DM2J",
-  "port": 80
+  "m3u_url": "",
+  "xtream_url": "http://klixtv.vip:80/get.php?username=MrZengue&password=2S6DM2J&type=m3u_plus",
+  "filename": "playlist.m3u"
 }
