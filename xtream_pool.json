@@ -1,0 +1,6665 @@
+{
+  "http___m3u_lol_80_17664756830": {
+    "host": "http://m3u.lol:80",
+    "username": "17664756830",
+    "password": "29825614898312",
+    "max_connections": 1,
+    "bein_channels": {
+      "bein_01": {
+        "stream_id": "405945",
+        "name": "beIN SPORT XTRA 01 FHD"
+      },
+      "bein_02": {
+        "stream_id": "405946",
+        "name": "beIN SPORT XTRA 02 FHD"
+      },
+      "bein_03": {
+        "stream_id": "405947",
+        "name": "beIN SPORT XTRA 03 FHD"
+      },
+      "bein_04": {
+        "stream_id": "405939",
+        "name": "beIN SPORT 04 FHD"
+      },
+      "bein_05": {
+        "stream_id": "405940",
+        "name": "beIN SPORT 05 FHD"
+      },
+      "bein_06": {
+        "stream_id": "405941",
+        "name": "beIN SPORT 06 FHD"
+      },
+      "bein_07": {
+        "stream_id": "405942",
+        "name": "beIN SPORT 07 FHD"
+      },
+      "bein_08": {
+        "stream_id": "405943",
+        "name": "beIN SPORT 08 FHD"
+      },
+      "bein_09": {
+        "stream_id": "405944",
+        "name": "beIN SPORT 09 FHD"
+      },
+      "bein_1": {
+        "stream_id": "615104",
+        "name": "beIN SPORT 1  4K"
+      },
+      "bein_2": {
+        "stream_id": "615105",
+        "name": "beIN SPORT 2  4K"
+      },
+      "bein_3": {
+        "stream_id": "615102",
+        "name": "beIN SPORT XTRA 3 4K"
+      },
+      "bein_4": {
+        "stream_id": "615103",
+        "name": "beIN SPORT NBA 4K"
+      },
+      "bein_5": {
+        "stream_id": "615108",
+        "name": "beIN SPORT 5  4K"
+      },
+      "bein_6": {
+        "stream_id": "615109",
+        "name": "beIN SPORT 6  4K"
+      },
+      "bein_7": {
+        "stream_id": "615110",
+        "name": "beIN SPORT 7  4K"
+      },
+      "bein_8": {
+        "stream_id": "615111",
+        "name": "beIN SPORT 8  4K"
+      },
+      "bein_9": {
+        "stream_id": "615112",
+        "name": "beIN SPORT 9  4K"
+      },
+      "bein_439172": {
+        "stream_id": "439172",
+        "name": "Bein Sport News HD"
+      },
+      "bein_445407": {
+        "stream_id": "445407",
+        "name": "BEIN Sports News"
+      },
+      "bein_279443": {
+        "stream_id": "279443",
+        "name": "SP: beIN SPORTS HD"
+      },
+      "bein_279444": {
+        "stream_id": "279444",
+        "name": "SP: beIN Sports News HD"
+      },
+      "bein_265": {
+        "stream_id": "279483",
+        "name": "SP: beIN SPORTS FHD (H.265)"
+      },
+      "bein_647966": {
+        "stream_id": "647966",
+        "name": "TR: BeIN Sports Haber HD"
+      },
+      "bein_648920": {
+        "stream_id": "648920",
+        "name": "Ca: BeIN Sports HD"
+      },
+      "bein_833713": {
+        "stream_id": "833713",
+        "name": "MY: beIN Sports"
+      },
+      "bein_648476": {
+        "stream_id": "648476",
+        "name": "Usa | Sport: BeIN Sports HD"
+      },
+      "bein_648477": {
+        "stream_id": "648477",
+        "name": "Usa | Sport: BeIN Sports La Liga"
+      },
+      "bein_648478": {
+        "stream_id": "648478",
+        "name": "Usa | Sport: BeIN Sports Xtra HD"
+      },
+      "bein_405934": {
+        "stream_id": "405934",
+        "name": "Bein Sport"
+      }
+    },
+    "bein_fr_channels": {
+      "bein_1_fr": {
+        "stream_id": "439169",
+        "name": "Bein Sports French HD1 1080"
+      },
+      "bein_2_fr": {
+        "stream_id": "439170",
+        "name": "Bein Sports French HD2 1080"
+      },
+      "bein_3_fr": {
+        "stream_id": "923285",
+        "name": "FR: BEIN-SPORT 3 HD"
+      },
+      "bein_4_fr": {
+        "stream_id": "923286",
+        "name": "FR: BEIN MAX 4 HD"
+      },
+      "bein_5_fr": {
+        "stream_id": "923287",
+        "name": "FR: BEIN MAX 5 HD"
+      },
+      "bein_6_fr": {
+        "stream_id": "923288",
+        "name": "FR: BEIN MAX 6 HD"
+      },
+      "bein_7_fr": {
+        "stream_id": "923289",
+        "name": "FR: BEIN MAX 7 HD"
+      },
+      "bein_8_fr": {
+        "stream_id": "923290",
+        "name": "FR: BEIN MAX 8 HD"
+      },
+      "bein_9_fr": {
+        "stream_id": "923291",
+        "name": "FR: BEIN MAX 9 HD"
+      },
+      "bein_10_fr": {
+        "stream_id": "923292",
+        "name": "FR: BEIN MAX 10 HD"
+      }
+    },
+    "canal_channels": {
+      "canal_1": {
+        "stream_id": "615010",
+        "name": "IS: Yes EuroSport 1 HD"
+      },
+      "canal_2": {
+        "stream_id": "615011",
+        "name": "IS: Yes EuroSport 2 HD"
+      },
+      "canal_3": {
+        "stream_id": "614635",
+        "name": "PL: Canal+ Sport 3 FHD"
+      },
+      "canal_4": {
+        "stream_id": "620188",
+        "name": "FR | ORANGE CANAL+ SA 4K UHD"
+      },
+      "canal_636098": {
+        "stream_id": "636098",
+        "name": "AF: CANAL+ CINEMA CENTRE"
+      },
+      "canal_636099": {
+        "stream_id": "636099",
+        "name": "AF: CANAL+ ELLES CENTRE"
+      },
+      "canal_636100": {
+        "stream_id": "636100",
+        "name": "AF: CANAL+ ELLES OUEST"
+      },
+      "canal_636101": {
+        "stream_id": "636101",
+        "name": "AF: Canal+ POP C"
+      },
+      "canal_636102": {
+        "stream_id": "636102",
+        "name": "AF: CANAL+ PREMIERE"
+      },
+      "canal_6": {
+        "stream_id": "614625",
+        "name": "PL: Canal+ Extra 6"
+      },
+      "canal_923050": {
+        "stream_id": "923050",
+        "name": "FR: CANAL+ HD"
+      },
+      "canal_923051": {
+        "stream_id": "923051",
+        "name": "FR: CANAL+"
+      },
+      "canal_923133": {
+        "stream_id": "923133",
+        "name": "FR: CANAL+ CINEMA HD"
+      },
+      "canal_923134": {
+        "stream_id": "923134",
+        "name": "FR: CANAL+ CINEMA"
+      },
+      "canal_923135": {
+        "stream_id": "923135",
+        "name": "FR: CANAL+ FAMILY HD"
+      },
+      "canal_923136": {
+        "stream_id": "923136",
+        "name": "FR: CANAL+ SERIE HD"
+      },
+      "canal_923248": {
+        "stream_id": "923248",
+        "name": "FR: CANAL+ SPORT HD"
+      },
+      "canal_923249": {
+        "stream_id": "923249",
+        "name": "FR: CANAL+ SPORT"
+      },
+      "canal_360": {
+        "stream_id": "923251",
+        "name": "FR: CANAL+ SPORT 360 HD"
+      },
+      "canal_923252": {
+        "stream_id": "923252",
+        "name": "FR: CANAL+ FOOT"
+      },
+      "canal_923253": {
+        "stream_id": "923253",
+        "name": "FR: CANAL+ FOOT HD"
+      },
+      "canal_5": {
+        "stream_id": "614630",
+        "name": "Pl: Canal+ Sport 5"
+      },
+      "canal_923275": {
+        "stream_id": "923275",
+        "name": "▬▬▬▬ BOUQUET RMC SPORT ▬▬▬▬"
+      },
+      "canal_613800": {
+        "stream_id": "613800",
+        "name": "No: Eurosport Norge"
+      },
+      "canal_7": {
+        "stream_id": "614626",
+        "name": "PL: Canal+ Extra 7"
+      },
+      "canal_614637": {
+        "stream_id": "614637",
+        "name": "PL: CANAL SPORT"
+      },
+      "canal_614696": {
+        "stream_id": "614696",
+        "name": "Pl: Canal+ Kuchnia"
+      },
+      "canal_614697": {
+        "stream_id": "614697",
+        "name": "Pl: Canal+ Domo"
+      },
+      "canal_614756": {
+        "stream_id": "614756",
+        "name": "PL: Canal+ Premium FHD"
+      },
+      "canal_614758": {
+        "stream_id": "614758",
+        "name": "PL: Canal+ Family FHD"
+      },
+      "canal_614759": {
+        "stream_id": "614759",
+        "name": "PL: Canal+ Dokument FHD"
+      },
+      "canal_614760": {
+        "stream_id": "614760",
+        "name": "PL: Canal+ Now FHD"
+      },
+      "canal_614761": {
+        "stream_id": "614761",
+        "name": "PL: Canal+ Film FHD"
+      },
+      "canal_614762": {
+        "stream_id": "614762",
+        "name": "PL: Canal+ Seriale FHD"
+      },
+      "canal_614986": {
+        "stream_id": "614986",
+        "name": "Is: Yes Eurosport HD"
+      }
+    },
+    "total_sport_channels": 75,
+    "status": "available",
+    "assigned_to": null,
+    "assigned_channel": null,
+    "assigned_at": null,
+    "added_at": "2026-11-23T17:26:26.568749"
+  },
+  "http___limitlesslivetv_xyz_8080_Albert67": {
+    "host": "http://limitlesslivetv.xyz:8080",
+    "username": "Albert67",
+    "password": "299278298",
+    "max_connections": 2,
+    "bein_channels": {
+      "bein_53609": {
+        "stream_id": "53609",
+        "name": "CA : BEIN SPORTS CANADA"
+      },
+      "bein_1": {
+        "stream_id": "112415",
+        "name": "SPORTS : AU BEIN SPORTS 1"
+      },
+      "bein_2": {
+        "stream_id": "112416",
+        "name": "SPORTS : AU BEIN SPORTS 2"
+      },
+      "bein_3": {
+        "stream_id": "112417",
+        "name": "SPORTS : AU BEIN SPORTS 3"
+      },
+      "bein_05": {
+        "stream_id": "287925",
+        "name": "FR : BEINSPORT-MAX-05"
+      },
+      "bein_06": {
+        "stream_id": "287926",
+        "name": "FR : BEINSPORT-MAX-06"
+      },
+      "bein_07": {
+        "stream_id": "287927",
+        "name": "FR : BEINSPORT-MAX-07"
+      },
+      "bein_08": {
+        "stream_id": "287928",
+        "name": "FR : BEINSPORT-MAX-08"
+      },
+      "bein_09": {
+        "stream_id": "287929",
+        "name": "FR : BEINSPORT-MAX-09"
+      },
+      "bein_10": {
+        "stream_id": "287923",
+        "name": "FR : BEINSPORT-MAX-10"
+      },
+      "bein_56338": {
+        "stream_id": "56338",
+        "name": "SPORTS : BEIN SPORTS (ESP)"
+      },
+      "bein_56352": {
+        "stream_id": "56352",
+        "name": "SPORTS : BEIN SPORTS LA LIGA"
+      },
+      "bein_56353": {
+        "stream_id": "56353",
+        "name": "SPORTS : BEIN SPORTS USA"
+      },
+      "bein_58290": {
+        "stream_id": "58290",
+        "name": "SPORTS : BEIN SPORTS XTRA"
+      },
+      "bein_55055": {
+        "stream_id": "55055",
+        "name": "US : BEIN SPORTS"
+      }
+    },
+    "bein_fr_channels": {},
+    "canal_channels": {
+      "canal_1": {
+        "stream_id": "58557",
+        "name": "PT : EUROSPORT 1"
+      },
+      "canal_287852": {
+        "stream_id": "287852",
+        "name": "FR : CANAL+"
+      },
+      "canal_287938": {
+        "stream_id": "287938",
+        "name": "FR : CANAL+ BOX OFFICE"
+      },
+      "canal_287868": {
+        "stream_id": "287868",
+        "name": "FR : CANAL+ CINEMA"
+      },
+      "canal_287863": {
+        "stream_id": "287863",
+        "name": "FR : CANAL+ GRAND ÉCRAN"
+      },
+      "canal_287841": {
+        "stream_id": "287841",
+        "name": "FR : CANAL+ SERIES"
+      },
+      "canal_2": {
+        "stream_id": "58558",
+        "name": "PT : EUROSPORT 2"
+      },
+      "canal_3": {
+        "stream_id": "266522",
+        "name": "PL : CANAL+ SPORT 3 HD"
+      },
+      "canal_285995": {
+        "stream_id": "285995",
+        "name": "IT : EUROSPORT"
+      }
+    },
+    "total_sport_channels": 24,
+    "status": "available",
+    "assigned_to": null,
+    "assigned_channel": null,
+    "assigned_at": null,
+    "added_at": "2026-11-23T17:26:28.474592"
+  },
+  "http___mytvxyz_com_80_9F54C43547F0": {
+    "host": "http://mytvxyz.com:80",
+    "username": "9F54C43547F0",
+    "password": "28EB3B5ABFD4",
+    "max_connections": 1,
+    "bein_channels": {
+      "bein_4": {
+        "stream_id": "27971",
+        "name": "AR - BEIN MOVIES 4 HD"
+      },
+      "bein_1": {
+        "stream_id": "348325",
+        "name": "UK - BEIN SPORTS 1 ENGLISH FHD"
+      },
+      "bein_2": {
+        "stream_id": "1052426",
+        "name": "MY - BEIN SPORTS 2 HD"
+      },
+      "bein_3": {
+        "stream_id": "1052430",
+        "name": "MY - BEIN SPORTS 3 HD"
+      },
+      "bein_5": {
+        "stream_id": "1224824",
+        "name": "AR - BEIN OD 5 MOVIES UHD"
+      },
+      "bein_39545": {
+        "stream_id": "39545",
+        "name": "TR - BEIN SPORTS HABER FHD"
+      },
+      "bein_983887": {
+        "stream_id": "983887",
+        "name": "LATINO - BEIN SPORTS XTRA N"
+      },
+      "bein_72383": {
+        "stream_id": "72383",
+        "name": "US - BeIN SPORTS HD"
+      },
+      "bein_72390": {
+        "stream_id": "72390",
+        "name": "US - BeIN SPORTS LALIGA UHD"
+      },
+      "bein_72382": {
+        "stream_id": "72382",
+        "name": "US - BeIN SPORTS EN ESPANOL HD"
+      },
+      "bein_6": {
+        "stream_id": "1224825",
+        "name": "AR - BEIN OD 6 MOVIES UHD"
+      },
+      "bein_7": {
+        "stream_id": "1224826",
+        "name": "AR - BEIN OD 7 MOVIES UHD"
+      },
+      "bein_8": {
+        "stream_id": "1224827",
+        "name": "AR - BEIN OD 8 MOVIES UHD"
+      },
+      "bein_174567": {
+        "stream_id": "174567",
+        "name": "US - BEIN SPORTS XTRA HD"
+      },
+      "bein_1121053": {
+        "stream_id": "1121053",
+        "name": "##### FRANCE BEIN SPORTS #####"
+      },
+      "bein_1029422": {
+        "stream_id": "1029422",
+        "name": "ES - BEIN SPORTS Ñ FHD"
+      },
+      "bein_1029423": {
+        "stream_id": "1029423",
+        "name": "ES - BEIN SPORTS EXTRA Ñ FHD"
+      },
+      "bein_207574": {
+        "stream_id": "207574",
+        "name": "##### BEIN SPORTS FM #####"
+      },
+      "bein_986958": {
+        "stream_id": "986958",
+        "name": "AR - BEIN SPORTS NEWS FHD"
+      },
+      "bein_986993": {
+        "stream_id": "986993",
+        "name": "AR - BEIN SPORTS NEWS HD"
+      },
+      "bein_986957": {
+        "stream_id": "986957",
+        "name": "AR - BEIN SPORTS GLOBAL FHD"
+      },
+      "bein_986990": {
+        "stream_id": "986990",
+        "name": "AR - BEIN SPORTS GLOBAL HD"
+      },
+      "bein_9": {
+        "stream_id": "334040",
+        "name": "AR - BEIN SPORTS XTRA 9 4K"
+      },
+      "bein_1306288": {
+        "stream_id": "1306288",
+        "name": "##### BEIN SPORTS XTRA FM #####"
+      },
+      "bein_1306290": {
+        "stream_id": "1306290",
+        "name": "##### BEIN SPORTS ENGLISH FM #####"
+      },
+      "bein_1306289": {
+        "stream_id": "1306289",
+        "name": "##### BEIN SPORTS AFC FM #####"
+      },
+      "bein_1441989": {
+        "stream_id": "1441989",
+        "name": "##### AR - BEIN TOD #####"
+      },
+      "bein_986991": {
+        "stream_id": "986991",
+        "name": "##### BEIN SPORTS SA #####"
+      },
+      "bein_552087": {
+        "stream_id": "552087",
+        "name": "AR - BEIN SPORTS NEWS FHD"
+      },
+      "bein_271226": {
+        "stream_id": "271226",
+        "name": "AR - BEIN SPORTS NEWS HD"
+      },
+      "bein_331736": {
+        "stream_id": "331736",
+        "name": "AR - BEIN SPORTS GLOBAL FHD"
+      },
+      "bein_1347396": {
+        "stream_id": "1347396",
+        "name": "AR - BEIN SPORTS GLOBAL HD"
+      },
+      "bein_1226644": {
+        "stream_id": "1226644",
+        "name": "##### AR - BEIN UHD #####"
+      },
+      "bein_2023": {
+        "stream_id": "1224831",
+        "name": "AR - BEIN OD 2023 4 UHD"
+      },
+      "bein_1226645": {
+        "stream_id": "1226645",
+        "name": "##### AR - BEIN HD #####"
+      },
+      "bein_1348416": {
+        "stream_id": "1348416",
+        "name": "AR - BEIN STAR MOVIES HD"
+      },
+      "bein_1348414": {
+        "stream_id": "1348414",
+        "name": "AR - BEIN STAR FILMS HD"
+      },
+      "bein_1348417": {
+        "stream_id": "1348417",
+        "name": "AR - BEIN STAR SERIES HD"
+      },
+      "bein_1348415": {
+        "stream_id": "1348415",
+        "name": "AR - BEIN STAR LIFE HD"
+      },
+      "bein_1348418": {
+        "stream_id": "1348418",
+        "name": "AR - BEIN CARTOONITO HD"
+      },
+      "bein_27948": {
+        "stream_id": "27948",
+        "name": "AR - BEIN FOX ACTION MOVIES HD"
+      },
+      "bein_27965": {
+        "stream_id": "27965",
+        "name": "AR - BEIN GOURMET HD"
+      },
+      "bein_1226343": {
+        "stream_id": "1226343",
+        "name": "AR - BEIN BBC EARTH HD"
+      },
+      "bein_1224819": {
+        "stream_id": "1224819",
+        "name": "AR - BEIN DISCOVERY FAMILY HD"
+      },
+      "bein_1224817": {
+        "stream_id": "1224817",
+        "name": "AR - BEIN DREAM WORK HD"
+      },
+      "bein_1224814": {
+        "stream_id": "1224814",
+        "name": "AR - BEIN FOOD NETWORK HD"
+      },
+      "bein_1224816": {
+        "stream_id": "1224816",
+        "name": "AR - BEIN HGTV HD"
+      },
+      "bein_1224815": {
+        "stream_id": "1224815",
+        "name": "AR - BEIN TRAVEL HD"
+      },
+      "bein_1224818": {
+        "stream_id": "1224818",
+        "name": "AR - BEIN JUNIOR KIDS HD"
+      },
+      "bein_673514": {
+        "stream_id": "673514",
+        "name": "CA -  BEIN SPORTS HD"
+      },
+      "bein_1052432": {
+        "stream_id": "1052432",
+        "name": "MY - BEIN SPORTS HD"
+      }
+    },
+    "bein_fr_channels": {
+      "bein_1_fr": {
+        "stream_id": "56544",
+        "name": "FR - BEIN SPORTS 1 SD "
+      },
+      "bein_2_fr": {
+        "stream_id": "56543",
+        "name": "FR - BEIN SPORTS 2 SD "
+      },
+      "bein_3_fr": {
+        "stream_id": "56542",
+        "name": "FR - BEIN SPORTS 3 SD"
+      },
+      "bein_4_fr": {
+        "stream_id": "62502",
+        "name": "FR - BEIN SPORTS MAX 4 FHD "
+      },
+      "bein_5_fr": {
+        "stream_id": "62501",
+        "name": "FR - BEIN SPORTS MAX 5 FHD "
+      },
+      "bein_6_fr": {
+        "stream_id": "62500",
+        "name": "FR - BEIN SPORTS MAX 6 FHD "
+      },
+      "bein_7_fr": {
+        "stream_id": "62499",
+        "name": "FR - BEIN SPORTS MAX 7 FHD "
+      },
+      "bein_8_fr": {
+        "stream_id": "62498",
+        "name": "FR - BEIN SPORTS MAX 8 FHD "
+      },
+      "bein_9_fr": {
+        "stream_id": "62497",
+        "name": "FR - BEIN SPORTS MAX 9 FHD "
+      },
+      "bein_10_fr": {
+        "stream_id": "211992",
+        "name": "FR - BEIN SPORTS MAX 10 FHD "
+      },
+      "bein_fr_1306291": {
+        "stream_id": "1306291",
+        "name": "##### AR - BEIN SPORTS FRENCH FM #####"
+      }
+    },
+    "canal_channels": {
+      "canal_4": {
+        "stream_id": "1414515",
+        "name": "PL - CANAL+ EXTRA 4 HD"
+      },
+      "canal_1": {
+        "stream_id": "21565",
+        "name": "BG - EUROSPORT 1 HD"
+      },
+      "canal_194768": {
+        "stream_id": "194768",
+        "name": "AF - CANAL+ OUEST"
+      },
+      "canal_194769": {
+        "stream_id": "194769",
+        "name": "AF - CANAL+ FAMILY OUEST"
+      },
+      "canal_194770": {
+        "stream_id": "194770",
+        "name": "AF - CANAL+ MAGIC OUEST"
+      },
+      "canal_325816": {
+        "stream_id": "325816",
+        "name": "AF - CANAL+ POP OUEST"
+      },
+      "canal_194772": {
+        "stream_id": "194772",
+        "name": "AF - CANAL+ CINEMA OUEST"
+      },
+      "canal_194773": {
+        "stream_id": "194773",
+        "name": "AF - CANAL+ CENTRE"
+      },
+      "canal_194774": {
+        "stream_id": "194774",
+        "name": "AF - CANAL+ ACTION OUEST"
+      },
+      "canal_2": {
+        "stream_id": "21564",
+        "name": "BG - EUROSPORT 2 HD"
+      },
+      "canal_3": {
+        "stream_id": "1414514",
+        "name": "PL - CANAL+ EXTRA 3 HD"
+      },
+      "canal_5": {
+        "stream_id": "1414516",
+        "name": "PL - CANAL+ EXTRA 5 HD"
+      },
+      "canal_1027765": {
+        "stream_id": "1027765",
+        "name": "AF - CANAL+ CENTR"
+      },
+      "canal_1027768": {
+        "stream_id": "1027768",
+        "name": "AF - CANAL+ MAGIC"
+      },
+      "canal_1060658": {
+        "stream_id": "1060658",
+        "name": "AF - CANAL+ POP CENTRE HD"
+      },
+      "canal_1300926": {
+        "stream_id": "1300926",
+        "name": "AF - CANAL+ MAGIC CENTRE"
+      },
+      "canal_849417": {
+        "stream_id": "849417",
+        "name": "SAF - CANAL+ PREMIERE CENTRE HD"
+      },
+      "canal_1121066": {
+        "stream_id": "1121066",
+        "name": "##### FRANCE RMC SPORT #####"
+      },
+      "canal_152649": {
+        "stream_id": "152649",
+        "name": "FR - RMC SPORT UHD"
+      },
+      "canal_1121056": {
+        "stream_id": "1121056",
+        "name": "##### FRANCE EUROSPORT #####"
+      },
+      "canal_360": {
+        "stream_id": "75681",
+        "name": "PL - CANAL+ 360 HD"
+      },
+      "canal_1121052": {
+        "stream_id": "1121052",
+        "name": "##### CANAL+ SPORTS #####"
+      },
+      "canal_56644": {
+        "stream_id": "56644",
+        "name": "FR - CANAL+ SPORT FHD ◉"
+      },
+      "canal_56569": {
+        "stream_id": "56569",
+        "name": "FR - CANAL+ SPORT HEVC ◉"
+      },
+      "canal_56533": {
+        "stream_id": "56533",
+        "name": "FR - CANAL+ SPORT SD"
+      },
+      "canal_311116": {
+        "stream_id": "311116",
+        "name": "FR - CANAL+ FOOT FHD "
+      },
+      "canal_311117": {
+        "stream_id": "311117",
+        "name": "FR - CANAL+ FOOT HEVC "
+      },
+      "canal_853546": {
+        "stream_id": "853546",
+        "name": "FR - CANAL+ FOOT HD"
+      },
+      "canal_311118": {
+        "stream_id": "311118",
+        "name": "FR - CANAL+ FOOT SD "
+      },
+      "canal_203876": {
+        "stream_id": "203876",
+        "name": "FR - CANAL+ PREMIER LEAGUE FHD"
+      },
+      "canal_203880": {
+        "stream_id": "203880",
+        "name": "FR - CANAL+ PREMIER LEAGUE HEVC"
+      },
+      "canal_203881": {
+        "stream_id": "203881",
+        "name": "FR - CANAL+ PREMIER LEAGUE SD"
+      },
+      "canal_1479984": {
+        "stream_id": "1479984",
+        "name": "FR - CANAL+ MOTO GP FHD"
+      },
+      "canal_1137128": {
+        "stream_id": "1137128",
+        "name": "##### CANAL+ LIVE #####"
+      },
+      "canal_6": {
+        "stream_id": "1414517",
+        "name": "PL - CANAL+ EXTRA 6 HD"
+      },
+      "canal_7": {
+        "stream_id": "1414518",
+        "name": "PL - CANAL+ EXTRA 7 HD"
+      },
+      "canal_8": {
+        "stream_id": "1414520",
+        "name": "PL - CANAL+ EXTRA 8 HD"
+      },
+      "canal_9": {
+        "stream_id": "1414522",
+        "name": "PL - CANAL+ EXTRA 9 HD"
+      },
+      "canal_10": {
+        "stream_id": "1243151",
+        "name": "DE - EUROSPORT EXTRA 10 FHD"
+      },
+      "canal_11": {
+        "stream_id": "1243152",
+        "name": "DE - EUROSPORT EXTRA 11 FHD"
+      },
+      "canal_12": {
+        "stream_id": "1243153",
+        "name": "DE - EUROSPORT EXTRA 12 FHD"
+      },
+      "canal_13": {
+        "stream_id": "1243154",
+        "name": "DE - EUROSPORT EXTRA 13 FHD"
+      },
+      "canal_14": {
+        "stream_id": "1243155",
+        "name": "DE - EUROSPORT EXTRA 14 FHD"
+      },
+      "canal_15": {
+        "stream_id": "1243156",
+        "name": "DE - EUROSPORT EXTRA 15 FHD"
+      },
+      "canal_16": {
+        "stream_id": "1243157",
+        "name": "DE - EUROSPORT EXTRA 16 FHD"
+      },
+      "canal_17": {
+        "stream_id": "1243158",
+        "name": "DE - EUROSPORT EXTRA 17 FHD"
+      },
+      "canal_18": {
+        "stream_id": "1243159",
+        "name": "DE - EUROSPORT EXTRA 18 FHD"
+      },
+      "canal_19": {
+        "stream_id": "1243160",
+        "name": "DE - EUROSPORT EXTRA 19 FHD"
+      },
+      "canal_56840": {
+        "stream_id": "56840",
+        "name": "FR - CANAL+ CINEMA FHD ◉"
+      },
+      "canal_285950": {
+        "stream_id": "285950",
+        "name": "FR - CANAL+ DOCS FHD"
+      },
+      "canal_288410": {
+        "stream_id": "288410",
+        "name": "FR - CANAL+ GRAND ECRAN FHD ◉"
+      },
+      "canal_56993": {
+        "stream_id": "56993",
+        "name": "FR - CANAL+ FHD ◉ "
+      },
+      "canal_906760": {
+        "stream_id": "906760",
+        "name": "FR - CANAL+ FHD ²"
+      },
+      "canal_56838": {
+        "stream_id": "56838",
+        "name": "FR - CANAL+ KIDS FHD"
+      },
+      "canal_56815": {
+        "stream_id": "56815",
+        "name": "FR - CANAL+ CINEMA HEVC ◉"
+      },
+      "canal_285951": {
+        "stream_id": "285951",
+        "name": "FR - CANAL+ DOCS HEVC"
+      },
+      "canal_288409": {
+        "stream_id": "288409",
+        "name": "FR - CANAL+ GRAND ECRAN HEVC"
+      },
+      "canal_56950": {
+        "stream_id": "56950",
+        "name": "FR - CANAL+ HEVC"
+      },
+      "canal_56813": {
+        "stream_id": "56813",
+        "name": "FR - CANAL+ KIDS HEVC"
+      },
+      "canal_56812": {
+        "stream_id": "56812",
+        "name": "FR - CANAL+ SERIES HEVC"
+      },
+      "canal_876959": {
+        "stream_id": "876959",
+        "name": "FR - CANAL+ BOX OFFICE HD"
+      },
+      "canal_487235": {
+        "stream_id": "487235",
+        "name": "FR - CANAL+ BOX OFFICE HD²"
+      },
+      "canal_56790": {
+        "stream_id": "56790",
+        "name": "FR - CANAL+ CINEMA SD"
+      },
+      "canal_56788": {
+        "stream_id": "56788",
+        "name": "FR - CANAL+ KIDS SD"
+      },
+      "canal_56907": {
+        "stream_id": "56907",
+        "name": "FR - CANAL+ SD"
+      },
+      "canal_56787": {
+        "stream_id": "56787",
+        "name": "FR - CANAL+ SERIES SD"
+      },
+      "canal_1044106": {
+        "stream_id": "1044106",
+        "name": "FR - CANAL+ UHD"
+      },
+      "canal_1425444": {
+        "stream_id": "1425444",
+        "name": "##### CANAL+ BOXOFFICE #####"
+      },
+      "canal_1470264": {
+        "stream_id": "1470264",
+        "name": "FR - CANAL+ BOXOFFICE INFO FHD"
+      },
+      "canal_1135530": {
+        "stream_id": "1135530",
+        "name": "FR - CANAL+ KIDS FHD"
+      },
+      "canal_1135529": {
+        "stream_id": "1135529",
+        "name": "FR - CANAL+ KIDS HEVC"
+      },
+      "canal_1135528": {
+        "stream_id": "1135528",
+        "name": "FR - CANAL+ KIDS SD"
+      },
+      "canal_1240499": {
+        "stream_id": "1240499",
+        "name": "##### EXYU - EUROSPORT ##### "
+      },
+      "canal_272373": {
+        "stream_id": "272373",
+        "name": "SI - EUROSPORT HD"
+      },
+      "canal_1408013": {
+        "stream_id": "1408013",
+        "name": "CZ - CANAL+ SPORT FHD"
+      },
+      "canal_907002": {
+        "stream_id": "907002",
+        "name": "CZ - CANAL+ DOMO HD"
+      },
+      "canal_27892": {
+        "stream_id": "27892",
+        "name": "AT - CANAL+ ACTION FHD"
+      },
+      "canal_1237232": {
+        "stream_id": "1237232",
+        "name": " ##### DE - EUROSPORT  #####"
+      },
+      "canal_1259045": {
+        "stream_id": "1259045",
+        "name": "###### DE - EUROSPORT EXTRA ######"
+      },
+      "canal_20": {
+        "stream_id": "1243161",
+        "name": "DE - EUROSPORT EXTRA 20 FHD"
+      },
+      "canal_21": {
+        "stream_id": "1243162",
+        "name": "DE - EUROSPORT EXTRA 21 FHD"
+      },
+      "canal_22": {
+        "stream_id": "1243163",
+        "name": "DE - EUROSPORT EXTRA 22 FHD"
+      },
+      "canal_23": {
+        "stream_id": "1243164",
+        "name": "DE - EUROSPORT EXTRA 23 FHD"
+      },
+      "canal_24": {
+        "stream_id": "1243165",
+        "name": "DE - EUROSPORT EXTRA 24 FHD"
+      },
+      "canal_25": {
+        "stream_id": "1243166",
+        "name": "DE - EUROSPORT EXTRA 25 FHD"
+      },
+      "canal_26": {
+        "stream_id": "1243167",
+        "name": "DE - EUROSPORT EXTRA 26 FHD"
+      },
+      "canal_27": {
+        "stream_id": "1243168",
+        "name": "DE - EUROSPORT EXTRA 27 FHD"
+      },
+      "canal_28": {
+        "stream_id": "1243169",
+        "name": "DE - EUROSPORT EXTRA 28 FHD"
+      },
+      "canal_29": {
+        "stream_id": "1243170",
+        "name": "DE - EUROSPORT EXTRA 29 FHD"
+      },
+      "canal_30": {
+        "stream_id": "1243171",
+        "name": "DE - EUROSPORT EXTRA 30 FHD"
+      },
+      "canal_31": {
+        "stream_id": "1243172",
+        "name": "DE - EUROSPORT EXTRA 31 FHD"
+      },
+      "canal_32": {
+        "stream_id": "1243173",
+        "name": "DE - EUROSPORT EXTRA 32 FHD"
+      },
+      "canal_1054610": {
+        "stream_id": "1054610",
+        "name": "CH - CANAL+ DOCS FHD"
+      },
+      "canal_807094": {
+        "stream_id": "807094",
+        "name": "CH - CANAL+ SPORT FHD"
+      },
+      "canal_326353": {
+        "stream_id": "326353",
+        "name": "MT - EUROSPORT HD"
+      },
+      "canal_75799": {
+        "stream_id": "75799",
+        "name": "PL - CANAL+ NOW HD"
+      },
+      "canal_235059": {
+        "stream_id": "235059",
+        "name": "PL - CANAL+ DOMO FHD"
+      },
+      "canal_67879": {
+        "stream_id": "67879",
+        "name": "PL - CANAL+ DOMO HD"
+      },
+      "canal_67875": {
+        "stream_id": "67875",
+        "name": "PL - CANAL+ KUCHINIA FHD"
+      },
+      "canal_235060": {
+        "stream_id": "235060",
+        "name": "PL - CANAL+ KUCHINIA HD"
+      },
+      "canal_1414494": {
+        "stream_id": "1414494",
+        "name": "##### PL - CANAL+ SPORT #####"
+      },
+      "canal_75753": {
+        "stream_id": "75753",
+        "name": "PL - CANAL+ SPORT FHD"
+      },
+      "canal_67805": {
+        "stream_id": "67805",
+        "name": "PL - CANAL+ SPORT HD"
+      },
+      "canal_1414495": {
+        "stream_id": "1414495",
+        "name": "##### PL - CANAL+ EXTRA #####"
+      },
+      "canal_235057": {
+        "stream_id": "235057",
+        "name": "PL - CANAL+ PREMIUM HD"
+      },
+      "canal_75685": {
+        "stream_id": "75685",
+        "name": "PL - CANAL+ FILM HD"
+      },
+      "canal_75654": {
+        "stream_id": "75654",
+        "name": "PL - CANAL+ SERIALE HD"
+      },
+      "canal_67825": {
+        "stream_id": "67825",
+        "name": "PL - CANAL+  DISCOVERY HD"
+      },
+      "canal_75664": {
+        "stream_id": "75664",
+        "name": "PL - CANAL+ DOKUMENT HD"
+      },
+      "canal_235058": {
+        "stream_id": "235058",
+        "name": "PL - CANAL+ DOKUMENT HD"
+      },
+      "canal_44297": {
+        "stream_id": "44297",
+        "name": "NO - EUROSPORT N FHD"
+      }
+    },
+    "total_sport_channels": 173,
+    "status": "available",
+    "assigned_to": null,
+    "assigned_channel": null,
+    "assigned_at": null,
+    "added_at": "2026-11-23T17:26:29.193227"
+  },
+  "http___m_mtbplus_com_80_251372788005247": {
+    "host": "http://m.mtbplus.com:80",
+    "username": "251372788005247",
+    "password": "8371968193",
+    "max_connections": 1,
+    "bein_channels": {
+      "bein_4": {
+        "stream_id": "1488066",
+        "name": "SG - BEIN SPORTS 4 FHD"
+      },
+      "bein_1121053": {
+        "stream_id": "1121053",
+        "name": "##### FRANCE BEIN SPORTS #####"
+      },
+      "bein_1": {
+        "stream_id": "78137",
+        "name": "AU - BEIN SPORTS 1 UHD"
+      },
+      "bein_2": {
+        "stream_id": "1052426",
+        "name": "MY - BEIN SPORTS 2 HD"
+      },
+      "bein_3": {
+        "stream_id": "1052430",
+        "name": "MY - BEIN SPORTS 3 HD"
+      },
+      "bein_5": {
+        "stream_id": "1488067",
+        "name": "SG - BEIN SPORTS 5 FHD"
+      },
+      "bein_1349031": {
+        "stream_id": "1349031",
+        "name": "ES - VIX - BEIN SPORTS XTRA"
+      },
+      "bein_1029422": {
+        "stream_id": "1029422",
+        "name": "ES - BEIN SPORTS Ñ FHD"
+      },
+      "bein_1029423": {
+        "stream_id": "1029423",
+        "name": "ES - BEIN SPORTS EXTRA Ñ FHD"
+      },
+      "bein_207574": {
+        "stream_id": "207574",
+        "name": "##### BEIN SPORTS FM #####"
+      },
+      "bein_986958": {
+        "stream_id": "986958",
+        "name": "AR - BEIN SPORTS NEWS FHD"
+      },
+      "bein_986993": {
+        "stream_id": "986993",
+        "name": "AR - BEIN SPORTS NEWS HD"
+      },
+      "bein_986957": {
+        "stream_id": "986957",
+        "name": "AR - BEIN SPORTS GLOBAL FHD"
+      },
+      "bein_986990": {
+        "stream_id": "986990",
+        "name": "AR - BEIN SPORTS GLOBAL HD"
+      },
+      "bein_6": {
+        "stream_id": "72386",
+        "name": "US - BeIN SPORTS 6 HD"
+      },
+      "bein_7": {
+        "stream_id": "72385",
+        "name": "US - BeIN SPORTS 7 HD"
+      },
+      "bein_8": {
+        "stream_id": "72384",
+        "name": "US - BeIN SPORTS 8 HD"
+      },
+      "bein_9": {
+        "stream_id": "334040",
+        "name": "AR - BEIN SPORTS XTRA 9 4K"
+      },
+      "bein_1306288": {
+        "stream_id": "1306288",
+        "name": "##### BEIN SPORTS XTRA FM #####"
+      },
+      "bein_1306290": {
+        "stream_id": "1306290",
+        "name": "##### BEIN SPORTS ENGLISH FM #####"
+      },
+      "bein_1306289": {
+        "stream_id": "1306289",
+        "name": "##### BEIN SPORTS AFC FM #####"
+      },
+      "bein_1441989": {
+        "stream_id": "1441989",
+        "name": "##### AR - BEIN TOD #####"
+      },
+      "bein_986991": {
+        "stream_id": "986991",
+        "name": "##### BEIN SPORTS SA #####"
+      },
+      "bein_552087": {
+        "stream_id": "552087",
+        "name": "AR - BEIN SPORTS NEWS FHD"
+      },
+      "bein_271226": {
+        "stream_id": "271226",
+        "name": "AR - BEIN SPORTS NEWS HD"
+      },
+      "bein_331736": {
+        "stream_id": "331736",
+        "name": "AR - BEIN SPORTS GLOBAL FHD"
+      },
+      "bein_1347396": {
+        "stream_id": "1347396",
+        "name": "AR - BEIN SPORTS GLOBAL HD"
+      },
+      "bein_1226644": {
+        "stream_id": "1226644",
+        "name": "##### AR - BEIN UHD #####"
+      },
+      "bein_2023": {
+        "stream_id": "1224831",
+        "name": "AR - BEIN OD 2023 4 UHD"
+      },
+      "bein_1226645": {
+        "stream_id": "1226645",
+        "name": "##### AR - BEIN HD #####"
+      },
+      "bein_1348416": {
+        "stream_id": "1348416",
+        "name": "AR - BEIN STAR MOVIES HD"
+      },
+      "bein_1348414": {
+        "stream_id": "1348414",
+        "name": "AR - BEIN STAR FILMS HD"
+      },
+      "bein_1348417": {
+        "stream_id": "1348417",
+        "name": "AR - BEIN STAR SERIES HD"
+      },
+      "bein_1348415": {
+        "stream_id": "1348415",
+        "name": "AR - BEIN STAR LIFE HD"
+      },
+      "bein_1348418": {
+        "stream_id": "1348418",
+        "name": "AR - BEIN CARTOONITO HD"
+      },
+      "bein_27948": {
+        "stream_id": "27948",
+        "name": "AR - BEIN FOX ACTION MOVIES HD"
+      },
+      "bein_27965": {
+        "stream_id": "27965",
+        "name": "AR - BEIN GOURMET HD"
+      },
+      "bein_1226343": {
+        "stream_id": "1226343",
+        "name": "AR - BEIN BBC EARTH HD"
+      },
+      "bein_1224819": {
+        "stream_id": "1224819",
+        "name": "AR - BEIN DISCOVERY FAMILY HD"
+      },
+      "bein_1224817": {
+        "stream_id": "1224817",
+        "name": "AR - BEIN DREAM WORK HD"
+      },
+      "bein_1224814": {
+        "stream_id": "1224814",
+        "name": "AR - BEIN FOOD NETWORK HD"
+      },
+      "bein_1224816": {
+        "stream_id": "1224816",
+        "name": "AR - BEIN HGTV HD"
+      },
+      "bein_1224815": {
+        "stream_id": "1224815",
+        "name": "AR - BEIN TRAVEL HD"
+      },
+      "bein_1224818": {
+        "stream_id": "1224818",
+        "name": "AR - BEIN JUNIOR KIDS HD"
+      },
+      "bein_673514": {
+        "stream_id": "673514",
+        "name": "CA -  BEIN SPORTS HD"
+      },
+      "bein_72383": {
+        "stream_id": "72383",
+        "name": "US - BeIN SPORTS HD"
+      },
+      "bein_72390": {
+        "stream_id": "72390",
+        "name": "US - BeIN SPORTS LALIGA UHD"
+      },
+      "bein_72382": {
+        "stream_id": "72382",
+        "name": "US - BeIN SPORTS EN ESPANOL HD"
+      },
+      "bein_174567": {
+        "stream_id": "174567",
+        "name": "US - BEIN SPORTS XTRA HD"
+      },
+      "bein_983887": {
+        "stream_id": "983887",
+        "name": "LATINO - BEIN SPORTS XTRA N"
+      },
+      "bein_39545": {
+        "stream_id": "39545",
+        "name": "TR - BEIN SPORTS HABER FHD"
+      },
+      "bein_1488063": {
+        "stream_id": "1488063",
+        "name": "SG - BEIN SPORTS FHD"
+      },
+      "bein_1052432": {
+        "stream_id": "1052432",
+        "name": "MY - BEIN SPORTS HD"
+      }
+    },
+    "bein_fr_channels": {
+      "bein_1_fr": {
+        "stream_id": "56544",
+        "name": "FR - BEIN SPORTS 1 SD "
+      },
+      "bein_2_fr": {
+        "stream_id": "56543",
+        "name": "FR - BEIN SPORTS 2 SD "
+      },
+      "bein_3_fr": {
+        "stream_id": "56542",
+        "name": "FR - BEIN SPORTS 3 SD"
+      },
+      "bein_4_fr": {
+        "stream_id": "62502",
+        "name": "FR - BEIN SPORTS MAX 4 FHD "
+      },
+      "bein_5_fr": {
+        "stream_id": "62501",
+        "name": "FR - BEIN SPORTS MAX 5 FHD "
+      },
+      "bein_6_fr": {
+        "stream_id": "62500",
+        "name": "FR - BEIN SPORTS MAX 6 FHD "
+      },
+      "bein_7_fr": {
+        "stream_id": "62499",
+        "name": "FR - BEIN SPORTS MAX 7 FHD "
+      },
+      "bein_8_fr": {
+        "stream_id": "62498",
+        "name": "FR - BEIN SPORTS MAX 8 FHD "
+      },
+      "bein_9_fr": {
+        "stream_id": "62497",
+        "name": "FR - BEIN SPORTS MAX 9 FHD "
+      },
+      "bein_10_fr": {
+        "stream_id": "211992",
+        "name": "FR - BEIN SPORTS MAX 10 FHD "
+      },
+      "bein_fr_1306291": {
+        "stream_id": "1306291",
+        "name": "##### AR - BEIN SPORTS FRENCH FM #####"
+      }
+    },
+    "canal_channels": {
+      "canal_4": {
+        "stream_id": "1027832",
+        "name": "AF - RMC SPORT 4"
+      },
+      "canal_1": {
+        "stream_id": "1099581",
+        "name": "TR - EUROSPORT 1 FHD"
+      },
+      "canal_1121066": {
+        "stream_id": "1121066",
+        "name": "##### FRANCE RMC SPORT #####"
+      },
+      "canal_152649": {
+        "stream_id": "152649",
+        "name": "FR - RMC SPORT UHD"
+      },
+      "canal_2": {
+        "stream_id": "329421",
+        "name": "IL - EUROSPORT 2"
+      },
+      "canal_3": {
+        "stream_id": "1027761",
+        "name": "AF - CANAL+ SPORT 3"
+      },
+      "canal_1121056": {
+        "stream_id": "1121056",
+        "name": "##### FRANCE EUROSPORT #####"
+      },
+      "canal_360": {
+        "stream_id": "75681",
+        "name": "PL - CANAL+ 360 HD"
+      },
+      "canal_1121052": {
+        "stream_id": "1121052",
+        "name": "##### CANAL+ SPORTS #####"
+      },
+      "canal_56644": {
+        "stream_id": "56644",
+        "name": "FR - CANAL+ SPORT FHD ◉"
+      },
+      "canal_56569": {
+        "stream_id": "56569",
+        "name": "FR - CANAL+ SPORT HEVC ◉"
+      },
+      "canal_56533": {
+        "stream_id": "56533",
+        "name": "FR - CANAL+ SPORT SD"
+      },
+      "canal_311116": {
+        "stream_id": "311116",
+        "name": "FR - CANAL+ FOOT FHD "
+      },
+      "canal_311117": {
+        "stream_id": "311117",
+        "name": "FR - CANAL+ FOOT HEVC "
+      },
+      "canal_853546": {
+        "stream_id": "853546",
+        "name": "FR - CANAL+ FOOT HD"
+      },
+      "canal_311118": {
+        "stream_id": "311118",
+        "name": "FR - CANAL+ FOOT SD "
+      },
+      "canal_203876": {
+        "stream_id": "203876",
+        "name": "FR - CANAL+ PREMIER LEAGUE FHD"
+      },
+      "canal_203880": {
+        "stream_id": "203880",
+        "name": "FR - CANAL+ PREMIER LEAGUE HEVC"
+      },
+      "canal_203881": {
+        "stream_id": "203881",
+        "name": "FR - CANAL+ PREMIER LEAGUE SD"
+      },
+      "canal_1479984": {
+        "stream_id": "1479984",
+        "name": "FR - CANAL+ MOTO GP FHD"
+      },
+      "canal_1137128": {
+        "stream_id": "1137128",
+        "name": "##### CANAL+ LIVE #####"
+      },
+      "canal_5": {
+        "stream_id": "1027763",
+        "name": "AF - CANAL+ SPORT 5"
+      },
+      "canal_6": {
+        "stream_id": "1408018",
+        "name": "CZ - CANAL+ SPORT 6 FHD"
+      },
+      "canal_7": {
+        "stream_id": "1408019",
+        "name": "CZ - CANAL+ SPORT 7 FHD"
+      },
+      "canal_8": {
+        "stream_id": "1408020",
+        "name": "CZ - CANAL+ SPORT 8 FHD"
+      },
+      "canal_9": {
+        "stream_id": "1414522",
+        "name": "PL - CANAL+ EXTRA 9 HD"
+      },
+      "canal_10": {
+        "stream_id": "1243151",
+        "name": "DE - EUROSPORT EXTRA 10 FHD"
+      },
+      "canal_11": {
+        "stream_id": "1243152",
+        "name": "DE - EUROSPORT EXTRA 11 FHD"
+      },
+      "canal_12": {
+        "stream_id": "1243153",
+        "name": "DE - EUROSPORT EXTRA 12 FHD"
+      },
+      "canal_13": {
+        "stream_id": "1243154",
+        "name": "DE - EUROSPORT EXTRA 13 FHD"
+      },
+      "canal_14": {
+        "stream_id": "1243155",
+        "name": "DE - EUROSPORT EXTRA 14 FHD"
+      },
+      "canal_15": {
+        "stream_id": "1243156",
+        "name": "DE - EUROSPORT EXTRA 15 FHD"
+      },
+      "canal_16": {
+        "stream_id": "1243157",
+        "name": "DE - EUROSPORT EXTRA 16 FHD"
+      },
+      "canal_17": {
+        "stream_id": "1243158",
+        "name": "DE - EUROSPORT EXTRA 17 FHD"
+      },
+      "canal_18": {
+        "stream_id": "1243159",
+        "name": "DE - EUROSPORT EXTRA 18 FHD"
+      },
+      "canal_19": {
+        "stream_id": "1243160",
+        "name": "DE - EUROSPORT EXTRA 19 FHD"
+      },
+      "canal_56840": {
+        "stream_id": "56840",
+        "name": "FR - CANAL+ CINEMA FHD ◉"
+      },
+      "canal_285950": {
+        "stream_id": "285950",
+        "name": "FR - CANAL+ DOCS FHD"
+      },
+      "canal_288410": {
+        "stream_id": "288410",
+        "name": "FR - CANAL+ GRAND ECRAN FHD ◉"
+      },
+      "canal_56993": {
+        "stream_id": "56993",
+        "name": "FR - CANAL+ FHD ◉ "
+      },
+      "canal_906760": {
+        "stream_id": "906760",
+        "name": "FR - CANAL+ FHD ²"
+      },
+      "canal_56838": {
+        "stream_id": "56838",
+        "name": "FR - CANAL+ KIDS FHD"
+      },
+      "canal_56815": {
+        "stream_id": "56815",
+        "name": "FR - CANAL+ CINEMA HEVC ◉"
+      },
+      "canal_285951": {
+        "stream_id": "285951",
+        "name": "FR - CANAL+ DOCS HEVC"
+      },
+      "canal_288409": {
+        "stream_id": "288409",
+        "name": "FR - CANAL+ GRAND ECRAN HEVC"
+      },
+      "canal_56950": {
+        "stream_id": "56950",
+        "name": "FR - CANAL+ HEVC"
+      },
+      "canal_56813": {
+        "stream_id": "56813",
+        "name": "FR - CANAL+ KIDS HEVC"
+      },
+      "canal_56812": {
+        "stream_id": "56812",
+        "name": "FR - CANAL+ SERIES HEVC"
+      },
+      "canal_876959": {
+        "stream_id": "876959",
+        "name": "FR - CANAL+ BOX OFFICE HD"
+      },
+      "canal_487235": {
+        "stream_id": "487235",
+        "name": "FR - CANAL+ BOX OFFICE HD²"
+      },
+      "canal_56790": {
+        "stream_id": "56790",
+        "name": "FR - CANAL+ CINEMA SD"
+      },
+      "canal_56788": {
+        "stream_id": "56788",
+        "name": "FR - CANAL+ KIDS SD"
+      },
+      "canal_56907": {
+        "stream_id": "56907",
+        "name": "FR - CANAL+ SD"
+      },
+      "canal_56787": {
+        "stream_id": "56787",
+        "name": "FR - CANAL+ SERIES SD"
+      },
+      "canal_1044106": {
+        "stream_id": "1044106",
+        "name": "FR - CANAL+ UHD"
+      },
+      "canal_1135530": {
+        "stream_id": "1135530",
+        "name": "FR - CANAL+ KIDS FHD"
+      },
+      "canal_1135529": {
+        "stream_id": "1135529",
+        "name": "FR - CANAL+ KIDS HEVC"
+      },
+      "canal_1135528": {
+        "stream_id": "1135528",
+        "name": "FR - CANAL+ KIDS SD"
+      },
+      "canal_1099734": {
+        "stream_id": "1099734",
+        "name": "FR-CAR - CANAL+ KIDS HD"
+      },
+      "canal_1099735": {
+        "stream_id": "1099735",
+        "name": "FR-CAR - CANAL+ PREMIER LEAGUE HD"
+      },
+      "canal_1099737": {
+        "stream_id": "1099737",
+        "name": "FR-CAR - CANAL+ SPORT HD"
+      },
+      "canal_1028689": {
+        "stream_id": "1028689",
+        "name": "FR - CANAL+ SPORT HD"
+      },
+      "canal_1170776": {
+        "stream_id": "1170776",
+        "name": "FR-CAR - CANAL+ FOOT HD"
+      },
+      "canal_1099732": {
+        "stream_id": "1099732",
+        "name": "FR-CAR - CANAL+ HD"
+      },
+      "canal_1170762": {
+        "stream_id": "1170762",
+        "name": "FR-CAR - CANAL+ DOCS HD"
+      },
+      "canal_1170777": {
+        "stream_id": "1170777",
+        "name": "FR-CAR - CANAL+ BOX OFFICE HD"
+      },
+      "canal_987093": {
+        "stream_id": "987093",
+        "name": "FR-REU - CANAL+ PREMIER LEAGUE HD"
+      },
+      "canal_987095": {
+        "stream_id": "987095",
+        "name": "FR-REU - CANAL+ SPORT HD"
+      },
+      "canal_987088": {
+        "stream_id": "987088",
+        "name": "FR-REU - CANAL+ DOCS HD ²"
+      },
+      "canal_987090": {
+        "stream_id": "987090",
+        "name": "FR-REU - CANAL+ HD"
+      },
+      "canal_987091": {
+        "stream_id": "987091",
+        "name": "FR-REU - CANAL+ KIDS HD"
+      },
+      "canal_1425444": {
+        "stream_id": "1425444",
+        "name": "##### CANAL+ BOXOFFICE #####"
+      },
+      "canal_1470264": {
+        "stream_id": "1470264",
+        "name": "FR - CANAL+ BOXOFFICE INFO FHD"
+      },
+      "canal_1348421": {
+        "stream_id": "1348421",
+        "name": "##### NL - EUROSPORT #####"
+      },
+      "canal_1237232": {
+        "stream_id": "1237232",
+        "name": " ##### DE - EUROSPORT  #####"
+      },
+      "canal_1259045": {
+        "stream_id": "1259045",
+        "name": "###### DE - EUROSPORT EXTRA ######"
+      },
+      "canal_20": {
+        "stream_id": "1243161",
+        "name": "DE - EUROSPORT EXTRA 20 FHD"
+      },
+      "canal_21": {
+        "stream_id": "1243162",
+        "name": "DE - EUROSPORT EXTRA 21 FHD"
+      },
+      "canal_22": {
+        "stream_id": "1243163",
+        "name": "DE - EUROSPORT EXTRA 22 FHD"
+      },
+      "canal_23": {
+        "stream_id": "1243164",
+        "name": "DE - EUROSPORT EXTRA 23 FHD"
+      },
+      "canal_24": {
+        "stream_id": "1243165",
+        "name": "DE - EUROSPORT EXTRA 24 FHD"
+      },
+      "canal_25": {
+        "stream_id": "1243166",
+        "name": "DE - EUROSPORT EXTRA 25 FHD"
+      },
+      "canal_26": {
+        "stream_id": "1243167",
+        "name": "DE - EUROSPORT EXTRA 26 FHD"
+      },
+      "canal_27": {
+        "stream_id": "1243168",
+        "name": "DE - EUROSPORT EXTRA 27 FHD"
+      },
+      "canal_28": {
+        "stream_id": "1243169",
+        "name": "DE - EUROSPORT EXTRA 28 FHD"
+      },
+      "canal_29": {
+        "stream_id": "1243170",
+        "name": "DE - EUROSPORT EXTRA 29 FHD"
+      },
+      "canal_30": {
+        "stream_id": "1243171",
+        "name": "DE - EUROSPORT EXTRA 30 FHD"
+      },
+      "canal_31": {
+        "stream_id": "1243172",
+        "name": "DE - EUROSPORT EXTRA 31 FHD"
+      },
+      "canal_32": {
+        "stream_id": "1243173",
+        "name": "DE - EUROSPORT EXTRA 32 FHD"
+      },
+      "canal_27892": {
+        "stream_id": "27892",
+        "name": "AT - CANAL+ ACTION FHD"
+      },
+      "canal_1054610": {
+        "stream_id": "1054610",
+        "name": "CH - CANAL+ DOCS FHD"
+      },
+      "canal_807094": {
+        "stream_id": "807094",
+        "name": "CH - CANAL+ SPORT FHD"
+      },
+      "canal_326353": {
+        "stream_id": "326353",
+        "name": "MT - EUROSPORT HD"
+      },
+      "canal_75799": {
+        "stream_id": "75799",
+        "name": "PL - CANAL+ NOW HD"
+      },
+      "canal_235059": {
+        "stream_id": "235059",
+        "name": "PL - CANAL+ DOMO FHD"
+      },
+      "canal_67879": {
+        "stream_id": "67879",
+        "name": "PL - CANAL+ DOMO HD"
+      },
+      "canal_67875": {
+        "stream_id": "67875",
+        "name": "PL - CANAL+ KUCHINIA FHD"
+      },
+      "canal_235060": {
+        "stream_id": "235060",
+        "name": "PL - CANAL+ KUCHINIA HD"
+      },
+      "canal_1414494": {
+        "stream_id": "1414494",
+        "name": "##### PL - CANAL+ SPORT #####"
+      },
+      "canal_75753": {
+        "stream_id": "75753",
+        "name": "PL - CANAL+ SPORT FHD"
+      },
+      "canal_67805": {
+        "stream_id": "67805",
+        "name": "PL - CANAL+ SPORT HD"
+      },
+      "canal_1414495": {
+        "stream_id": "1414495",
+        "name": "##### PL - CANAL+ EXTRA #####"
+      },
+      "canal_235057": {
+        "stream_id": "235057",
+        "name": "PL - CANAL+ PREMIUM HD"
+      },
+      "canal_75685": {
+        "stream_id": "75685",
+        "name": "PL - CANAL+ FILM HD"
+      },
+      "canal_75654": {
+        "stream_id": "75654",
+        "name": "PL - CANAL+ SERIALE HD"
+      },
+      "canal_67825": {
+        "stream_id": "67825",
+        "name": "PL - CANAL+  DISCOVERY HD"
+      },
+      "canal_75664": {
+        "stream_id": "75664",
+        "name": "PL - CANAL+ DOKUMENT HD"
+      },
+      "canal_235058": {
+        "stream_id": "235058",
+        "name": "PL - CANAL+ DOKUMENT HD"
+      },
+      "canal_44297": {
+        "stream_id": "44297",
+        "name": "NO - EUROSPORT N FHD"
+      },
+      "canal_1240499": {
+        "stream_id": "1240499",
+        "name": "##### EXYU - EUROSPORT ##### "
+      },
+      "canal_272373": {
+        "stream_id": "272373",
+        "name": "SI - EUROSPORT HD"
+      },
+      "canal_1408025": {
+        "stream_id": "1408025",
+        "name": "SK - CANAL+ SPORT FHD"
+      },
+      "canal_1408013": {
+        "stream_id": "1408013",
+        "name": "CZ - CANAL+ SPORT FHD"
+      },
+      "canal_907002": {
+        "stream_id": "907002",
+        "name": "CZ - CANAL+ DOMO HD"
+      },
+      "canal_194768": {
+        "stream_id": "194768",
+        "name": "AF - CANAL+ OUEST"
+      },
+      "canal_194769": {
+        "stream_id": "194769",
+        "name": "AF - CANAL+ FAMILY OUEST"
+      },
+      "canal_194770": {
+        "stream_id": "194770",
+        "name": "AF - CANAL+ MAGIC OUEST"
+      },
+      "canal_325816": {
+        "stream_id": "325816",
+        "name": "AF - CANAL+ POP OUEST"
+      },
+      "canal_194772": {
+        "stream_id": "194772",
+        "name": "AF - CANAL+ CINEMA OUEST"
+      },
+      "canal_194773": {
+        "stream_id": "194773",
+        "name": "AF - CANAL+ CENTRE"
+      },
+      "canal_194774": {
+        "stream_id": "194774",
+        "name": "AF - CANAL+ ACTION OUEST"
+      },
+      "canal_1027765": {
+        "stream_id": "1027765",
+        "name": "AF - CANAL+ CENTR"
+      },
+      "canal_1027768": {
+        "stream_id": "1027768",
+        "name": "AF - CANAL+ MAGIC"
+      },
+      "canal_1060658": {
+        "stream_id": "1060658",
+        "name": "AF - CANAL+ POP CENTRE HD"
+      },
+      "canal_1300926": {
+        "stream_id": "1300926",
+        "name": "AF - CANAL+ MAGIC CENTRE"
+      },
+      "canal_849417": {
+        "stream_id": "849417",
+        "name": "SAF - CANAL+ PREMIERE CENTRE HD"
+      },
+      "canal_329420": {
+        "stream_id": "329420",
+        "name": "IL - EUROSPORT"
+      },
+      "canal_772770": {
+        "stream_id": "772770",
+        "name": "PK - EUROSPORT HD"
+      }
+    },
+    "total_sport_channels": 192,
+    "status": "available",
+    "assigned_to": null,
+    "assigned_channel": null,
+    "assigned_at": null,
+    "added_at": "2026-11-23T17:26:29.603616"
+  },
+  "http___line_fire_4k_cc_80_07D94C": {
+    "host": "http://line.fire-4k.cc:80",
+    "username": "07D94C",
+    "password": "378DD2",
+    "max_connections": 1,
+    "bein_channels": {
+      "bein_1": {
+        "stream_id": "113659",
+        "name": "AU ▎BEIN SPORTS 1 HD"
+      },
+      "bein_2": {
+        "stream_id": "113660",
+        "name": "AU ▎BEIN SPORTS 2 HD"
+      },
+      "bein_3": {
+        "stream_id": "113661",
+        "name": "AU ▎BEIN SPORTS 3 HD"
+      },
+      "bein_4": {
+        "stream_id": "1447351",
+        "name": "BEIN ▎BEIN SPORTS 4 HD 8ᴋ S1"
+      },
+      "bein_5": {
+        "stream_id": "1447352",
+        "name": "BEIN ▎BEIN SPORTS 5 HD 8ᴋ S1"
+      },
+      "bein_6": {
+        "stream_id": "1447353",
+        "name": "BEIN ▎BEIN SPORTS 6 HD 8ᴋ S1"
+      },
+      "bein_7": {
+        "stream_id": "1447354",
+        "name": "BEIN ▎BEIN SPORTS 7 HD 8ᴋ S1"
+      },
+      "bein_8": {
+        "stream_id": "1447355",
+        "name": "BEIN ▎BEIN SPORTS 8 HD 8ᴋ S1"
+      },
+      "bein_9": {
+        "stream_id": "1447356",
+        "name": "BEIN ▎BEIN SPORTS 9 HD 8ᴋ S1"
+      },
+      "bein_10": {
+        "stream_id": "712797",
+        "name": "FR ▎BEIN SPORTS MAX 10 SD"
+      },
+      "bein_735200": {
+        "stream_id": "735200",
+        "name": "UK ▎BEIN SPORTS NEWS HD"
+      },
+      "bein_112437": {
+        "stream_id": "112437",
+        "name": "UK ▎BEIN SPORTS GLOBAL HD"
+      },
+      "bein_112438": {
+        "stream_id": "112438",
+        "name": "UK ▎BEIN SPORT NBA FHD"
+      },
+      "bein_664782": {
+        "stream_id": "664782",
+        "name": "TR ▎BEIN SPORTS HABER FHD"
+      },
+      "bein_664784": {
+        "stream_id": "664784",
+        "name": "TR ▎BEIN SPORTS HABER HD"
+      },
+      "bein_1310387": {
+        "stream_id": "1310387",
+        "name": "BEIN ▎BEIN SPORTS AFC FHD"
+      },
+      "bein_1310388": {
+        "stream_id": "1310388",
+        "name": "BEIN ▎BEIN SPORTS AFC HD"
+      },
+      "bein_1310389": {
+        "stream_id": "1310389",
+        "name": "BEIN ▎BEIN SPORTS AFC SD"
+      },
+      "bein_1487301": {
+        "stream_id": "1487301",
+        "name": "BEIN ▎BEIN SPORTS NEWS HD"
+      },
+      "bein_1487302": {
+        "stream_id": "1487302",
+        "name": "BEIN ▎BEIN SPORTS GLOBAL HD"
+      },
+      "bein_360": {
+        "stream_id": "1478985",
+        "name": "BEIN ▎BEIN 360°"
+      },
+      "bein_897568": {
+        "stream_id": "897568",
+        "name": "BEIN ▎BEIN SPORTS UHD"
+      },
+      "bein_897711": {
+        "stream_id": "897711",
+        "name": "BEIN ▎BEIN SPORTS NEWS FHD"
+      },
+      "bein_897710": {
+        "stream_id": "897710",
+        "name": "BEIN ▎BEIN SPORTS GLOBAL FHD"
+      },
+      "bein_897712": {
+        "stream_id": "897712",
+        "name": "BEIN ▎BEIN SPORTS NBA FHD"
+      },
+      "bein_897749": {
+        "stream_id": "897749",
+        "name": "BEIN ▎BEIN SPORTS NEWS SD"
+      },
+      "bein_897748": {
+        "stream_id": "897748",
+        "name": "BEIN ▎BEIN SPORTS GLOBAL SD"
+      },
+      "bein_897750": {
+        "stream_id": "897750",
+        "name": "BEIN ▎BEIN SPORTS NBA SD"
+      },
+      "bein_1698040": {
+        "stream_id": "1698040",
+        "name": "BEIN ▎BEIN SPORTS FHD ᴿᴬᵂ"
+      },
+      "bein_1698041": {
+        "stream_id": "1698041",
+        "name": "BEIN ▎BEIN SPORTS NEWS FHD ᴿᴬᵂ"
+      },
+      "bein_1698053": {
+        "stream_id": "1698053",
+        "name": "BEIN ▎BEIN SPORTS HD ᴿᴬᵂ"
+      },
+      "bein_1698054": {
+        "stream_id": "1698054",
+        "name": "BEIN ▎BEIN SPORTS NEWS HD ᴿᴬᵂ"
+      },
+      "bein_1726721": {
+        "stream_id": "1726721",
+        "name": "BEIN ▎BEIN SPORTS NEWS HD VIP"
+      },
+      "bein_1726722": {
+        "stream_id": "1726722",
+        "name": "BEIN ▎BEIN SPORTS HD VIP"
+      },
+      "bein_1504370": {
+        "stream_id": "1504370",
+        "name": "CA ▎BEIN SPORTS XTRA"
+      },
+      "bein_362747": {
+        "stream_id": "362747",
+        "name": "US ▎BEIN SPORTS HD"
+      },
+      "bein_362754": {
+        "stream_id": "362754",
+        "name": "US ▎BEIN SPORTS EN ESPANOL HD"
+      },
+      "bein_362755": {
+        "stream_id": "362755",
+        "name": "US ▎BEIN SPORTS LALIGA HD"
+      },
+      "bein_1503499": {
+        "stream_id": "1503499",
+        "name": "US ▎BEIN SPORTS XTRA EN ESPAÑOL"
+      }
+    },
+    "bein_fr_channels": {
+      "bein_1_fr": {
+        "stream_id": "897766",
+        "name": "BEIN ▎BEIN SPORTS FRENCH 1 SD S3"
+      },
+      "bein_2_fr": {
+        "stream_id": "897767",
+        "name": "BEIN ▎BEIN SPORTS FRENCH 2 SD S3"
+      },
+      "bein_3_fr": {
+        "stream_id": "897768",
+        "name": "BEIN ▎BEIN SPORTS FRENCH 3 SD S3"
+      }
+    },
+    "canal_channels": {
+      "canal_1444622": {
+        "stream_id": "1444622",
+        "name": "UHD ▎CANAL+ [FR]"
+      },
+      "canal_1": {
+        "stream_id": "223907",
+        "name": "FI ▎EUROSPORT 1 HD"
+      },
+      "canal_2": {
+        "stream_id": "588712",
+        "name": "FI ▎EUROSPORT 2 HD"
+      },
+      "canal_3": {
+        "stream_id": "312322",
+        "name": "AF ▎CANAL+ SPORT 3"
+      },
+      "canal_4": {
+        "stream_id": "312321",
+        "name": "AF ▎CANAL+ SPORT 4"
+      },
+      "canal_5": {
+        "stream_id": "312320",
+        "name": "AF ▎CANAL+ SPORT 5"
+      },
+      "canal_6": {
+        "stream_id": "1480181",
+        "name": "PL ▎CANAL+ EXTRA 6 FHD"
+      },
+      "canal_7": {
+        "stream_id": "1480182",
+        "name": "PL ▎CANAL+ EXTRA 7 FHD"
+      },
+      "canal_8": {
+        "stream_id": "1726843",
+        "name": "FR ▎ CANAL+ LIVE 8"
+      },
+      "canal_1285212": {
+        "stream_id": "1285212",
+        "name": "NL ▎CANAL+ HD"
+      },
+      "canal_131210": {
+        "stream_id": "131210",
+        "name": "FR ▎CANAL+ KIDS HD"
+      },
+      "canal_131211": {
+        "stream_id": "131211",
+        "name": "FR ▎CANAL+ KIDS SD"
+      },
+      "canal_649232": {
+        "stream_id": "649232",
+        "name": "FR ▎CANAL+ UHD"
+      },
+      "canal_131204": {
+        "stream_id": "131204",
+        "name": "FR ▎CANAL+ HD"
+      },
+      "canal_131205": {
+        "stream_id": "131205",
+        "name": "FR ▎CANAL+ SD"
+      },
+      "canal_1288515": {
+        "stream_id": "1288515",
+        "name": "FR ▎CANAL+ BOX OFFICE UHD"
+      },
+      "canal_1287671": {
+        "stream_id": "1287671",
+        "name": "FR ▎CANAL+ BOX OFFICE HD"
+      },
+      "canal_1286774": {
+        "stream_id": "1286774",
+        "name": "FR ▎CANAL+ BOX OFFICE SD"
+      },
+      "canal_131206": {
+        "stream_id": "131206",
+        "name": "FR ▎CANAL+ CINEMA HD"
+      },
+      "canal_131207": {
+        "stream_id": "131207",
+        "name": "FR ▎CANAL+ CINEMA SD"
+      },
+      "canal_564042": {
+        "stream_id": "564042",
+        "name": "FR ▎CANAL+ GRAND ECRAN HD"
+      },
+      "canal_564044": {
+        "stream_id": "564044",
+        "name": "FR ▎CANAL+ GRAND ECRAN SD"
+      },
+      "canal_677771": {
+        "stream_id": "677771",
+        "name": "FR ▎CANAL+ DOCS HD"
+      },
+      "canal_677773": {
+        "stream_id": "677773",
+        "name": "FR ▎CANAL+ DOCS SD"
+      },
+      "canal_670132": {
+        "stream_id": "670132",
+        "name": "FR ▎CANAL+ FOOT HD ◉ rec"
+      },
+      "canal_670134": {
+        "stream_id": "670134",
+        "name": "FR ▎CANAL+ FOOT SD"
+      },
+      "canal_131214": {
+        "stream_id": "131214",
+        "name": "FR ▎CANAL+ SPORT HD ◉ rec"
+      },
+      "canal_131215": {
+        "stream_id": "131215",
+        "name": "FR ▎CANAL+ SPORT SD"
+      },
+      "canal_360": {
+        "stream_id": "105372",
+        "name": "PL ▎CANAL+ 360 HD"
+      },
+      "canal_346588": {
+        "stream_id": "346588",
+        "name": "FR ▎CANAL+ PREMIER LEAGUE HD ◉ rec"
+      },
+      "canal_346589": {
+        "stream_id": "346589",
+        "name": "FR ▎CANAL+ PREMIER LEAGUE SD"
+      },
+      "canal_1351778": {
+        "stream_id": "1351778",
+        "name": "FR ▎RMC SPORT UHD"
+      },
+      "canal_9": {
+        "stream_id": "1726844",
+        "name": "FR ▎ CANAL+ LIVE 9"
+      },
+      "canal_10": {
+        "stream_id": "1726845",
+        "name": "FR ▎ CANAL+ LIVE 10"
+      },
+      "canal_11": {
+        "stream_id": "1483882",
+        "name": "FR ▎CANAL+ BOX OFFICE 11 HD"
+      },
+      "canal_12": {
+        "stream_id": "1483883",
+        "name": "FR ▎CANAL+ BOX OFFICE 12 HD"
+      },
+      "canal_13": {
+        "stream_id": "1483884",
+        "name": "FR ▎CANAL+ BOX OFFICE 13 HD"
+      },
+      "canal_14": {
+        "stream_id": "1483885",
+        "name": "FR ▎CANAL+ BOX OFFICE 14 HD"
+      },
+      "canal_15": {
+        "stream_id": "1483886",
+        "name": "FR ▎CANAL+ BOX OFFICE 15 HD"
+      },
+      "canal_16": {
+        "stream_id": "1483887",
+        "name": "FR ▎CANAL+ BOX OFFICE 16 HD"
+      },
+      "canal_17": {
+        "stream_id": "1483888",
+        "name": "FR ▎CANAL+ BOX OFFICE 17 HD"
+      },
+      "canal_18": {
+        "stream_id": "1483889",
+        "name": "FR ▎CANAL+ BOX OFFICE 18 HD"
+      },
+      "canal_19": {
+        "stream_id": "1483890",
+        "name": "FR ▎CANAL+ BOX OFFICE 19 HD"
+      },
+      "canal_1483871": {
+        "stream_id": "1483871",
+        "name": "FR ▎CANAL+ BOX OFFICE INFO HD"
+      },
+      "canal_1724849": {
+        "stream_id": "1724849",
+        "name": "FR ▎CANAL+ KIDS FHD"
+      },
+      "canal_1724801": {
+        "stream_id": "1724801",
+        "name": "FR ▎CANAL+ FHD"
+      },
+      "canal_1724783": {
+        "stream_id": "1724783",
+        "name": "FR ▎CANAL+ BOX OFFICE FHD"
+      },
+      "canal_1724784": {
+        "stream_id": "1724784",
+        "name": "FR ▎CANAL+ CINEMA FHD"
+      },
+      "canal_1724803": {
+        "stream_id": "1724803",
+        "name": "FR ▎CANAL+ GRAND ECRAN FHD"
+      },
+      "canal_1724785": {
+        "stream_id": "1724785",
+        "name": "FR ▎CANAL+ DOCS FHD"
+      },
+      "canal_1724760": {
+        "stream_id": "1724760",
+        "name": "FR ▎CANAL+ FOOT FHD"
+      },
+      "canal_1724761": {
+        "stream_id": "1724761",
+        "name": "FR ▎CANAL+ SPORT FHD"
+      },
+      "canal_1724821": {
+        "stream_id": "1724821",
+        "name": "FR ▎CANAL+ PREMIER LEAGUE FHD"
+      },
+      "canal_105376": {
+        "stream_id": "105376",
+        "name": "PL ▎CANAL+ FILM HD ◉ rec"
+      },
+      "canal_425033": {
+        "stream_id": "425033",
+        "name": "PL ▎CANAL+ PREMIUM HD ◉ rec"
+      },
+      "canal_105345": {
+        "stream_id": "105345",
+        "name": "PL ▎CANAL+ SERIALE HD"
+      },
+      "canal_425036": {
+        "stream_id": "425036",
+        "name": "PL ▎CANAL+ KUCHNIA HD"
+      },
+      "canal_105490": {
+        "stream_id": "105490",
+        "name": "PL ▎CANAL+ NOW "
+      },
+      "canal_105474": {
+        "stream_id": "105474",
+        "name": "PL ▎CANAL+ DOMO HD"
+      },
+      "canal_105444": {
+        "stream_id": "105444",
+        "name": "PL ▎CANAL+ SPORT HD ◉ rec"
+      },
+      "canal_1289475": {
+        "stream_id": "1289475",
+        "name": "PL ▎CANAL+ DOKUMENT HD"
+      },
+      "canal_63332": {
+        "stream_id": "63332",
+        "name": "SPORTS ▎EUROSPORT HD"
+      },
+      "canal_312330": {
+        "stream_id": "312330",
+        "name": "AF ▎CANAL+ CENTR"
+      },
+      "canal_312325": {
+        "stream_id": "312325",
+        "name": "AF ▎CANAL+ OUEST"
+      },
+      "canal_312331": {
+        "stream_id": "312331",
+        "name": "AF ▎CANAL+ ACTION OUEST"
+      },
+      "canal_312328": {
+        "stream_id": "312328",
+        "name": "AF ▎CANAL+ COMEDIE OUEST"
+      },
+      "canal_312326": {
+        "stream_id": "312326",
+        "name": "AF ▎CANAL+ FAMILY OUEST"
+      },
+      "canal_312327": {
+        "stream_id": "312327",
+        "name": "AF ▎CANAL+ ELLES OUEST"
+      },
+      "canal_1283175": {
+        "stream_id": "1283175",
+        "name": "CZ ▎CANAL+ SPORT HD [SK]"
+      },
+      "canal_77528": {
+        "stream_id": "77528",
+        "name": "NO ▎EUROSPORT N FHD"
+      }
+    },
+    "total_sport_channels": 112,
+    "status": "available",
+    "assigned_to": null,
+    "assigned_channel": null,
+    "assigned_at": null,
+    "added_at": "2026-11-23T17:26:32.408180"
+  },
+  "http___zantriox_cc_80_0023577521131277": {
+    "host": "http://zantriox.cc:80",
+    "username": "0023577521131277",
+    "password": "YcxdLW8a7j",
+    "max_connections": 1,
+    "bein_channels": {
+      "bein_4": {
+        "stream_id": "72388",
+        "name": "US - BeIN SPORTS 4 HD"
+      },
+      "bein_1121053": {
+        "stream_id": "1121053",
+        "name": "##### FRANCE BEIN SPORTS #####"
+      },
+      "bein_1": {
+        "stream_id": "348325",
+        "name": "UK - BEIN SPORTS 1 ENGLISH FHD"
+      },
+      "bein_2": {
+        "stream_id": "575400",
+        "name": "UK - BEIN SPORTS 2 ENGLISH FHD"
+      },
+      "bein_3": {
+        "stream_id": "27972",
+        "name": "AR - BEIN MOVIES 3 HD"
+      },
+      "bein_5": {
+        "stream_id": "72387",
+        "name": "US - BeIN SPORTS 5 HD"
+      },
+      "bein_1029422": {
+        "stream_id": "1029422",
+        "name": "ES - BEIN SPORTS Ñ FHD"
+      },
+      "bein_1029423": {
+        "stream_id": "1029423",
+        "name": "ES - BEIN SPORTS EXTRA Ñ FHD"
+      },
+      "bein_207574": {
+        "stream_id": "207574",
+        "name": "##### BEIN SPORTS FM #####"
+      },
+      "bein_986958": {
+        "stream_id": "986958",
+        "name": "AR - BEIN SPORTS NEWS FHD"
+      },
+      "bein_986993": {
+        "stream_id": "986993",
+        "name": "AR - BEIN SPORTS NEWS HD"
+      },
+      "bein_986957": {
+        "stream_id": "986957",
+        "name": "AR - BEIN SPORTS GLOBAL FHD"
+      },
+      "bein_986990": {
+        "stream_id": "986990",
+        "name": "AR - BEIN SPORTS GLOBAL HD"
+      },
+      "bein_6": {
+        "stream_id": "72386",
+        "name": "US - BeIN SPORTS 6 HD"
+      },
+      "bein_7": {
+        "stream_id": "72385",
+        "name": "US - BeIN SPORTS 7 HD"
+      },
+      "bein_8": {
+        "stream_id": "72384",
+        "name": "US - BeIN SPORTS 8 HD"
+      },
+      "bein_9": {
+        "stream_id": "334040",
+        "name": "AR - BEIN SPORTS XTRA 9 4K"
+      },
+      "bein_1306288": {
+        "stream_id": "1306288",
+        "name": "##### BEIN SPORTS XTRA FM #####"
+      },
+      "bein_1306290": {
+        "stream_id": "1306290",
+        "name": "##### BEIN SPORTS ENGLISH FM #####"
+      },
+      "bein_1306289": {
+        "stream_id": "1306289",
+        "name": "##### BEIN SPORTS AFC FM #####"
+      },
+      "bein_1441989": {
+        "stream_id": "1441989",
+        "name": "##### AR - BEIN TOD #####"
+      },
+      "bein_986991": {
+        "stream_id": "986991",
+        "name": "##### BEIN SPORTS SA #####"
+      },
+      "bein_552087": {
+        "stream_id": "552087",
+        "name": "AR - BEIN SPORTS NEWS FHD"
+      },
+      "bein_271226": {
+        "stream_id": "271226",
+        "name": "AR - BEIN SPORTS NEWS HD"
+      },
+      "bein_331736": {
+        "stream_id": "331736",
+        "name": "AR - BEIN SPORTS GLOBAL FHD"
+      },
+      "bein_1347396": {
+        "stream_id": "1347396",
+        "name": "AR - BEIN SPORTS GLOBAL HD"
+      },
+      "bein_1226644": {
+        "stream_id": "1226644",
+        "name": "##### AR - BEIN UHD #####"
+      },
+      "bein_2023": {
+        "stream_id": "1224831",
+        "name": "AR - BEIN OD 2023 4 UHD"
+      },
+      "bein_1226645": {
+        "stream_id": "1226645",
+        "name": "##### AR - BEIN HD #####"
+      },
+      "bein_1348416": {
+        "stream_id": "1348416",
+        "name": "AR - BEIN STAR MOVIES HD"
+      },
+      "bein_1348414": {
+        "stream_id": "1348414",
+        "name": "AR - BEIN STAR FILMS HD"
+      },
+      "bein_1348417": {
+        "stream_id": "1348417",
+        "name": "AR - BEIN STAR SERIES HD"
+      },
+      "bein_1348415": {
+        "stream_id": "1348415",
+        "name": "AR - BEIN STAR LIFE HD"
+      },
+      "bein_1348418": {
+        "stream_id": "1348418",
+        "name": "AR - BEIN CARTOONITO HD"
+      },
+      "bein_27948": {
+        "stream_id": "27948",
+        "name": "AR - BEIN FOX ACTION MOVIES HD"
+      },
+      "bein_27965": {
+        "stream_id": "27965",
+        "name": "AR - BEIN GOURMET HD"
+      },
+      "bein_1226343": {
+        "stream_id": "1226343",
+        "name": "AR - BEIN BBC EARTH HD"
+      },
+      "bein_1224819": {
+        "stream_id": "1224819",
+        "name": "AR - BEIN DISCOVERY FAMILY HD"
+      },
+      "bein_1224817": {
+        "stream_id": "1224817",
+        "name": "AR - BEIN DREAM WORK HD"
+      },
+      "bein_1224814": {
+        "stream_id": "1224814",
+        "name": "AR - BEIN FOOD NETWORK HD"
+      },
+      "bein_1224816": {
+        "stream_id": "1224816",
+        "name": "AR - BEIN HGTV HD"
+      },
+      "bein_1224815": {
+        "stream_id": "1224815",
+        "name": "AR - BEIN TRAVEL HD"
+      },
+      "bein_1224818": {
+        "stream_id": "1224818",
+        "name": "AR - BEIN JUNIOR KIDS HD"
+      },
+      "bein_673514": {
+        "stream_id": "673514",
+        "name": "CA -  BEIN SPORTS HD"
+      },
+      "bein_72383": {
+        "stream_id": "72383",
+        "name": "US - BeIN SPORTS HD"
+      },
+      "bein_72390": {
+        "stream_id": "72390",
+        "name": "US - BeIN SPORTS LALIGA UHD"
+      },
+      "bein_72382": {
+        "stream_id": "72382",
+        "name": "US - BeIN SPORTS EN ESPANOL HD"
+      },
+      "bein_174567": {
+        "stream_id": "174567",
+        "name": "US - BEIN SPORTS XTRA HD"
+      },
+      "bein_983887": {
+        "stream_id": "983887",
+        "name": "LATINO - BEIN SPORTS XTRA N"
+      }
+    },
+    "bein_fr_channels": {
+      "bein_1_fr": {
+        "stream_id": "56544",
+        "name": "FR - BEIN SPORTS 1 SD "
+      },
+      "bein_2_fr": {
+        "stream_id": "56543",
+        "name": "FR - BEIN SPORTS 2 SD "
+      },
+      "bein_3_fr": {
+        "stream_id": "56542",
+        "name": "FR - BEIN SPORTS 3 SD"
+      },
+      "bein_4_fr": {
+        "stream_id": "62502",
+        "name": "FR - BEIN SPORTS MAX 4 FHD "
+      },
+      "bein_5_fr": {
+        "stream_id": "62501",
+        "name": "FR - BEIN SPORTS MAX 5 FHD "
+      },
+      "bein_6_fr": {
+        "stream_id": "62500",
+        "name": "FR - BEIN SPORTS MAX 6 FHD "
+      },
+      "bein_7_fr": {
+        "stream_id": "62499",
+        "name": "FR - BEIN SPORTS MAX 7 FHD "
+      },
+      "bein_8_fr": {
+        "stream_id": "62498",
+        "name": "FR - BEIN SPORTS MAX 8 FHD "
+      },
+      "bein_9_fr": {
+        "stream_id": "62497",
+        "name": "FR - BEIN SPORTS MAX 9 FHD "
+      },
+      "bein_10_fr": {
+        "stream_id": "211992",
+        "name": "FR - BEIN SPORTS MAX 10 FHD "
+      },
+      "bein_fr_1306291": {
+        "stream_id": "1306291",
+        "name": "##### AR - BEIN SPORTS FRENCH FM #####"
+      }
+    },
+    "canal_channels": {
+      "canal_4": {
+        "stream_id": "1027832",
+        "name": "AF - RMC SPORT 4"
+      },
+      "canal_1": {
+        "stream_id": "1027808",
+        "name": "AF - EUROSPORT 1"
+      },
+      "canal_1121066": {
+        "stream_id": "1121066",
+        "name": "##### FRANCE RMC SPORT #####"
+      },
+      "canal_152649": {
+        "stream_id": "152649",
+        "name": "FR - RMC SPORT UHD"
+      },
+      "canal_2": {
+        "stream_id": "1027809",
+        "name": "AF - EUROSPORT 2"
+      },
+      "canal_3": {
+        "stream_id": "1027761",
+        "name": "AF - CANAL+ SPORT 3"
+      },
+      "canal_1121056": {
+        "stream_id": "1121056",
+        "name": "##### FRANCE EUROSPORT #####"
+      },
+      "canal_360": {
+        "stream_id": "75681",
+        "name": "PL - CANAL+ 360 HD"
+      },
+      "canal_1121052": {
+        "stream_id": "1121052",
+        "name": "##### CANAL+ SPORTS #####"
+      },
+      "canal_56644": {
+        "stream_id": "56644",
+        "name": "FR - CANAL+ SPORT FHD ◉"
+      },
+      "canal_56569": {
+        "stream_id": "56569",
+        "name": "FR - CANAL+ SPORT HEVC ◉"
+      },
+      "canal_56533": {
+        "stream_id": "56533",
+        "name": "FR - CANAL+ SPORT SD"
+      },
+      "canal_311116": {
+        "stream_id": "311116",
+        "name": "FR - CANAL+ FOOT FHD "
+      },
+      "canal_311117": {
+        "stream_id": "311117",
+        "name": "FR - CANAL+ FOOT HEVC "
+      },
+      "canal_853546": {
+        "stream_id": "853546",
+        "name": "FR - CANAL+ FOOT HD"
+      },
+      "canal_311118": {
+        "stream_id": "311118",
+        "name": "FR - CANAL+ FOOT SD "
+      },
+      "canal_203876": {
+        "stream_id": "203876",
+        "name": "FR - CANAL+ PREMIER LEAGUE FHD"
+      },
+      "canal_203880": {
+        "stream_id": "203880",
+        "name": "FR - CANAL+ PREMIER LEAGUE HEVC"
+      },
+      "canal_203881": {
+        "stream_id": "203881",
+        "name": "FR - CANAL+ PREMIER LEAGUE SD"
+      },
+      "canal_1479984": {
+        "stream_id": "1479984",
+        "name": "FR - CANAL+ MOTO GP FHD"
+      },
+      "canal_1137128": {
+        "stream_id": "1137128",
+        "name": "##### CANAL+ LIVE #####"
+      },
+      "canal_5": {
+        "stream_id": "1027763",
+        "name": "AF - CANAL+ SPORT 5"
+      },
+      "canal_6": {
+        "stream_id": "1414517",
+        "name": "PL - CANAL+ EXTRA 6 HD"
+      },
+      "canal_7": {
+        "stream_id": "1414518",
+        "name": "PL - CANAL+ EXTRA 7 HD"
+      },
+      "canal_8": {
+        "stream_id": "1414520",
+        "name": "PL - CANAL+ EXTRA 8 HD"
+      },
+      "canal_9": {
+        "stream_id": "1414522",
+        "name": "PL - CANAL+ EXTRA 9 HD"
+      },
+      "canal_10": {
+        "stream_id": "1243151",
+        "name": "DE - EUROSPORT EXTRA 10 FHD"
+      },
+      "canal_11": {
+        "stream_id": "1243152",
+        "name": "DE - EUROSPORT EXTRA 11 FHD"
+      },
+      "canal_12": {
+        "stream_id": "1243153",
+        "name": "DE - EUROSPORT EXTRA 12 FHD"
+      },
+      "canal_13": {
+        "stream_id": "1243154",
+        "name": "DE - EUROSPORT EXTRA 13 FHD"
+      },
+      "canal_14": {
+        "stream_id": "1243155",
+        "name": "DE - EUROSPORT EXTRA 14 FHD"
+      },
+      "canal_15": {
+        "stream_id": "1243156",
+        "name": "DE - EUROSPORT EXTRA 15 FHD"
+      },
+      "canal_16": {
+        "stream_id": "1243157",
+        "name": "DE - EUROSPORT EXTRA 16 FHD"
+      },
+      "canal_17": {
+        "stream_id": "1243158",
+        "name": "DE - EUROSPORT EXTRA 17 FHD"
+      },
+      "canal_18": {
+        "stream_id": "1243159",
+        "name": "DE - EUROSPORT EXTRA 18 FHD"
+      },
+      "canal_19": {
+        "stream_id": "1243160",
+        "name": "DE - EUROSPORT EXTRA 19 FHD"
+      },
+      "canal_56840": {
+        "stream_id": "56840",
+        "name": "FR - CANAL+ CINEMA FHD ◉"
+      },
+      "canal_285950": {
+        "stream_id": "285950",
+        "name": "FR - CANAL+ DOCS FHD"
+      },
+      "canal_288410": {
+        "stream_id": "288410",
+        "name": "FR - CANAL+ GRAND ECRAN FHD ◉"
+      },
+      "canal_56993": {
+        "stream_id": "56993",
+        "name": "FR - CANAL+ FHD ◉ "
+      },
+      "canal_906760": {
+        "stream_id": "906760",
+        "name": "FR - CANAL+ FHD ²"
+      },
+      "canal_56838": {
+        "stream_id": "56838",
+        "name": "FR - CANAL+ KIDS FHD"
+      },
+      "canal_56815": {
+        "stream_id": "56815",
+        "name": "FR - CANAL+ CINEMA HEVC ◉"
+      },
+      "canal_285951": {
+        "stream_id": "285951",
+        "name": "FR - CANAL+ DOCS HEVC"
+      },
+      "canal_288409": {
+        "stream_id": "288409",
+        "name": "FR - CANAL+ GRAND ECRAN HEVC"
+      },
+      "canal_56950": {
+        "stream_id": "56950",
+        "name": "FR - CANAL+ HEVC"
+      },
+      "canal_56813": {
+        "stream_id": "56813",
+        "name": "FR - CANAL+ KIDS HEVC"
+      },
+      "canal_56812": {
+        "stream_id": "56812",
+        "name": "FR - CANAL+ SERIES HEVC"
+      },
+      "canal_876959": {
+        "stream_id": "876959",
+        "name": "FR - CANAL+ BOX OFFICE HD"
+      },
+      "canal_487235": {
+        "stream_id": "487235",
+        "name": "FR - CANAL+ BOX OFFICE HD²"
+      },
+      "canal_56790": {
+        "stream_id": "56790",
+        "name": "FR - CANAL+ CINEMA SD"
+      },
+      "canal_56788": {
+        "stream_id": "56788",
+        "name": "FR - CANAL+ KIDS SD"
+      },
+      "canal_56907": {
+        "stream_id": "56907",
+        "name": "FR - CANAL+ SD"
+      },
+      "canal_56787": {
+        "stream_id": "56787",
+        "name": "FR - CANAL+ SERIES SD"
+      },
+      "canal_1044106": {
+        "stream_id": "1044106",
+        "name": "FR - CANAL+ UHD"
+      },
+      "canal_1135530": {
+        "stream_id": "1135530",
+        "name": "FR - CANAL+ KIDS FHD"
+      },
+      "canal_1135529": {
+        "stream_id": "1135529",
+        "name": "FR - CANAL+ KIDS HEVC"
+      },
+      "canal_1135528": {
+        "stream_id": "1135528",
+        "name": "FR - CANAL+ KIDS SD"
+      },
+      "canal_1099734": {
+        "stream_id": "1099734",
+        "name": "FR-CAR - CANAL+ KIDS HD"
+      },
+      "canal_1099735": {
+        "stream_id": "1099735",
+        "name": "FR-CAR - CANAL+ PREMIER LEAGUE HD"
+      },
+      "canal_1099737": {
+        "stream_id": "1099737",
+        "name": "FR-CAR - CANAL+ SPORT HD"
+      },
+      "canal_1028689": {
+        "stream_id": "1028689",
+        "name": "FR - CANAL+ SPORT HD"
+      },
+      "canal_1170776": {
+        "stream_id": "1170776",
+        "name": "FR-CAR - CANAL+ FOOT HD"
+      },
+      "canal_1099732": {
+        "stream_id": "1099732",
+        "name": "FR-CAR - CANAL+ HD"
+      },
+      "canal_1170762": {
+        "stream_id": "1170762",
+        "name": "FR-CAR - CANAL+ DOCS HD"
+      },
+      "canal_1170777": {
+        "stream_id": "1170777",
+        "name": "FR-CAR - CANAL+ BOX OFFICE HD"
+      },
+      "canal_987093": {
+        "stream_id": "987093",
+        "name": "FR-REU - CANAL+ PREMIER LEAGUE HD"
+      },
+      "canal_987095": {
+        "stream_id": "987095",
+        "name": "FR-REU - CANAL+ SPORT HD"
+      },
+      "canal_987088": {
+        "stream_id": "987088",
+        "name": "FR-REU - CANAL+ DOCS HD ²"
+      },
+      "canal_987090": {
+        "stream_id": "987090",
+        "name": "FR-REU - CANAL+ HD"
+      },
+      "canal_987091": {
+        "stream_id": "987091",
+        "name": "FR-REU - CANAL+ KIDS HD"
+      },
+      "canal_1425444": {
+        "stream_id": "1425444",
+        "name": "##### CANAL+ BOXOFFICE #####"
+      },
+      "canal_1470264": {
+        "stream_id": "1470264",
+        "name": "FR - CANAL+ BOXOFFICE INFO FHD"
+      },
+      "canal_1348421": {
+        "stream_id": "1348421",
+        "name": "##### NL - EUROSPORT #####"
+      },
+      "canal_1237232": {
+        "stream_id": "1237232",
+        "name": " ##### DE - EUROSPORT  #####"
+      },
+      "canal_1259045": {
+        "stream_id": "1259045",
+        "name": "###### DE - EUROSPORT EXTRA ######"
+      },
+      "canal_20": {
+        "stream_id": "1243161",
+        "name": "DE - EUROSPORT EXTRA 20 FHD"
+      },
+      "canal_21": {
+        "stream_id": "1243162",
+        "name": "DE - EUROSPORT EXTRA 21 FHD"
+      },
+      "canal_22": {
+        "stream_id": "1243163",
+        "name": "DE - EUROSPORT EXTRA 22 FHD"
+      },
+      "canal_23": {
+        "stream_id": "1243164",
+        "name": "DE - EUROSPORT EXTRA 23 FHD"
+      },
+      "canal_24": {
+        "stream_id": "1243165",
+        "name": "DE - EUROSPORT EXTRA 24 FHD"
+      },
+      "canal_25": {
+        "stream_id": "1243166",
+        "name": "DE - EUROSPORT EXTRA 25 FHD"
+      },
+      "canal_26": {
+        "stream_id": "1243167",
+        "name": "DE - EUROSPORT EXTRA 26 FHD"
+      },
+      "canal_27": {
+        "stream_id": "1243168",
+        "name": "DE - EUROSPORT EXTRA 27 FHD"
+      },
+      "canal_28": {
+        "stream_id": "1243169",
+        "name": "DE - EUROSPORT EXTRA 28 FHD"
+      },
+      "canal_29": {
+        "stream_id": "1243170",
+        "name": "DE - EUROSPORT EXTRA 29 FHD"
+      },
+      "canal_30": {
+        "stream_id": "1243171",
+        "name": "DE - EUROSPORT EXTRA 30 FHD"
+      },
+      "canal_31": {
+        "stream_id": "1243172",
+        "name": "DE - EUROSPORT EXTRA 31 FHD"
+      },
+      "canal_32": {
+        "stream_id": "1243173",
+        "name": "DE - EUROSPORT EXTRA 32 FHD"
+      },
+      "canal_27892": {
+        "stream_id": "27892",
+        "name": "AT - CANAL+ ACTION FHD"
+      },
+      "canal_1054610": {
+        "stream_id": "1054610",
+        "name": "CH - CANAL+ DOCS FHD"
+      },
+      "canal_807094": {
+        "stream_id": "807094",
+        "name": "CH - CANAL+ SPORT FHD"
+      },
+      "canal_326353": {
+        "stream_id": "326353",
+        "name": "MT - EUROSPORT HD"
+      },
+      "canal_75799": {
+        "stream_id": "75799",
+        "name": "PL - CANAL+ NOW HD"
+      },
+      "canal_235059": {
+        "stream_id": "235059",
+        "name": "PL - CANAL+ DOMO FHD"
+      },
+      "canal_67879": {
+        "stream_id": "67879",
+        "name": "PL - CANAL+ DOMO HD"
+      },
+      "canal_67875": {
+        "stream_id": "67875",
+        "name": "PL - CANAL+ KUCHINIA FHD"
+      },
+      "canal_235060": {
+        "stream_id": "235060",
+        "name": "PL - CANAL+ KUCHINIA HD"
+      },
+      "canal_1414494": {
+        "stream_id": "1414494",
+        "name": "##### PL - CANAL+ SPORT #####"
+      },
+      "canal_75753": {
+        "stream_id": "75753",
+        "name": "PL - CANAL+ SPORT FHD"
+      },
+      "canal_67805": {
+        "stream_id": "67805",
+        "name": "PL - CANAL+ SPORT HD"
+      },
+      "canal_1414495": {
+        "stream_id": "1414495",
+        "name": "##### PL - CANAL+ EXTRA #####"
+      },
+      "canal_235057": {
+        "stream_id": "235057",
+        "name": "PL - CANAL+ PREMIUM HD"
+      },
+      "canal_75685": {
+        "stream_id": "75685",
+        "name": "PL - CANAL+ FILM HD"
+      },
+      "canal_75654": {
+        "stream_id": "75654",
+        "name": "PL - CANAL+ SERIALE HD"
+      },
+      "canal_67825": {
+        "stream_id": "67825",
+        "name": "PL - CANAL+  DISCOVERY HD"
+      },
+      "canal_75664": {
+        "stream_id": "75664",
+        "name": "PL - CANAL+ DOKUMENT HD"
+      },
+      "canal_235058": {
+        "stream_id": "235058",
+        "name": "PL - CANAL+ DOKUMENT HD"
+      },
+      "canal_44297": {
+        "stream_id": "44297",
+        "name": "NO - EUROSPORT N FHD"
+      },
+      "canal_194768": {
+        "stream_id": "194768",
+        "name": "AF - CANAL+ OUEST"
+      },
+      "canal_194769": {
+        "stream_id": "194769",
+        "name": "AF - CANAL+ FAMILY OUEST"
+      },
+      "canal_194770": {
+        "stream_id": "194770",
+        "name": "AF - CANAL+ MAGIC OUEST"
+      },
+      "canal_325816": {
+        "stream_id": "325816",
+        "name": "AF - CANAL+ POP OUEST"
+      },
+      "canal_194772": {
+        "stream_id": "194772",
+        "name": "AF - CANAL+ CINEMA OUEST"
+      },
+      "canal_194773": {
+        "stream_id": "194773",
+        "name": "AF - CANAL+ CENTRE"
+      },
+      "canal_194774": {
+        "stream_id": "194774",
+        "name": "AF - CANAL+ ACTION OUEST"
+      },
+      "canal_1027765": {
+        "stream_id": "1027765",
+        "name": "AF - CANAL+ CENTR"
+      },
+      "canal_1027768": {
+        "stream_id": "1027768",
+        "name": "AF - CANAL+ MAGIC"
+      },
+      "canal_1060658": {
+        "stream_id": "1060658",
+        "name": "AF - CANAL+ POP CENTRE HD"
+      },
+      "canal_1300926": {
+        "stream_id": "1300926",
+        "name": "AF - CANAL+ MAGIC CENTRE"
+      },
+      "canal_849417": {
+        "stream_id": "849417",
+        "name": "SAF - CANAL+ PREMIERE CENTRE HD"
+      }
+    },
+    "total_sport_channels": 181,
+    "status": "available",
+    "assigned_to": null,
+    "assigned_channel": null,
+    "assigned_at": null,
+    "added_at": "2026-11-23T17:26:42.580024"
+  },
+  "http___pamay_xyz_80_1236746884117": {
+    "host": "http://pamay.xyz:80",
+    "username": "1236746884117",
+    "password": "FC356D2A1153",
+    "max_connections": 1,
+    "bein_channels": {
+      "bein_1121053": {
+        "stream_id": "1121053",
+        "name": "##### FRANCE BEIN SPORTS #####"
+      },
+      "bein_207574": {
+        "stream_id": "207574",
+        "name": "##### BEIN SPORTS FM #####"
+      },
+      "bein_4": {
+        "stream_id": "987082",
+        "name": "FR-REU - BEIN SPORTS MAX 4 HD"
+      },
+      "bein_986958": {
+        "stream_id": "986958",
+        "name": "AR - BEIN SPORTS NEWS FHD"
+      },
+      "bein_986993": {
+        "stream_id": "986993",
+        "name": "AR - BEIN SPORTS NEWS HD"
+      },
+      "bein_986957": {
+        "stream_id": "986957",
+        "name": "AR - BEIN SPORTS GLOBAL FHD"
+      },
+      "bein_986990": {
+        "stream_id": "986990",
+        "name": "AR - BEIN SPORTS GLOBAL HD"
+      },
+      "bein_1": {
+        "stream_id": "987079",
+        "name": "FR-REU - BEIN SPORTS 1 HD"
+      },
+      "bein_2": {
+        "stream_id": "987080",
+        "name": "FR-REU - BEIN SPORTS 2 HD"
+      },
+      "bein_3": {
+        "stream_id": "987081",
+        "name": "FR-REU - BEIN SPORTS 3 HD"
+      },
+      "bein_5": {
+        "stream_id": "987083",
+        "name": "FR-REU - BEIN SPORTS MAX 5 HD"
+      },
+      "bein_6": {
+        "stream_id": "1224825",
+        "name": "AR - BEIN OD 6 MOVIES UHD"
+      },
+      "bein_7": {
+        "stream_id": "1224826",
+        "name": "AR - BEIN OD 7 MOVIES UHD"
+      },
+      "bein_8": {
+        "stream_id": "1224827",
+        "name": "AR - BEIN OD 8 MOVIES UHD"
+      },
+      "bein_9": {
+        "stream_id": "334040",
+        "name": "AR - BEIN SPORTS XTRA 9 4K"
+      },
+      "bein_1306288": {
+        "stream_id": "1306288",
+        "name": "##### BEIN SPORTS XTRA FM #####"
+      },
+      "bein_1306290": {
+        "stream_id": "1306290",
+        "name": "##### BEIN SPORTS ENGLISH FM #####"
+      },
+      "bein_1306289": {
+        "stream_id": "1306289",
+        "name": "##### BEIN SPORTS AFC FM #####"
+      },
+      "bein_1441989": {
+        "stream_id": "1441989",
+        "name": "##### AR - BEIN TOD #####"
+      },
+      "bein_986991": {
+        "stream_id": "986991",
+        "name": "##### BEIN SPORTS SA #####"
+      },
+      "bein_552087": {
+        "stream_id": "552087",
+        "name": "AR - BEIN SPORTS NEWS FHD"
+      },
+      "bein_271226": {
+        "stream_id": "271226",
+        "name": "AR - BEIN SPORTS NEWS HD"
+      },
+      "bein_331736": {
+        "stream_id": "331736",
+        "name": "AR - BEIN SPORTS GLOBAL FHD"
+      },
+      "bein_1347396": {
+        "stream_id": "1347396",
+        "name": "AR - BEIN SPORTS GLOBAL HD"
+      },
+      "bein_1226644": {
+        "stream_id": "1226644",
+        "name": "##### AR - BEIN UHD #####"
+      },
+      "bein_2023": {
+        "stream_id": "1224831",
+        "name": "AR - BEIN OD 2023 4 UHD"
+      },
+      "bein_1226645": {
+        "stream_id": "1226645",
+        "name": "##### AR - BEIN HD #####"
+      },
+      "bein_1348416": {
+        "stream_id": "1348416",
+        "name": "AR - BEIN STAR MOVIES HD"
+      },
+      "bein_1348414": {
+        "stream_id": "1348414",
+        "name": "AR - BEIN STAR FILMS HD"
+      },
+      "bein_1348417": {
+        "stream_id": "1348417",
+        "name": "AR - BEIN STAR SERIES HD"
+      },
+      "bein_1348415": {
+        "stream_id": "1348415",
+        "name": "AR - BEIN STAR LIFE HD"
+      },
+      "bein_1348418": {
+        "stream_id": "1348418",
+        "name": "AR - BEIN CARTOONITO HD"
+      },
+      "bein_27948": {
+        "stream_id": "27948",
+        "name": "AR - BEIN FOX ACTION MOVIES HD"
+      },
+      "bein_27965": {
+        "stream_id": "27965",
+        "name": "AR - BEIN GOURMET HD"
+      },
+      "bein_1226343": {
+        "stream_id": "1226343",
+        "name": "AR - BEIN BBC EARTH HD"
+      },
+      "bein_1224819": {
+        "stream_id": "1224819",
+        "name": "AR - BEIN DISCOVERY FAMILY HD"
+      },
+      "bein_1224817": {
+        "stream_id": "1224817",
+        "name": "AR - BEIN DREAM WORK HD"
+      },
+      "bein_1224814": {
+        "stream_id": "1224814",
+        "name": "AR - BEIN FOOD NETWORK HD"
+      },
+      "bein_1224816": {
+        "stream_id": "1224816",
+        "name": "AR - BEIN HGTV HD"
+      },
+      "bein_1224815": {
+        "stream_id": "1224815",
+        "name": "AR - BEIN TRAVEL HD"
+      },
+      "bein_1224818": {
+        "stream_id": "1224818",
+        "name": "AR - BEIN JUNIOR KIDS HD"
+      }
+    },
+    "bein_fr_channels": {
+      "bein_1_fr": {
+        "stream_id": "56544",
+        "name": "FR - BEIN SPORTS 1 SD "
+      },
+      "bein_2_fr": {
+        "stream_id": "56543",
+        "name": "FR - BEIN SPORTS 2 SD "
+      },
+      "bein_3_fr": {
+        "stream_id": "56542",
+        "name": "FR - BEIN SPORTS 3 SD"
+      },
+      "bein_4_fr": {
+        "stream_id": "62502",
+        "name": "FR - BEIN SPORTS MAX 4 FHD "
+      },
+      "bein_5_fr": {
+        "stream_id": "62501",
+        "name": "FR - BEIN SPORTS MAX 5 FHD "
+      },
+      "bein_6_fr": {
+        "stream_id": "62500",
+        "name": "FR - BEIN SPORTS MAX 6 FHD "
+      },
+      "bein_7_fr": {
+        "stream_id": "62499",
+        "name": "FR - BEIN SPORTS MAX 7 FHD "
+      },
+      "bein_8_fr": {
+        "stream_id": "62498",
+        "name": "FR - BEIN SPORTS MAX 8 FHD "
+      },
+      "bein_9_fr": {
+        "stream_id": "62497",
+        "name": "FR - BEIN SPORTS MAX 9 FHD "
+      },
+      "bein_10_fr": {
+        "stream_id": "211992",
+        "name": "FR - BEIN SPORTS MAX 10 FHD "
+      },
+      "bein_fr_1306291": {
+        "stream_id": "1306291",
+        "name": "##### AR - BEIN SPORTS FRENCH FM #####"
+      }
+    },
+    "canal_channels": {
+      "canal_1135530": {
+        "stream_id": "1135530",
+        "name": "FR - CANAL+ KIDS FHD"
+      },
+      "canal_1135529": {
+        "stream_id": "1135529",
+        "name": "FR - CANAL+ KIDS HEVC"
+      },
+      "canal_1135528": {
+        "stream_id": "1135528",
+        "name": "FR - CANAL+ KIDS SD"
+      },
+      "canal_56840": {
+        "stream_id": "56840",
+        "name": "FR - CANAL+ CINEMA FHD ◉"
+      },
+      "canal_285950": {
+        "stream_id": "285950",
+        "name": "FR - CANAL+ DOCS FHD"
+      },
+      "canal_288410": {
+        "stream_id": "288410",
+        "name": "FR - CANAL+ GRAND ECRAN FHD ◉"
+      },
+      "canal_56993": {
+        "stream_id": "56993",
+        "name": "FR - CANAL+ FHD ◉ "
+      },
+      "canal_906760": {
+        "stream_id": "906760",
+        "name": "FR - CANAL+ FHD ²"
+      },
+      "canal_56838": {
+        "stream_id": "56838",
+        "name": "FR - CANAL+ KIDS FHD"
+      },
+      "canal_56815": {
+        "stream_id": "56815",
+        "name": "FR - CANAL+ CINEMA HEVC ◉"
+      },
+      "canal_285951": {
+        "stream_id": "285951",
+        "name": "FR - CANAL+ DOCS HEVC"
+      },
+      "canal_288409": {
+        "stream_id": "288409",
+        "name": "FR - CANAL+ GRAND ECRAN HEVC"
+      },
+      "canal_56950": {
+        "stream_id": "56950",
+        "name": "FR - CANAL+ HEVC"
+      },
+      "canal_56813": {
+        "stream_id": "56813",
+        "name": "FR - CANAL+ KIDS HEVC"
+      },
+      "canal_56812": {
+        "stream_id": "56812",
+        "name": "FR - CANAL+ SERIES HEVC"
+      },
+      "canal_876959": {
+        "stream_id": "876959",
+        "name": "FR - CANAL+ BOX OFFICE HD"
+      },
+      "canal_487235": {
+        "stream_id": "487235",
+        "name": "FR - CANAL+ BOX OFFICE HD²"
+      },
+      "canal_56790": {
+        "stream_id": "56790",
+        "name": "FR - CANAL+ CINEMA SD"
+      },
+      "canal_56788": {
+        "stream_id": "56788",
+        "name": "FR - CANAL+ KIDS SD"
+      },
+      "canal_56907": {
+        "stream_id": "56907",
+        "name": "FR - CANAL+ SD"
+      },
+      "canal_56787": {
+        "stream_id": "56787",
+        "name": "FR - CANAL+ SERIES SD"
+      },
+      "canal_4": {
+        "stream_id": "1281448",
+        "name": "VIP - CANAL+ BOX OFFICE 4K"
+      },
+      "canal_1044106": {
+        "stream_id": "1044106",
+        "name": "FR - CANAL+ UHD"
+      },
+      "canal_1121066": {
+        "stream_id": "1121066",
+        "name": "##### FRANCE RMC SPORT #####"
+      },
+      "canal_152649": {
+        "stream_id": "152649",
+        "name": "FR - RMC SPORT UHD"
+      },
+      "canal_1": {
+        "stream_id": "987113",
+        "name": "FR-REU - EUROSPORT1 HD"
+      },
+      "canal_2": {
+        "stream_id": "987114",
+        "name": "FR-REU - EUROSPORT 2 HD"
+      },
+      "canal_3": {
+        "stream_id": "1470267",
+        "name": "FR - CANAL+ BOXOFFICE 3 FHD"
+      },
+      "canal_1121056": {
+        "stream_id": "1121056",
+        "name": "##### FRANCE EUROSPORT #####"
+      },
+      "canal_360": {
+        "stream_id": "1170775",
+        "name": "FR-CAR - CANAL+ SPORT 360 HD"
+      },
+      "canal_1121052": {
+        "stream_id": "1121052",
+        "name": "##### CANAL+ SPORTS #####"
+      },
+      "canal_56644": {
+        "stream_id": "56644",
+        "name": "FR - CANAL+ SPORT FHD ◉"
+      },
+      "canal_56569": {
+        "stream_id": "56569",
+        "name": "FR - CANAL+ SPORT HEVC ◉"
+      },
+      "canal_56533": {
+        "stream_id": "56533",
+        "name": "FR - CANAL+ SPORT SD"
+      },
+      "canal_311116": {
+        "stream_id": "311116",
+        "name": "FR - CANAL+ FOOT FHD "
+      },
+      "canal_311117": {
+        "stream_id": "311117",
+        "name": "FR - CANAL+ FOOT HEVC "
+      },
+      "canal_853546": {
+        "stream_id": "853546",
+        "name": "FR - CANAL+ FOOT HD"
+      },
+      "canal_311118": {
+        "stream_id": "311118",
+        "name": "FR - CANAL+ FOOT SD "
+      },
+      "canal_203876": {
+        "stream_id": "203876",
+        "name": "FR - CANAL+ PREMIER LEAGUE FHD"
+      },
+      "canal_203880": {
+        "stream_id": "203880",
+        "name": "FR - CANAL+ PREMIER LEAGUE HEVC"
+      },
+      "canal_203881": {
+        "stream_id": "203881",
+        "name": "FR - CANAL+ PREMIER LEAGUE SD"
+      },
+      "canal_1479984": {
+        "stream_id": "1479984",
+        "name": "FR - CANAL+ MOTO GP FHD"
+      },
+      "canal_1137128": {
+        "stream_id": "1137128",
+        "name": "##### CANAL+ LIVE #####"
+      },
+      "canal_5": {
+        "stream_id": "1470269",
+        "name": "FR - CANAL+ BOXOFFICE 5 FHD"
+      },
+      "canal_6": {
+        "stream_id": "1470270",
+        "name": "FR - CANAL+ BOXOFFICE 6 FHD"
+      },
+      "canal_7": {
+        "stream_id": "1470271",
+        "name": "FR - CANAL+ BOXOFFICE 7 FHD"
+      },
+      "canal_8": {
+        "stream_id": "1470272",
+        "name": "FR - CANAL+ BOXOFFICE 8 FHD"
+      },
+      "canal_9": {
+        "stream_id": "1470273",
+        "name": "FR - CANAL+ BOXOFFICE 9 FHD"
+      },
+      "canal_10": {
+        "stream_id": "1470274",
+        "name": "FR - CANAL+ BOXOFFICE 10 FHD"
+      },
+      "canal_11": {
+        "stream_id": "1470275",
+        "name": "FR - CANAL+ BOXOFFICE 11 FHD"
+      },
+      "canal_12": {
+        "stream_id": "1470276",
+        "name": "FR - CANAL+ BOXOFFICE 12 FHD"
+      },
+      "canal_13": {
+        "stream_id": "1470277",
+        "name": "FR - CANAL+ BOXOFFICE 13 FHD"
+      },
+      "canal_14": {
+        "stream_id": "1470278",
+        "name": "FR - CANAL+ BOXOFFICE 14 FHD"
+      },
+      "canal_15": {
+        "stream_id": "1470279",
+        "name": "FR - CANAL+ BOXOFFICE 15 FHD"
+      },
+      "canal_16": {
+        "stream_id": "1470280",
+        "name": "FR - CANAL+ BOXOFFICE 16 FHD"
+      },
+      "canal_17": {
+        "stream_id": "1470281",
+        "name": "FR - CANAL+ BOXOFFICE 17 FHD"
+      },
+      "canal_18": {
+        "stream_id": "1470282",
+        "name": "FR - CANAL+ BOXOFFICE 18 FHD"
+      },
+      "canal_19": {
+        "stream_id": "1470283",
+        "name": "FR - CANAL+ BOXOFFICE 19 FHD"
+      },
+      "canal_194768": {
+        "stream_id": "194768",
+        "name": "AF - CANAL+ OUEST"
+      },
+      "canal_194769": {
+        "stream_id": "194769",
+        "name": "AF - CANAL+ FAMILY OUEST"
+      },
+      "canal_194770": {
+        "stream_id": "194770",
+        "name": "AF - CANAL+ MAGIC OUEST"
+      },
+      "canal_325816": {
+        "stream_id": "325816",
+        "name": "AF - CANAL+ POP OUEST"
+      },
+      "canal_194772": {
+        "stream_id": "194772",
+        "name": "AF - CANAL+ CINEMA OUEST"
+      },
+      "canal_194773": {
+        "stream_id": "194773",
+        "name": "AF - CANAL+ CENTRE"
+      },
+      "canal_194774": {
+        "stream_id": "194774",
+        "name": "AF - CANAL+ ACTION OUEST"
+      },
+      "canal_1027765": {
+        "stream_id": "1027765",
+        "name": "AF - CANAL+ CENTR"
+      },
+      "canal_1027768": {
+        "stream_id": "1027768",
+        "name": "AF - CANAL+ MAGIC"
+      },
+      "canal_1060658": {
+        "stream_id": "1060658",
+        "name": "AF - CANAL+ POP CENTRE HD"
+      },
+      "canal_1300926": {
+        "stream_id": "1300926",
+        "name": "AF - CANAL+ MAGIC CENTRE"
+      },
+      "canal_1425444": {
+        "stream_id": "1425444",
+        "name": "##### CANAL+ BOXOFFICE #####"
+      },
+      "canal_1470264": {
+        "stream_id": "1470264",
+        "name": "FR - CANAL+ BOXOFFICE INFO FHD"
+      },
+      "canal_1099734": {
+        "stream_id": "1099734",
+        "name": "FR-CAR - CANAL+ KIDS HD"
+      },
+      "canal_1099735": {
+        "stream_id": "1099735",
+        "name": "FR-CAR - CANAL+ PREMIER LEAGUE HD"
+      },
+      "canal_1099737": {
+        "stream_id": "1099737",
+        "name": "FR-CAR - CANAL+ SPORT HD"
+      },
+      "canal_1028689": {
+        "stream_id": "1028689",
+        "name": "FR - CANAL+ SPORT HD"
+      },
+      "canal_1170776": {
+        "stream_id": "1170776",
+        "name": "FR-CAR - CANAL+ FOOT HD"
+      },
+      "canal_1099732": {
+        "stream_id": "1099732",
+        "name": "FR-CAR - CANAL+ HD"
+      },
+      "canal_1170762": {
+        "stream_id": "1170762",
+        "name": "FR-CAR - CANAL+ DOCS HD"
+      },
+      "canal_1170777": {
+        "stream_id": "1170777",
+        "name": "FR-CAR - CANAL+ BOX OFFICE HD"
+      },
+      "canal_987093": {
+        "stream_id": "987093",
+        "name": "FR-REU - CANAL+ PREMIER LEAGUE HD"
+      },
+      "canal_987095": {
+        "stream_id": "987095",
+        "name": "FR-REU - CANAL+ SPORT HD"
+      },
+      "canal_987088": {
+        "stream_id": "987088",
+        "name": "FR-REU - CANAL+ DOCS HD ²"
+      },
+      "canal_987090": {
+        "stream_id": "987090",
+        "name": "FR-REU - CANAL+ HD"
+      },
+      "canal_987091": {
+        "stream_id": "987091",
+        "name": "FR-REU - CANAL+ KIDS HD"
+      }
+    },
+    "total_sport_channels": 136,
+    "status": "available",
+    "assigned_to": null,
+    "assigned_channel": null,
+    "assigned_at": null,
+    "added_at": "2026-11-23T17:26:45.368124"
+  },
+  "http___katracho504_com_80_ALFREDO123ARRIAGADA": {
+    "host": "http://katracho504.com:80",
+    "username": "ALFREDO123ARRIAGADA",
+    "password": "sgc9bFpS5u",
+    "max_connections": 3,
+    "bein_channels": {
+      "bein_592013": {
+        "stream_id": "592013",
+        "name": "BEIN SPORTS Ñ"
+      },
+      "bein_592014": {
+        "stream_id": "592014",
+        "name": "BEIN SPORTS XTRA Ñ"
+      },
+      "bein_213998": {
+        "stream_id": "213998",
+        "name": "CA: BEIN SPORTS"
+      },
+      "bein_4": {
+        "stream_id": "438924",
+        "name": "FR| BEIN SPORTS MAX4 FHD (EVENT ONLY)"
+      },
+      "bein_5": {
+        "stream_id": "438922",
+        "name": "FR| BEIN SPORTS MAX5 FHD (EVENT ONLY)"
+      },
+      "bein_6": {
+        "stream_id": "438920",
+        "name": "FR| BEIN SPORTS MAX6 FHD (EVENT ONLY)"
+      },
+      "bein_7": {
+        "stream_id": "438917",
+        "name": "FR| BEIN SPORTS MAX7 HD (EVENT ONLY)"
+      },
+      "bein_8": {
+        "stream_id": "438916",
+        "name": "FR| BEIN SPORTS MAX8 FHD (EVENT ONLY)"
+      },
+      "bein_595866": {
+        "stream_id": "595866",
+        "name": "USA: BEIN SPORTS ESPANOL"
+      },
+      "bein_595868": {
+        "stream_id": "595868",
+        "name": "USA: BEIN SPORTS XTRA"
+      },
+      "bein_595869": {
+        "stream_id": "595869",
+        "name": "USA: BEIN SPORTS USA"
+      },
+      "bein_10": {
+        "stream_id": "438912",
+        "name": "FR| BEIN SPORTS MAX10 FHD (EVENT ONLY)"
+      },
+      "bein_9": {
+        "stream_id": "438914",
+        "name": "FR| BEIN SPORTS MAX9 FHD (EVENT ONLY)"
+      },
+      "bein_1": {
+        "stream_id": "438929",
+        "name": "FR| BEIN SPORTS 1 HD"
+      },
+      "bein_2": {
+        "stream_id": "438927",
+        "name": "FR| BEIN SPORTS 2 HD"
+      },
+      "bein_3": {
+        "stream_id": "438925",
+        "name": "FR| BEIN SPORTS 3 HD"
+      }
+    },
+    "bein_fr_channels": {},
+    "canal_channels": {
+      "canal_360": {
+        "stream_id": "438901",
+        "name": "FR| Eurosport360 1 HD"
+      },
+      "canal_438754": {
+        "stream_id": "438754",
+        "name": "FR| CANAL+ CINEMA FHD"
+      },
+      "canal_438753": {
+        "stream_id": "438753",
+        "name": "FR| CANAL+ CINEMA HD"
+      },
+      "canal_438752": {
+        "stream_id": "438752",
+        "name": "FR| CANAL+ DECALE FHD"
+      },
+      "canal_438751": {
+        "stream_id": "438751",
+        "name": "FR| CANAL+ DECALE HD"
+      },
+      "canal_438750": {
+        "stream_id": "438750",
+        "name": "FR| CANAL+ DOCS FHD"
+      },
+      "canal_438749": {
+        "stream_id": "438749",
+        "name": "FR| CANAL+ DOCS HD"
+      },
+      "canal_438748": {
+        "stream_id": "438748",
+        "name": "FR| CANAL+ FHD"
+      },
+      "canal_438747": {
+        "stream_id": "438747",
+        "name": "FR| CANAL+ GRAND ECRAN FHD"
+      },
+      "canal_438746": {
+        "stream_id": "438746",
+        "name": "FR| CANAL+ GRAND ECRAN HD"
+      },
+      "canal_438745": {
+        "stream_id": "438745",
+        "name": "FR| CANAL+ HD"
+      },
+      "canal_438744": {
+        "stream_id": "438744",
+        "name": "FR| CANAL+ KIDS FHD"
+      },
+      "canal_438743": {
+        "stream_id": "438743",
+        "name": "FR| CANAL+ KIDS HD"
+      },
+      "canal_438742": {
+        "stream_id": "438742",
+        "name": "FR| CANAL+ SERIES FHD"
+      },
+      "canal_438741": {
+        "stream_id": "438741",
+        "name": "FR| CANAL+ SERIES HD"
+      },
+      "canal_2": {
+        "stream_id": "327954",
+        "name": "EUROSPORT 2 FHD"
+      },
+      "canal_1": {
+        "stream_id": "327938",
+        "name": "EUROSPORT 1 HD"
+      },
+      "canal_14": {
+        "stream_id": "438827",
+        "name": "FR| CANAL+ TOP14 RUGBY FHD"
+      },
+      "canal_438828": {
+        "stream_id": "438828",
+        "name": "FR| CANAL+ MOTOGP FHD"
+      },
+      "canal_438831": {
+        "stream_id": "438831",
+        "name": "FR| CANAL+ PREMIERE LEAGUE FHD"
+      },
+      "canal_12": {
+        "stream_id": "438855",
+        "name": "FR| RMC SPORTS 12 FHD (EVENT ONLY)"
+      },
+      "canal_11": {
+        "stream_id": "438857",
+        "name": "FR| RMC SPORTS 11 FHD (EVENT ONLY)"
+      },
+      "canal_10": {
+        "stream_id": "438859",
+        "name": "FR| RMC SPORTS 10 FHD (EVENT ONLY)"
+      },
+      "canal_9": {
+        "stream_id": "438861",
+        "name": "FR| RMC SPORTS 9 FHD (EVENT ONLY)"
+      },
+      "canal_8": {
+        "stream_id": "438863",
+        "name": "FR| RMC SPORTS 8 FHD (EVENT ONLY)"
+      },
+      "canal_7": {
+        "stream_id": "438865",
+        "name": "FR| RMC SPORTS 7 FHD (EVENT ONLY)"
+      },
+      "canal_6": {
+        "stream_id": "438867",
+        "name": "FR| RMC SPORTS 6 FHD (EVENT ONLY)"
+      },
+      "canal_5": {
+        "stream_id": "438902",
+        "name": "FR| EUROSPORT 5 HD"
+      },
+      "canal_4": {
+        "stream_id": "438903",
+        "name": "FR| EUROSPORT 4 HD"
+      },
+      "canal_3": {
+        "stream_id": "438904",
+        "name": "FR| EUROSPORT 3 HD"
+      },
+      "canal_438909": {
+        "stream_id": "438909",
+        "name": "FR| CANAL+ SPORT HD"
+      },
+      "canal_438910": {
+        "stream_id": "438910",
+        "name": "FR| CANAL+ SPORT FHD"
+      },
+      "canal_438931": {
+        "stream_id": "438931",
+        "name": "FR: CANAL+ FOOT HD"
+      },
+      "canal_438932": {
+        "stream_id": "438932",
+        "name": "FR: CANAL+ FOOT FHD"
+      },
+      "canal_327982": {
+        "stream_id": "327982",
+        "name": "EUROSPORT FHD"
+      }
+    },
+    "total_sport_channels": 51,
+    "status": "available",
+    "assigned_to": null,
+    "assigned_channel": null,
+    "assigned_at": null,
+    "added_at": "2026-11-23T17:26:46.720594"
+  },
+  "http___allprodtv_com_80_4R6DQH4": {
+    "host": "http://allprodtv.com:80",
+    "username": "4R6DQH4",
+    "password": "G3SZWXD",
+    "max_connections": 1,
+    "bein_channels": {
+      "bein_4": {
+        "stream_id": "1488066",
+        "name": "SG - BEIN SPORTS 4 FHD"
+      },
+      "bein_1121053": {
+        "stream_id": "1121053",
+        "name": "##### FRANCE BEIN SPORTS #####"
+      },
+      "bein_1": {
+        "stream_id": "78137",
+        "name": "AU - BEIN SPORTS 1 UHD"
+      },
+      "bein_2": {
+        "stream_id": "1052426",
+        "name": "MY - BEIN SPORTS 2 HD"
+      },
+      "bein_3": {
+        "stream_id": "1052430",
+        "name": "MY - BEIN SPORTS 3 HD"
+      },
+      "bein_5": {
+        "stream_id": "1488067",
+        "name": "SG - BEIN SPORTS 5 FHD"
+      },
+      "bein_1349031": {
+        "stream_id": "1349031",
+        "name": "ES - VIX - BEIN SPORTS XTRA"
+      },
+      "bein_1029422": {
+        "stream_id": "1029422",
+        "name": "ES - BEIN SPORTS Ñ FHD"
+      },
+      "bein_1029423": {
+        "stream_id": "1029423",
+        "name": "ES - BEIN SPORTS EXTRA Ñ FHD"
+      },
+      "bein_207574": {
+        "stream_id": "207574",
+        "name": "##### BEIN SPORTS FM #####"
+      },
+      "bein_986958": {
+        "stream_id": "986958",
+        "name": "AR - BEIN SPORTS NEWS FHD"
+      },
+      "bein_986993": {
+        "stream_id": "986993",
+        "name": "AR - BEIN SPORTS NEWS HD"
+      },
+      "bein_986957": {
+        "stream_id": "986957",
+        "name": "AR - BEIN SPORTS GLOBAL FHD"
+      },
+      "bein_986990": {
+        "stream_id": "986990",
+        "name": "AR - BEIN SPORTS GLOBAL HD"
+      },
+      "bein_6": {
+        "stream_id": "72386",
+        "name": "US - BeIN SPORTS 6 HD"
+      },
+      "bein_7": {
+        "stream_id": "72385",
+        "name": "US - BeIN SPORTS 7 HD"
+      },
+      "bein_8": {
+        "stream_id": "72384",
+        "name": "US - BeIN SPORTS 8 HD"
+      },
+      "bein_9": {
+        "stream_id": "334040",
+        "name": "AR - BEIN SPORTS XTRA 9 4K"
+      },
+      "bein_1306288": {
+        "stream_id": "1306288",
+        "name": "##### BEIN SPORTS XTRA FM #####"
+      },
+      "bein_1306290": {
+        "stream_id": "1306290",
+        "name": "##### BEIN SPORTS ENGLISH FM #####"
+      },
+      "bein_1306289": {
+        "stream_id": "1306289",
+        "name": "##### BEIN SPORTS AFC FM #####"
+      },
+      "bein_1441989": {
+        "stream_id": "1441989",
+        "name": "##### AR - BEIN TOD #####"
+      },
+      "bein_986991": {
+        "stream_id": "986991",
+        "name": "##### BEIN SPORTS SA #####"
+      },
+      "bein_552087": {
+        "stream_id": "552087",
+        "name": "AR - BEIN SPORTS NEWS FHD"
+      },
+      "bein_271226": {
+        "stream_id": "271226",
+        "name": "AR - BEIN SPORTS NEWS HD"
+      },
+      "bein_331736": {
+        "stream_id": "331736",
+        "name": "AR - BEIN SPORTS GLOBAL FHD"
+      },
+      "bein_1347396": {
+        "stream_id": "1347396",
+        "name": "AR - BEIN SPORTS GLOBAL HD"
+      },
+      "bein_1226644": {
+        "stream_id": "1226644",
+        "name": "##### AR - BEIN UHD #####"
+      },
+      "bein_2023": {
+        "stream_id": "1224831",
+        "name": "AR - BEIN OD 2023 4 UHD"
+      },
+      "bein_1226645": {
+        "stream_id": "1226645",
+        "name": "##### AR - BEIN HD #####"
+      },
+      "bein_1348416": {
+        "stream_id": "1348416",
+        "name": "AR - BEIN STAR MOVIES HD"
+      },
+      "bein_1348414": {
+        "stream_id": "1348414",
+        "name": "AR - BEIN STAR FILMS HD"
+      },
+      "bein_1348417": {
+        "stream_id": "1348417",
+        "name": "AR - BEIN STAR SERIES HD"
+      },
+      "bein_1348415": {
+        "stream_id": "1348415",
+        "name": "AR - BEIN STAR LIFE HD"
+      },
+      "bein_1348418": {
+        "stream_id": "1348418",
+        "name": "AR - BEIN CARTOONITO HD"
+      },
+      "bein_27948": {
+        "stream_id": "27948",
+        "name": "AR - BEIN FOX ACTION MOVIES HD"
+      },
+      "bein_27965": {
+        "stream_id": "27965",
+        "name": "AR - BEIN GOURMET HD"
+      },
+      "bein_1226343": {
+        "stream_id": "1226343",
+        "name": "AR - BEIN BBC EARTH HD"
+      },
+      "bein_1224819": {
+        "stream_id": "1224819",
+        "name": "AR - BEIN DISCOVERY FAMILY HD"
+      },
+      "bein_1224817": {
+        "stream_id": "1224817",
+        "name": "AR - BEIN DREAM WORK HD"
+      },
+      "bein_1224814": {
+        "stream_id": "1224814",
+        "name": "AR - BEIN FOOD NETWORK HD"
+      },
+      "bein_1224816": {
+        "stream_id": "1224816",
+        "name": "AR - BEIN HGTV HD"
+      },
+      "bein_1224815": {
+        "stream_id": "1224815",
+        "name": "AR - BEIN TRAVEL HD"
+      },
+      "bein_1224818": {
+        "stream_id": "1224818",
+        "name": "AR - BEIN JUNIOR KIDS HD"
+      },
+      "bein_673514": {
+        "stream_id": "673514",
+        "name": "CA -  BEIN SPORTS HD"
+      },
+      "bein_72383": {
+        "stream_id": "72383",
+        "name": "US - BeIN SPORTS HD"
+      },
+      "bein_72390": {
+        "stream_id": "72390",
+        "name": "US - BeIN SPORTS LALIGA UHD"
+      },
+      "bein_72382": {
+        "stream_id": "72382",
+        "name": "US - BeIN SPORTS EN ESPANOL HD"
+      },
+      "bein_174567": {
+        "stream_id": "174567",
+        "name": "US - BEIN SPORTS XTRA HD"
+      },
+      "bein_983887": {
+        "stream_id": "983887",
+        "name": "LATINO - BEIN SPORTS XTRA N"
+      },
+      "bein_39545": {
+        "stream_id": "39545",
+        "name": "TR - BEIN SPORTS HABER FHD"
+      },
+      "bein_1488063": {
+        "stream_id": "1488063",
+        "name": "SG - BEIN SPORTS FHD"
+      },
+      "bein_1052432": {
+        "stream_id": "1052432",
+        "name": "MY - BEIN SPORTS HD"
+      }
+    },
+    "bein_fr_channels": {
+      "bein_1_fr": {
+        "stream_id": "56544",
+        "name": "FR - BEIN SPORTS 1 SD "
+      },
+      "bein_2_fr": {
+        "stream_id": "56543",
+        "name": "FR - BEIN SPORTS 2 SD "
+      },
+      "bein_3_fr": {
+        "stream_id": "56542",
+        "name": "FR - BEIN SPORTS 3 SD"
+      },
+      "bein_4_fr": {
+        "stream_id": "62502",
+        "name": "FR - BEIN SPORTS MAX 4 FHD "
+      },
+      "bein_5_fr": {
+        "stream_id": "62501",
+        "name": "FR - BEIN SPORTS MAX 5 FHD "
+      },
+      "bein_6_fr": {
+        "stream_id": "62500",
+        "name": "FR - BEIN SPORTS MAX 6 FHD "
+      },
+      "bein_7_fr": {
+        "stream_id": "62499",
+        "name": "FR - BEIN SPORTS MAX 7 FHD "
+      },
+      "bein_8_fr": {
+        "stream_id": "62498",
+        "name": "FR - BEIN SPORTS MAX 8 FHD "
+      },
+      "bein_9_fr": {
+        "stream_id": "62497",
+        "name": "FR - BEIN SPORTS MAX 9 FHD "
+      },
+      "bein_10_fr": {
+        "stream_id": "211992",
+        "name": "FR - BEIN SPORTS MAX 10 FHD "
+      },
+      "bein_fr_1306291": {
+        "stream_id": "1306291",
+        "name": "##### AR - BEIN SPORTS FRENCH FM #####"
+      }
+    },
+    "canal_channels": {
+      "canal_4": {
+        "stream_id": "1027832",
+        "name": "AF - RMC SPORT 4"
+      },
+      "canal_1": {
+        "stream_id": "1099581",
+        "name": "TR - EUROSPORT 1 FHD"
+      },
+      "canal_1121066": {
+        "stream_id": "1121066",
+        "name": "##### FRANCE RMC SPORT #####"
+      },
+      "canal_152649": {
+        "stream_id": "152649",
+        "name": "FR - RMC SPORT UHD"
+      },
+      "canal_2": {
+        "stream_id": "329421",
+        "name": "IL - EUROSPORT 2"
+      },
+      "canal_3": {
+        "stream_id": "1027761",
+        "name": "AF - CANAL+ SPORT 3"
+      },
+      "canal_1121056": {
+        "stream_id": "1121056",
+        "name": "##### FRANCE EUROSPORT #####"
+      },
+      "canal_360": {
+        "stream_id": "75681",
+        "name": "PL - CANAL+ 360 HD"
+      },
+      "canal_1121052": {
+        "stream_id": "1121052",
+        "name": "##### CANAL+ SPORTS #####"
+      },
+      "canal_56644": {
+        "stream_id": "56644",
+        "name": "FR - CANAL+ SPORT FHD ◉"
+      },
+      "canal_56569": {
+        "stream_id": "56569",
+        "name": "FR - CANAL+ SPORT HEVC ◉"
+      },
+      "canal_56533": {
+        "stream_id": "56533",
+        "name": "FR - CANAL+ SPORT SD"
+      },
+      "canal_311116": {
+        "stream_id": "311116",
+        "name": "FR - CANAL+ FOOT FHD "
+      },
+      "canal_311117": {
+        "stream_id": "311117",
+        "name": "FR - CANAL+ FOOT HEVC "
+      },
+      "canal_853546": {
+        "stream_id": "853546",
+        "name": "FR - CANAL+ FOOT HD"
+      },
+      "canal_311118": {
+        "stream_id": "311118",
+        "name": "FR - CANAL+ FOOT SD "
+      },
+      "canal_203876": {
+        "stream_id": "203876",
+        "name": "FR - CANAL+ PREMIER LEAGUE FHD"
+      },
+      "canal_203880": {
+        "stream_id": "203880",
+        "name": "FR - CANAL+ PREMIER LEAGUE HEVC"
+      },
+      "canal_203881": {
+        "stream_id": "203881",
+        "name": "FR - CANAL+ PREMIER LEAGUE SD"
+      },
+      "canal_1479984": {
+        "stream_id": "1479984",
+        "name": "FR - CANAL+ MOTO GP FHD"
+      },
+      "canal_1137128": {
+        "stream_id": "1137128",
+        "name": "##### CANAL+ LIVE #####"
+      },
+      "canal_5": {
+        "stream_id": "1027763",
+        "name": "AF - CANAL+ SPORT 5"
+      },
+      "canal_6": {
+        "stream_id": "1408018",
+        "name": "CZ - CANAL+ SPORT 6 FHD"
+      },
+      "canal_7": {
+        "stream_id": "1408019",
+        "name": "CZ - CANAL+ SPORT 7 FHD"
+      },
+      "canal_8": {
+        "stream_id": "1408020",
+        "name": "CZ - CANAL+ SPORT 8 FHD"
+      },
+      "canal_9": {
+        "stream_id": "1414522",
+        "name": "PL - CANAL+ EXTRA 9 HD"
+      },
+      "canal_10": {
+        "stream_id": "1243151",
+        "name": "DE - EUROSPORT EXTRA 10 FHD"
+      },
+      "canal_11": {
+        "stream_id": "1243152",
+        "name": "DE - EUROSPORT EXTRA 11 FHD"
+      },
+      "canal_12": {
+        "stream_id": "1243153",
+        "name": "DE - EUROSPORT EXTRA 12 FHD"
+      },
+      "canal_13": {
+        "stream_id": "1243154",
+        "name": "DE - EUROSPORT EXTRA 13 FHD"
+      },
+      "canal_14": {
+        "stream_id": "1243155",
+        "name": "DE - EUROSPORT EXTRA 14 FHD"
+      },
+      "canal_15": {
+        "stream_id": "1243156",
+        "name": "DE - EUROSPORT EXTRA 15 FHD"
+      },
+      "canal_16": {
+        "stream_id": "1243157",
+        "name": "DE - EUROSPORT EXTRA 16 FHD"
+      },
+      "canal_17": {
+        "stream_id": "1243158",
+        "name": "DE - EUROSPORT EXTRA 17 FHD"
+      },
+      "canal_18": {
+        "stream_id": "1243159",
+        "name": "DE - EUROSPORT EXTRA 18 FHD"
+      },
+      "canal_19": {
+        "stream_id": "1243160",
+        "name": "DE - EUROSPORT EXTRA 19 FHD"
+      },
+      "canal_56840": {
+        "stream_id": "56840",
+        "name": "FR - CANAL+ CINEMA FHD ◉"
+      },
+      "canal_285950": {
+        "stream_id": "285950",
+        "name": "FR - CANAL+ DOCS FHD"
+      },
+      "canal_288410": {
+        "stream_id": "288410",
+        "name": "FR - CANAL+ GRAND ECRAN FHD ◉"
+      },
+      "canal_56993": {
+        "stream_id": "56993",
+        "name": "FR - CANAL+ FHD ◉ "
+      },
+      "canal_906760": {
+        "stream_id": "906760",
+        "name": "FR - CANAL+ FHD ²"
+      },
+      "canal_56838": {
+        "stream_id": "56838",
+        "name": "FR - CANAL+ KIDS FHD"
+      },
+      "canal_56815": {
+        "stream_id": "56815",
+        "name": "FR - CANAL+ CINEMA HEVC ◉"
+      },
+      "canal_285951": {
+        "stream_id": "285951",
+        "name": "FR - CANAL+ DOCS HEVC"
+      },
+      "canal_288409": {
+        "stream_id": "288409",
+        "name": "FR - CANAL+ GRAND ECRAN HEVC"
+      },
+      "canal_56950": {
+        "stream_id": "56950",
+        "name": "FR - CANAL+ HEVC"
+      },
+      "canal_56813": {
+        "stream_id": "56813",
+        "name": "FR - CANAL+ KIDS HEVC"
+      },
+      "canal_56812": {
+        "stream_id": "56812",
+        "name": "FR - CANAL+ SERIES HEVC"
+      },
+      "canal_876959": {
+        "stream_id": "876959",
+        "name": "FR - CANAL+ BOX OFFICE HD"
+      },
+      "canal_487235": {
+        "stream_id": "487235",
+        "name": "FR - CANAL+ BOX OFFICE HD²"
+      },
+      "canal_56790": {
+        "stream_id": "56790",
+        "name": "FR - CANAL+ CINEMA SD"
+      },
+      "canal_56788": {
+        "stream_id": "56788",
+        "name": "FR - CANAL+ KIDS SD"
+      },
+      "canal_56907": {
+        "stream_id": "56907",
+        "name": "FR - CANAL+ SD"
+      },
+      "canal_56787": {
+        "stream_id": "56787",
+        "name": "FR - CANAL+ SERIES SD"
+      },
+      "canal_1044106": {
+        "stream_id": "1044106",
+        "name": "FR - CANAL+ UHD"
+      },
+      "canal_1135530": {
+        "stream_id": "1135530",
+        "name": "FR - CANAL+ KIDS FHD"
+      },
+      "canal_1135529": {
+        "stream_id": "1135529",
+        "name": "FR - CANAL+ KIDS HEVC"
+      },
+      "canal_1135528": {
+        "stream_id": "1135528",
+        "name": "FR - CANAL+ KIDS SD"
+      },
+      "canal_1099734": {
+        "stream_id": "1099734",
+        "name": "FR-CAR - CANAL+ KIDS HD"
+      },
+      "canal_1099735": {
+        "stream_id": "1099735",
+        "name": "FR-CAR - CANAL+ PREMIER LEAGUE HD"
+      },
+      "canal_1099737": {
+        "stream_id": "1099737",
+        "name": "FR-CAR - CANAL+ SPORT HD"
+      },
+      "canal_1028689": {
+        "stream_id": "1028689",
+        "name": "FR - CANAL+ SPORT HD"
+      },
+      "canal_1170776": {
+        "stream_id": "1170776",
+        "name": "FR-CAR - CANAL+ FOOT HD"
+      },
+      "canal_1099732": {
+        "stream_id": "1099732",
+        "name": "FR-CAR - CANAL+ HD"
+      },
+      "canal_1170762": {
+        "stream_id": "1170762",
+        "name": "FR-CAR - CANAL+ DOCS HD"
+      },
+      "canal_1170777": {
+        "stream_id": "1170777",
+        "name": "FR-CAR - CANAL+ BOX OFFICE HD"
+      },
+      "canal_987093": {
+        "stream_id": "987093",
+        "name": "FR-REU - CANAL+ PREMIER LEAGUE HD"
+      },
+      "canal_987095": {
+        "stream_id": "987095",
+        "name": "FR-REU - CANAL+ SPORT HD"
+      },
+      "canal_987088": {
+        "stream_id": "987088",
+        "name": "FR-REU - CANAL+ DOCS HD ²"
+      },
+      "canal_987090": {
+        "stream_id": "987090",
+        "name": "FR-REU - CANAL+ HD"
+      },
+      "canal_987091": {
+        "stream_id": "987091",
+        "name": "FR-REU - CANAL+ KIDS HD"
+      },
+      "canal_1425444": {
+        "stream_id": "1425444",
+        "name": "##### CANAL+ BOXOFFICE #####"
+      },
+      "canal_1470264": {
+        "stream_id": "1470264",
+        "name": "FR - CANAL+ BOXOFFICE INFO FHD"
+      },
+      "canal_1348421": {
+        "stream_id": "1348421",
+        "name": "##### NL - EUROSPORT #####"
+      },
+      "canal_1237232": {
+        "stream_id": "1237232",
+        "name": " ##### DE - EUROSPORT  #####"
+      },
+      "canal_1259045": {
+        "stream_id": "1259045",
+        "name": "###### DE - EUROSPORT EXTRA ######"
+      },
+      "canal_20": {
+        "stream_id": "1243161",
+        "name": "DE - EUROSPORT EXTRA 20 FHD"
+      },
+      "canal_21": {
+        "stream_id": "1243162",
+        "name": "DE - EUROSPORT EXTRA 21 FHD"
+      },
+      "canal_22": {
+        "stream_id": "1243163",
+        "name": "DE - EUROSPORT EXTRA 22 FHD"
+      },
+      "canal_23": {
+        "stream_id": "1243164",
+        "name": "DE - EUROSPORT EXTRA 23 FHD"
+      },
+      "canal_24": {
+        "stream_id": "1243165",
+        "name": "DE - EUROSPORT EXTRA 24 FHD"
+      },
+      "canal_25": {
+        "stream_id": "1243166",
+        "name": "DE - EUROSPORT EXTRA 25 FHD"
+      },
+      "canal_26": {
+        "stream_id": "1243167",
+        "name": "DE - EUROSPORT EXTRA 26 FHD"
+      },
+      "canal_27": {
+        "stream_id": "1243168",
+        "name": "DE - EUROSPORT EXTRA 27 FHD"
+      },
+      "canal_28": {
+        "stream_id": "1243169",
+        "name": "DE - EUROSPORT EXTRA 28 FHD"
+      },
+      "canal_29": {
+        "stream_id": "1243170",
+        "name": "DE - EUROSPORT EXTRA 29 FHD"
+      },
+      "canal_30": {
+        "stream_id": "1243171",
+        "name": "DE - EUROSPORT EXTRA 30 FHD"
+      },
+      "canal_31": {
+        "stream_id": "1243172",
+        "name": "DE - EUROSPORT EXTRA 31 FHD"
+      },
+      "canal_32": {
+        "stream_id": "1243173",
+        "name": "DE - EUROSPORT EXTRA 32 FHD"
+      },
+      "canal_27892": {
+        "stream_id": "27892",
+        "name": "AT - CANAL+ ACTION FHD"
+      },
+      "canal_1054610": {
+        "stream_id": "1054610",
+        "name": "CH - CANAL+ DOCS FHD"
+      },
+      "canal_807094": {
+        "stream_id": "807094",
+        "name": "CH - CANAL+ SPORT FHD"
+      },
+      "canal_326353": {
+        "stream_id": "326353",
+        "name": "MT - EUROSPORT HD"
+      },
+      "canal_75799": {
+        "stream_id": "75799",
+        "name": "PL - CANAL+ NOW HD"
+      },
+      "canal_235059": {
+        "stream_id": "235059",
+        "name": "PL - CANAL+ DOMO FHD"
+      },
+      "canal_67879": {
+        "stream_id": "67879",
+        "name": "PL - CANAL+ DOMO HD"
+      },
+      "canal_67875": {
+        "stream_id": "67875",
+        "name": "PL - CANAL+ KUCHINIA FHD"
+      },
+      "canal_235060": {
+        "stream_id": "235060",
+        "name": "PL - CANAL+ KUCHINIA HD"
+      },
+      "canal_1414494": {
+        "stream_id": "1414494",
+        "name": "##### PL - CANAL+ SPORT #####"
+      },
+      "canal_75753": {
+        "stream_id": "75753",
+        "name": "PL - CANAL+ SPORT FHD"
+      },
+      "canal_67805": {
+        "stream_id": "67805",
+        "name": "PL - CANAL+ SPORT HD"
+      },
+      "canal_1414495": {
+        "stream_id": "1414495",
+        "name": "##### PL - CANAL+ EXTRA #####"
+      },
+      "canal_235057": {
+        "stream_id": "235057",
+        "name": "PL - CANAL+ PREMIUM HD"
+      },
+      "canal_75685": {
+        "stream_id": "75685",
+        "name": "PL - CANAL+ FILM HD"
+      },
+      "canal_75654": {
+        "stream_id": "75654",
+        "name": "PL - CANAL+ SERIALE HD"
+      },
+      "canal_67825": {
+        "stream_id": "67825",
+        "name": "PL - CANAL+  DISCOVERY HD"
+      },
+      "canal_75664": {
+        "stream_id": "75664",
+        "name": "PL - CANAL+ DOKUMENT HD"
+      },
+      "canal_235058": {
+        "stream_id": "235058",
+        "name": "PL - CANAL+ DOKUMENT HD"
+      },
+      "canal_44297": {
+        "stream_id": "44297",
+        "name": "NO - EUROSPORT N FHD"
+      },
+      "canal_1240499": {
+        "stream_id": "1240499",
+        "name": "##### EXYU - EUROSPORT ##### "
+      },
+      "canal_272373": {
+        "stream_id": "272373",
+        "name": "SI - EUROSPORT HD"
+      },
+      "canal_1408025": {
+        "stream_id": "1408025",
+        "name": "SK - CANAL+ SPORT FHD"
+      },
+      "canal_1408013": {
+        "stream_id": "1408013",
+        "name": "CZ - CANAL+ SPORT FHD"
+      },
+      "canal_907002": {
+        "stream_id": "907002",
+        "name": "CZ - CANAL+ DOMO HD"
+      },
+      "canal_194768": {
+        "stream_id": "194768",
+        "name": "AF - CANAL+ OUEST"
+      },
+      "canal_194769": {
+        "stream_id": "194769",
+        "name": "AF - CANAL+ FAMILY OUEST"
+      },
+      "canal_194770": {
+        "stream_id": "194770",
+        "name": "AF - CANAL+ MAGIC OUEST"
+      },
+      "canal_325816": {
+        "stream_id": "325816",
+        "name": "AF - CANAL+ POP OUEST"
+      },
+      "canal_194772": {
+        "stream_id": "194772",
+        "name": "AF - CANAL+ CINEMA OUEST"
+      },
+      "canal_194773": {
+        "stream_id": "194773",
+        "name": "AF - CANAL+ CENTRE"
+      },
+      "canal_194774": {
+        "stream_id": "194774",
+        "name": "AF - CANAL+ ACTION OUEST"
+      },
+      "canal_1027765": {
+        "stream_id": "1027765",
+        "name": "AF - CANAL+ CENTR"
+      },
+      "canal_1027768": {
+        "stream_id": "1027768",
+        "name": "AF - CANAL+ MAGIC"
+      },
+      "canal_1060658": {
+        "stream_id": "1060658",
+        "name": "AF - CANAL+ POP CENTRE HD"
+      },
+      "canal_1300926": {
+        "stream_id": "1300926",
+        "name": "AF - CANAL+ MAGIC CENTRE"
+      },
+      "canal_849417": {
+        "stream_id": "849417",
+        "name": "SAF - CANAL+ PREMIERE CENTRE HD"
+      },
+      "canal_329420": {
+        "stream_id": "329420",
+        "name": "IL - EUROSPORT"
+      },
+      "canal_772770": {
+        "stream_id": "772770",
+        "name": "PK - EUROSPORT HD"
+      }
+    },
+    "total_sport_channels": 192,
+    "status": "available",
+    "assigned_to": null,
+    "assigned_channel": null,
+    "assigned_at": null,
+    "added_at": "2026-11-23T17:26:50.081158"
+  },
+  "http___www_joe_paws_xyz_80_32187D2": {
+    "host": "http://www.joe-paws.xyz:80",
+    "username": "32187D2",
+    "password": "SDP1ZZ2",
+    "max_connections": 1,
+    "bein_channels": {
+      "bein_4": {
+        "stream_id": "39556",
+        "name": "TR - BEIN SPORTS 4 HD"
+      },
+      "bein_1121053": {
+        "stream_id": "1121053",
+        "name": "##### FRANCE BEIN SPORTS #####"
+      },
+      "bein_1": {
+        "stream_id": "39559",
+        "name": "TR - BEIN SPORTS 1 HD"
+      },
+      "bein_2": {
+        "stream_id": "39558",
+        "name": "TR - BEIN SPORTS 2 HD"
+      },
+      "bein_3": {
+        "stream_id": "39557",
+        "name": "TR - BEIN SPORTS 3 HD"
+      },
+      "bein_5": {
+        "stream_id": "772596",
+        "name": "TR - BEIN SPORTS 5 HD"
+      },
+      "bein_1349031": {
+        "stream_id": "1349031",
+        "name": "ES - VIX - BEIN SPORTS XTRA"
+      },
+      "bein_1029422": {
+        "stream_id": "1029422",
+        "name": "ES - BEIN SPORTS Ñ FHD"
+      },
+      "bein_1029423": {
+        "stream_id": "1029423",
+        "name": "ES - BEIN SPORTS EXTRA Ñ FHD"
+      },
+      "bein_986991": {
+        "stream_id": "986991",
+        "name": "##### BEIN SPORTS SA #####"
+      },
+      "bein_6": {
+        "stream_id": "72386",
+        "name": "US - BeIN SPORTS 6 HD"
+      },
+      "bein_7": {
+        "stream_id": "72385",
+        "name": "US - BeIN SPORTS 7 HD"
+      },
+      "bein_8": {
+        "stream_id": "72384",
+        "name": "US - BeIN SPORTS 8 HD"
+      },
+      "bein_9": {
+        "stream_id": "1150954",
+        "name": "AR - BEIN SPORTS 9 XTRA 4K"
+      },
+      "bein_552087": {
+        "stream_id": "552087",
+        "name": "AR - BEIN SPORTS NEWS FHD"
+      },
+      "bein_271226": {
+        "stream_id": "271226",
+        "name": "AR - BEIN SPORTS NEWS HD"
+      },
+      "bein_331736": {
+        "stream_id": "331736",
+        "name": "AR - BEIN SPORTS GLOBAL FHD"
+      },
+      "bein_1347396": {
+        "stream_id": "1347396",
+        "name": "AR - BEIN SPORTS GLOBAL HD"
+      },
+      "bein_207574": {
+        "stream_id": "207574",
+        "name": "##### BEIN SPORTS FM #####"
+      },
+      "bein_986958": {
+        "stream_id": "986958",
+        "name": "AR - BEIN SPORTS NEWS FHD"
+      },
+      "bein_986993": {
+        "stream_id": "986993",
+        "name": "AR - BEIN SPORTS NEWS HD"
+      },
+      "bein_986957": {
+        "stream_id": "986957",
+        "name": "AR - BEIN SPORTS GLOBAL FHD"
+      },
+      "bein_986990": {
+        "stream_id": "986990",
+        "name": "AR - BEIN SPORTS GLOBAL HD"
+      },
+      "bein_1306288": {
+        "stream_id": "1306288",
+        "name": "##### BEIN SPORTS XTRA FM #####"
+      },
+      "bein_1306290": {
+        "stream_id": "1306290",
+        "name": "##### BEIN SPORTS ENGLISH FM #####"
+      },
+      "bein_1306289": {
+        "stream_id": "1306289",
+        "name": "##### BEIN SPORTS AFC FM #####"
+      },
+      "bein_1441989": {
+        "stream_id": "1441989",
+        "name": "##### AR - BEIN TOD #####"
+      },
+      "bein_1226644": {
+        "stream_id": "1226644",
+        "name": "##### AR - BEIN UHD #####"
+      },
+      "bein_2023": {
+        "stream_id": "1224831",
+        "name": "AR - BEIN OD 2023 4 UHD"
+      },
+      "bein_1226645": {
+        "stream_id": "1226645",
+        "name": "##### AR - BEIN HD #####"
+      },
+      "bein_1348416": {
+        "stream_id": "1348416",
+        "name": "AR - BEIN STAR MOVIES HD"
+      },
+      "bein_1348414": {
+        "stream_id": "1348414",
+        "name": "AR - BEIN STAR FILMS HD"
+      },
+      "bein_1348417": {
+        "stream_id": "1348417",
+        "name": "AR - BEIN STAR SERIES HD"
+      },
+      "bein_1348415": {
+        "stream_id": "1348415",
+        "name": "AR - BEIN STAR LIFE HD"
+      },
+      "bein_1348418": {
+        "stream_id": "1348418",
+        "name": "AR - BEIN CARTOONITO HD"
+      },
+      "bein_27948": {
+        "stream_id": "27948",
+        "name": "AR - BEIN FOX ACTION MOVIES HD"
+      },
+      "bein_27965": {
+        "stream_id": "27965",
+        "name": "AR - BEIN GOURMET HD"
+      },
+      "bein_1226343": {
+        "stream_id": "1226343",
+        "name": "AR - BEIN BBC EARTH HD"
+      },
+      "bein_1224819": {
+        "stream_id": "1224819",
+        "name": "AR - BEIN DISCOVERY FAMILY HD"
+      },
+      "bein_1224817": {
+        "stream_id": "1224817",
+        "name": "AR - BEIN DREAM WORK HD"
+      },
+      "bein_1224814": {
+        "stream_id": "1224814",
+        "name": "AR - BEIN FOOD NETWORK HD"
+      },
+      "bein_1224816": {
+        "stream_id": "1224816",
+        "name": "AR - BEIN HGTV HD"
+      },
+      "bein_1224815": {
+        "stream_id": "1224815",
+        "name": "AR - BEIN TRAVEL HD"
+      },
+      "bein_1224818": {
+        "stream_id": "1224818",
+        "name": "AR - BEIN JUNIOR KIDS HD"
+      },
+      "bein_673514": {
+        "stream_id": "673514",
+        "name": "CA -  BEIN SPORTS HD"
+      },
+      "bein_72383": {
+        "stream_id": "72383",
+        "name": "US - BeIN SPORTS HD"
+      },
+      "bein_72390": {
+        "stream_id": "72390",
+        "name": "US - BeIN SPORTS LALIGA UHD"
+      },
+      "bein_72382": {
+        "stream_id": "72382",
+        "name": "US - BeIN SPORTS EN ESPANOL HD"
+      },
+      "bein_174567": {
+        "stream_id": "174567",
+        "name": "US - BEIN SPORTS XTRA HD"
+      },
+      "bein_39545": {
+        "stream_id": "39545",
+        "name": "TR - BEIN SPORTS HABER FHD"
+      }
+    },
+    "bein_fr_channels": {
+      "bein_1_fr": {
+        "stream_id": "56544",
+        "name": "FR - BEIN SPORTS 1 SD "
+      },
+      "bein_2_fr": {
+        "stream_id": "56543",
+        "name": "FR - BEIN SPORTS 2 SD "
+      },
+      "bein_3_fr": {
+        "stream_id": "56542",
+        "name": "FR - BEIN SPORTS 3 SD"
+      },
+      "bein_4_fr": {
+        "stream_id": "62502",
+        "name": "FR - BEIN SPORTS MAX 4 FHD "
+      },
+      "bein_5_fr": {
+        "stream_id": "62501",
+        "name": "FR - BEIN SPORTS MAX 5 FHD "
+      },
+      "bein_6_fr": {
+        "stream_id": "62500",
+        "name": "FR - BEIN SPORTS MAX 6 FHD "
+      },
+      "bein_7_fr": {
+        "stream_id": "62499",
+        "name": "FR - BEIN SPORTS MAX 7 FHD "
+      },
+      "bein_8_fr": {
+        "stream_id": "62498",
+        "name": "FR - BEIN SPORTS MAX 8 FHD "
+      },
+      "bein_9_fr": {
+        "stream_id": "62497",
+        "name": "FR - BEIN SPORTS MAX 9 FHD "
+      },
+      "bein_10_fr": {
+        "stream_id": "211992",
+        "name": "FR - BEIN SPORTS MAX 10 FHD "
+      },
+      "bein_fr_1306291": {
+        "stream_id": "1306291",
+        "name": "##### AR - BEIN SPORTS FRENCH FM #####"
+      }
+    },
+    "canal_channels": {
+      "canal_4": {
+        "stream_id": "1019735",
+        "name": "FR - CANAL+ LIVE 4 HD"
+      },
+      "canal_1": {
+        "stream_id": "1099581",
+        "name": "TR - EUROSPORT 1 FHD"
+      },
+      "canal_56840": {
+        "stream_id": "56840",
+        "name": "FR - CANAL+ CINEMA FHD ◉"
+      },
+      "canal_285950": {
+        "stream_id": "285950",
+        "name": "FR - CANAL+ DOCS FHD"
+      },
+      "canal_288410": {
+        "stream_id": "288410",
+        "name": "FR - CANAL+ GRAND ECRAN FHD ◉"
+      },
+      "canal_56993": {
+        "stream_id": "56993",
+        "name": "FR - CANAL+ FHD ◉ "
+      },
+      "canal_906760": {
+        "stream_id": "906760",
+        "name": "FR - CANAL+ FHD ²"
+      },
+      "canal_56838": {
+        "stream_id": "56838",
+        "name": "FR - CANAL+ KIDS FHD"
+      },
+      "canal_56815": {
+        "stream_id": "56815",
+        "name": "FR - CANAL+ CINEMA HEVC ◉"
+      },
+      "canal_285951": {
+        "stream_id": "285951",
+        "name": "FR - CANAL+ DOCS HEVC"
+      },
+      "canal_288409": {
+        "stream_id": "288409",
+        "name": "FR - CANAL+ GRAND ECRAN HEVC"
+      },
+      "canal_56950": {
+        "stream_id": "56950",
+        "name": "FR - CANAL+ HEVC"
+      },
+      "canal_56813": {
+        "stream_id": "56813",
+        "name": "FR - CANAL+ KIDS HEVC"
+      },
+      "canal_56812": {
+        "stream_id": "56812",
+        "name": "FR - CANAL+ SERIES HEVC"
+      },
+      "canal_876959": {
+        "stream_id": "876959",
+        "name": "FR - CANAL+ BOX OFFICE HD"
+      },
+      "canal_487235": {
+        "stream_id": "487235",
+        "name": "FR - CANAL+ BOX OFFICE HD²"
+      },
+      "canal_56790": {
+        "stream_id": "56790",
+        "name": "FR - CANAL+ CINEMA SD"
+      },
+      "canal_56788": {
+        "stream_id": "56788",
+        "name": "FR - CANAL+ KIDS SD"
+      },
+      "canal_56907": {
+        "stream_id": "56907",
+        "name": "FR - CANAL+ SD"
+      },
+      "canal_56787": {
+        "stream_id": "56787",
+        "name": "FR - CANAL+ SERIES SD"
+      },
+      "canal_1044106": {
+        "stream_id": "1044106",
+        "name": "FR - CANAL+ UHD"
+      },
+      "canal_1425444": {
+        "stream_id": "1425444",
+        "name": "##### CANAL+ BOXOFFICE #####"
+      },
+      "canal_1470264": {
+        "stream_id": "1470264",
+        "name": "FR - CANAL+ BOXOFFICE INFO FHD"
+      },
+      "canal_2": {
+        "stream_id": "1099580",
+        "name": "TR - EUROSPORT 2 FHD"
+      },
+      "canal_3": {
+        "stream_id": "1019734",
+        "name": "FR - CANAL+ LIVE 3 HD"
+      },
+      "canal_5": {
+        "stream_id": "1019736",
+        "name": "FR - CANAL+ LIVE 5 HD"
+      },
+      "canal_6": {
+        "stream_id": "1019737",
+        "name": "FR - CANAL+ LIVE 6 HD"
+      },
+      "canal_7": {
+        "stream_id": "1019738",
+        "name": "FR - CANAL+ LIVE 7 HD"
+      },
+      "canal_8": {
+        "stream_id": "1019739",
+        "name": "FR - CANAL+ LIVE 8 HD"
+      },
+      "canal_9": {
+        "stream_id": "1019740",
+        "name": "FR - CANAL+ LIVE 9 HD"
+      },
+      "canal_10": {
+        "stream_id": "1019741",
+        "name": "FR - CANAL+ LIVE 10 HD"
+      },
+      "canal_11": {
+        "stream_id": "1019742",
+        "name": "FR - CANAL+ LIVE 11 HD"
+      },
+      "canal_12": {
+        "stream_id": "1019743",
+        "name": "FR - CANAL+ LIVE 12 HD"
+      },
+      "canal_13": {
+        "stream_id": "1019744",
+        "name": "FR - CANAL+ LIVE 13 HD"
+      },
+      "canal_14": {
+        "stream_id": "1019745",
+        "name": "FR - CANAL+ LIVE 14 HD"
+      },
+      "canal_15": {
+        "stream_id": "1019746",
+        "name": "FR - CANAL+ LIVE 15 HD"
+      },
+      "canal_16": {
+        "stream_id": "1019747",
+        "name": "FR - CANAL+ LIVE 16 HD"
+      },
+      "canal_17": {
+        "stream_id": "1019748",
+        "name": "FR - CANAL+ LIVE 17 HD"
+      },
+      "canal_18": {
+        "stream_id": "1019749",
+        "name": "FR - CANAL+ LIVE 18 HD"
+      },
+      "canal_19": {
+        "stream_id": "1019750",
+        "name": "FR - CANAL+ LIVE 19 HD"
+      },
+      "canal_1121066": {
+        "stream_id": "1121066",
+        "name": "##### FRANCE RMC SPORT #####"
+      },
+      "canal_152649": {
+        "stream_id": "152649",
+        "name": "FR - RMC SPORT UHD"
+      },
+      "canal_1121056": {
+        "stream_id": "1121056",
+        "name": "##### FRANCE EUROSPORT #####"
+      },
+      "canal_360": {
+        "stream_id": "1170775",
+        "name": "FR-CAR - CANAL+ SPORT 360 HD"
+      },
+      "canal_1121052": {
+        "stream_id": "1121052",
+        "name": "##### CANAL+ SPORTS #####"
+      },
+      "canal_56644": {
+        "stream_id": "56644",
+        "name": "FR - CANAL+ SPORT FHD ◉"
+      },
+      "canal_56569": {
+        "stream_id": "56569",
+        "name": "FR - CANAL+ SPORT HEVC ◉"
+      },
+      "canal_56533": {
+        "stream_id": "56533",
+        "name": "FR - CANAL+ SPORT SD"
+      },
+      "canal_311116": {
+        "stream_id": "311116",
+        "name": "FR - CANAL+ FOOT FHD "
+      },
+      "canal_311117": {
+        "stream_id": "311117",
+        "name": "FR - CANAL+ FOOT HEVC "
+      },
+      "canal_853546": {
+        "stream_id": "853546",
+        "name": "FR - CANAL+ FOOT HD"
+      },
+      "canal_311118": {
+        "stream_id": "311118",
+        "name": "FR - CANAL+ FOOT SD "
+      },
+      "canal_203876": {
+        "stream_id": "203876",
+        "name": "FR - CANAL+ PREMIER LEAGUE FHD"
+      },
+      "canal_203880": {
+        "stream_id": "203880",
+        "name": "FR - CANAL+ PREMIER LEAGUE HEVC"
+      },
+      "canal_203881": {
+        "stream_id": "203881",
+        "name": "FR - CANAL+ PREMIER LEAGUE SD"
+      },
+      "canal_1479984": {
+        "stream_id": "1479984",
+        "name": "FR - CANAL+ MOTO GP FHD"
+      },
+      "canal_1137128": {
+        "stream_id": "1137128",
+        "name": "##### CANAL+ LIVE #####"
+      },
+      "canal_1135530": {
+        "stream_id": "1135530",
+        "name": "FR - CANAL+ KIDS FHD"
+      },
+      "canal_1135529": {
+        "stream_id": "1135529",
+        "name": "FR - CANAL+ KIDS HEVC"
+      },
+      "canal_1135528": {
+        "stream_id": "1135528",
+        "name": "FR - CANAL+ KIDS SD"
+      },
+      "canal_1099734": {
+        "stream_id": "1099734",
+        "name": "FR-CAR - CANAL+ KIDS HD"
+      },
+      "canal_1099735": {
+        "stream_id": "1099735",
+        "name": "FR-CAR - CANAL+ PREMIER LEAGUE HD"
+      },
+      "canal_1099737": {
+        "stream_id": "1099737",
+        "name": "FR-CAR - CANAL+ SPORT HD"
+      },
+      "canal_1028689": {
+        "stream_id": "1028689",
+        "name": "FR - CANAL+ SPORT HD"
+      },
+      "canal_1170776": {
+        "stream_id": "1170776",
+        "name": "FR-CAR - CANAL+ FOOT HD"
+      },
+      "canal_1099732": {
+        "stream_id": "1099732",
+        "name": "FR-CAR - CANAL+ HD"
+      },
+      "canal_1170762": {
+        "stream_id": "1170762",
+        "name": "FR-CAR - CANAL+ DOCS HD"
+      },
+      "canal_1170777": {
+        "stream_id": "1170777",
+        "name": "FR-CAR - CANAL+ BOX OFFICE HD"
+      },
+      "canal_987093": {
+        "stream_id": "987093",
+        "name": "FR-REU - CANAL+ PREMIER LEAGUE HD"
+      },
+      "canal_987095": {
+        "stream_id": "987095",
+        "name": "FR-REU - CANAL+ SPORT HD"
+      },
+      "canal_987088": {
+        "stream_id": "987088",
+        "name": "FR-REU - CANAL+ DOCS HD ²"
+      },
+      "canal_987090": {
+        "stream_id": "987090",
+        "name": "FR-REU - CANAL+ HD"
+      },
+      "canal_987091": {
+        "stream_id": "987091",
+        "name": "FR-REU - CANAL+ KIDS HD"
+      }
+    },
+    "total_sport_channels": 134,
+    "status": "available",
+    "assigned_to": null,
+    "assigned_channel": null,
+    "assigned_at": null,
+    "added_at": "2026-11-23T17:26:53.108169"
+  },
+  "http___oli133_com_80_019179810143488": {
+    "host": "http://oli133.com:80",
+    "username": "019179810143488",
+    "password": "6193658538",
+    "max_connections": 1,
+    "bein_channels": {
+      "bein_1121053": {
+        "stream_id": "1121053",
+        "name": "##### FRANCE BEIN SPORTS #####"
+      },
+      "bein_1": {
+        "stream_id": "312491",
+        "name": "AR - BEIN BOX OFFICE HD 1"
+      },
+      "bein_2": {
+        "stream_id": "312492",
+        "name": "AR - BEIN BOX OFFICE HD 2"
+      },
+      "bein_3": {
+        "stream_id": "27972",
+        "name": "AR - BEIN MOVIES 3 HD"
+      },
+      "bein_4": {
+        "stream_id": "72388",
+        "name": "US - BeIN SPORTS 4 HD"
+      },
+      "bein_5": {
+        "stream_id": "72387",
+        "name": "US - BeIN SPORTS 5 HD"
+      },
+      "bein_1349031": {
+        "stream_id": "1349031",
+        "name": "ES - VIX - BEIN SPORTS XTRA"
+      },
+      "bein_1029422": {
+        "stream_id": "1029422",
+        "name": "ES - BEIN SPORTS Ñ FHD"
+      },
+      "bein_1029423": {
+        "stream_id": "1029423",
+        "name": "ES - BEIN SPORTS EXTRA Ñ FHD"
+      },
+      "bein_986991": {
+        "stream_id": "986991",
+        "name": "##### BEIN SPORTS SA #####"
+      },
+      "bein_6": {
+        "stream_id": "72386",
+        "name": "US - BeIN SPORTS 6 HD"
+      },
+      "bein_7": {
+        "stream_id": "72385",
+        "name": "US - BeIN SPORTS 7 HD"
+      },
+      "bein_8": {
+        "stream_id": "72384",
+        "name": "US - BeIN SPORTS 8 HD"
+      },
+      "bein_9": {
+        "stream_id": "1150954",
+        "name": "AR - BEIN SPORTS 9 XTRA 4K"
+      },
+      "bein_552087": {
+        "stream_id": "552087",
+        "name": "AR - BEIN SPORTS NEWS FHD"
+      },
+      "bein_271226": {
+        "stream_id": "271226",
+        "name": "AR - BEIN SPORTS NEWS HD"
+      },
+      "bein_331736": {
+        "stream_id": "331736",
+        "name": "AR - BEIN SPORTS GLOBAL FHD"
+      },
+      "bein_1347396": {
+        "stream_id": "1347396",
+        "name": "AR - BEIN SPORTS GLOBAL HD"
+      },
+      "bein_207574": {
+        "stream_id": "207574",
+        "name": "##### BEIN SPORTS FM #####"
+      },
+      "bein_986958": {
+        "stream_id": "986958",
+        "name": "AR - BEIN SPORTS NEWS FHD"
+      },
+      "bein_986993": {
+        "stream_id": "986993",
+        "name": "AR - BEIN SPORTS NEWS HD"
+      },
+      "bein_986957": {
+        "stream_id": "986957",
+        "name": "AR - BEIN SPORTS GLOBAL FHD"
+      },
+      "bein_986990": {
+        "stream_id": "986990",
+        "name": "AR - BEIN SPORTS GLOBAL HD"
+      },
+      "bein_1306288": {
+        "stream_id": "1306288",
+        "name": "##### BEIN SPORTS XTRA FM #####"
+      },
+      "bein_1306290": {
+        "stream_id": "1306290",
+        "name": "##### BEIN SPORTS ENGLISH FM #####"
+      },
+      "bein_1306289": {
+        "stream_id": "1306289",
+        "name": "##### BEIN SPORTS AFC FM #####"
+      },
+      "bein_1441989": {
+        "stream_id": "1441989",
+        "name": "##### AR - BEIN TOD #####"
+      },
+      "bein_1226644": {
+        "stream_id": "1226644",
+        "name": "##### AR - BEIN UHD #####"
+      },
+      "bein_2023": {
+        "stream_id": "1224831",
+        "name": "AR - BEIN OD 2023 4 UHD"
+      },
+      "bein_1226645": {
+        "stream_id": "1226645",
+        "name": "##### AR - BEIN HD #####"
+      },
+      "bein_1348416": {
+        "stream_id": "1348416",
+        "name": "AR - BEIN STAR MOVIES HD"
+      },
+      "bein_1348414": {
+        "stream_id": "1348414",
+        "name": "AR - BEIN STAR FILMS HD"
+      },
+      "bein_1348417": {
+        "stream_id": "1348417",
+        "name": "AR - BEIN STAR SERIES HD"
+      },
+      "bein_1348415": {
+        "stream_id": "1348415",
+        "name": "AR - BEIN STAR LIFE HD"
+      },
+      "bein_1348418": {
+        "stream_id": "1348418",
+        "name": "AR - BEIN CARTOONITO HD"
+      },
+      "bein_27948": {
+        "stream_id": "27948",
+        "name": "AR - BEIN FOX ACTION MOVIES HD"
+      },
+      "bein_27965": {
+        "stream_id": "27965",
+        "name": "AR - BEIN GOURMET HD"
+      },
+      "bein_1226343": {
+        "stream_id": "1226343",
+        "name": "AR - BEIN BBC EARTH HD"
+      },
+      "bein_1224819": {
+        "stream_id": "1224819",
+        "name": "AR - BEIN DISCOVERY FAMILY HD"
+      },
+      "bein_1224817": {
+        "stream_id": "1224817",
+        "name": "AR - BEIN DREAM WORK HD"
+      },
+      "bein_1224814": {
+        "stream_id": "1224814",
+        "name": "AR - BEIN FOOD NETWORK HD"
+      },
+      "bein_1224816": {
+        "stream_id": "1224816",
+        "name": "AR - BEIN HGTV HD"
+      },
+      "bein_1224815": {
+        "stream_id": "1224815",
+        "name": "AR - BEIN TRAVEL HD"
+      },
+      "bein_1224818": {
+        "stream_id": "1224818",
+        "name": "AR - BEIN JUNIOR KIDS HD"
+      },
+      "bein_673514": {
+        "stream_id": "673514",
+        "name": "CA -  BEIN SPORTS HD"
+      },
+      "bein_72383": {
+        "stream_id": "72383",
+        "name": "US - BeIN SPORTS HD"
+      },
+      "bein_72390": {
+        "stream_id": "72390",
+        "name": "US - BeIN SPORTS LALIGA UHD"
+      },
+      "bein_72382": {
+        "stream_id": "72382",
+        "name": "US - BeIN SPORTS EN ESPANOL HD"
+      },
+      "bein_174567": {
+        "stream_id": "174567",
+        "name": "US - BEIN SPORTS XTRA HD"
+      },
+      "bein_983887": {
+        "stream_id": "983887",
+        "name": "LATINO - BEIN SPORTS XTRA N"
+      }
+    },
+    "bein_fr_channels": {
+      "bein_1_fr": {
+        "stream_id": "56544",
+        "name": "FR - BEIN SPORTS 1 SD "
+      },
+      "bein_2_fr": {
+        "stream_id": "56543",
+        "name": "FR - BEIN SPORTS 2 SD "
+      },
+      "bein_3_fr": {
+        "stream_id": "56542",
+        "name": "FR - BEIN SPORTS 3 SD"
+      },
+      "bein_4_fr": {
+        "stream_id": "62502",
+        "name": "FR - BEIN SPORTS MAX 4 FHD "
+      },
+      "bein_5_fr": {
+        "stream_id": "62501",
+        "name": "FR - BEIN SPORTS MAX 5 FHD "
+      },
+      "bein_6_fr": {
+        "stream_id": "62500",
+        "name": "FR - BEIN SPORTS MAX 6 FHD "
+      },
+      "bein_7_fr": {
+        "stream_id": "62499",
+        "name": "FR - BEIN SPORTS MAX 7 FHD "
+      },
+      "bein_8_fr": {
+        "stream_id": "62498",
+        "name": "FR - BEIN SPORTS MAX 8 FHD "
+      },
+      "bein_9_fr": {
+        "stream_id": "62497",
+        "name": "FR - BEIN SPORTS MAX 9 FHD "
+      },
+      "bein_10_fr": {
+        "stream_id": "211992",
+        "name": "FR - BEIN SPORTS MAX 10 FHD "
+      },
+      "bein_fr_1306291": {
+        "stream_id": "1306291",
+        "name": "##### AR - BEIN SPORTS FRENCH FM #####"
+      }
+    },
+    "canal_channels": {
+      "canal_56840": {
+        "stream_id": "56840",
+        "name": "FR - CANAL+ CINEMA FHD ◉"
+      },
+      "canal_285950": {
+        "stream_id": "285950",
+        "name": "FR - CANAL+ DOCS FHD"
+      },
+      "canal_288410": {
+        "stream_id": "288410",
+        "name": "FR - CANAL+ GRAND ECRAN FHD ◉"
+      },
+      "canal_56993": {
+        "stream_id": "56993",
+        "name": "FR - CANAL+ FHD ◉ "
+      },
+      "canal_906760": {
+        "stream_id": "906760",
+        "name": "FR - CANAL+ FHD ²"
+      },
+      "canal_56838": {
+        "stream_id": "56838",
+        "name": "FR - CANAL+ KIDS FHD"
+      },
+      "canal_56815": {
+        "stream_id": "56815",
+        "name": "FR - CANAL+ CINEMA HEVC ◉"
+      },
+      "canal_285951": {
+        "stream_id": "285951",
+        "name": "FR - CANAL+ DOCS HEVC"
+      },
+      "canal_288409": {
+        "stream_id": "288409",
+        "name": "FR - CANAL+ GRAND ECRAN HEVC"
+      },
+      "canal_56950": {
+        "stream_id": "56950",
+        "name": "FR - CANAL+ HEVC"
+      },
+      "canal_56813": {
+        "stream_id": "56813",
+        "name": "FR - CANAL+ KIDS HEVC"
+      },
+      "canal_56812": {
+        "stream_id": "56812",
+        "name": "FR - CANAL+ SERIES HEVC"
+      },
+      "canal_876959": {
+        "stream_id": "876959",
+        "name": "FR - CANAL+ BOX OFFICE HD"
+      },
+      "canal_487235": {
+        "stream_id": "487235",
+        "name": "FR - CANAL+ BOX OFFICE HD²"
+      },
+      "canal_56790": {
+        "stream_id": "56790",
+        "name": "FR - CANAL+ CINEMA SD"
+      },
+      "canal_56788": {
+        "stream_id": "56788",
+        "name": "FR - CANAL+ KIDS SD"
+      },
+      "canal_56907": {
+        "stream_id": "56907",
+        "name": "FR - CANAL+ SD"
+      },
+      "canal_56787": {
+        "stream_id": "56787",
+        "name": "FR - CANAL+ SERIES SD"
+      },
+      "canal_4": {
+        "stream_id": "1408016",
+        "name": "CZ - CANAL+ SPORT 4 FHD"
+      },
+      "canal_1044106": {
+        "stream_id": "1044106",
+        "name": "FR - CANAL+ UHD"
+      },
+      "canal_1425444": {
+        "stream_id": "1425444",
+        "name": "##### CANAL+ BOXOFFICE #####"
+      },
+      "canal_1470264": {
+        "stream_id": "1470264",
+        "name": "FR - CANAL+ BOXOFFICE INFO FHD"
+      },
+      "canal_1": {
+        "stream_id": "907123",
+        "name": "RU - EUROSPORT 1 HD"
+      },
+      "canal_2": {
+        "stream_id": "907124",
+        "name": "RU - EUROSPORT 2 HD"
+      },
+      "canal_3": {
+        "stream_id": "1408015",
+        "name": "CZ - CANAL+ SPORT 3 FHD"
+      },
+      "canal_5": {
+        "stream_id": "1408017",
+        "name": "CZ - CANAL+ SPORT 5 FHD"
+      },
+      "canal_6": {
+        "stream_id": "1408018",
+        "name": "CZ - CANAL+ SPORT 6 FHD"
+      },
+      "canal_7": {
+        "stream_id": "1408019",
+        "name": "CZ - CANAL+ SPORT 7 FHD"
+      },
+      "canal_8": {
+        "stream_id": "1408020",
+        "name": "CZ - CANAL+ SPORT 8 FHD"
+      },
+      "canal_9": {
+        "stream_id": "1414522",
+        "name": "PL - CANAL+ EXTRA 9 HD"
+      },
+      "canal_10": {
+        "stream_id": "1243151",
+        "name": "DE - EUROSPORT EXTRA 10 FHD"
+      },
+      "canal_11": {
+        "stream_id": "1243152",
+        "name": "DE - EUROSPORT EXTRA 11 FHD"
+      },
+      "canal_12": {
+        "stream_id": "1243153",
+        "name": "DE - EUROSPORT EXTRA 12 FHD"
+      },
+      "canal_13": {
+        "stream_id": "1243154",
+        "name": "DE - EUROSPORT EXTRA 13 FHD"
+      },
+      "canal_14": {
+        "stream_id": "1243155",
+        "name": "DE - EUROSPORT EXTRA 14 FHD"
+      },
+      "canal_15": {
+        "stream_id": "1243156",
+        "name": "DE - EUROSPORT EXTRA 15 FHD"
+      },
+      "canal_16": {
+        "stream_id": "1243157",
+        "name": "DE - EUROSPORT EXTRA 16 FHD"
+      },
+      "canal_17": {
+        "stream_id": "1243158",
+        "name": "DE - EUROSPORT EXTRA 17 FHD"
+      },
+      "canal_18": {
+        "stream_id": "1243159",
+        "name": "DE - EUROSPORT EXTRA 18 FHD"
+      },
+      "canal_19": {
+        "stream_id": "1243160",
+        "name": "DE - EUROSPORT EXTRA 19 FHD"
+      },
+      "canal_1121066": {
+        "stream_id": "1121066",
+        "name": "##### FRANCE RMC SPORT #####"
+      },
+      "canal_152649": {
+        "stream_id": "152649",
+        "name": "FR - RMC SPORT UHD"
+      },
+      "canal_1121056": {
+        "stream_id": "1121056",
+        "name": "##### FRANCE EUROSPORT #####"
+      },
+      "canal_360": {
+        "stream_id": "75681",
+        "name": "PL - CANAL+ 360 HD"
+      },
+      "canal_1121052": {
+        "stream_id": "1121052",
+        "name": "##### CANAL+ SPORTS #####"
+      },
+      "canal_56644": {
+        "stream_id": "56644",
+        "name": "FR - CANAL+ SPORT FHD ◉"
+      },
+      "canal_56569": {
+        "stream_id": "56569",
+        "name": "FR - CANAL+ SPORT HEVC ◉"
+      },
+      "canal_56533": {
+        "stream_id": "56533",
+        "name": "FR - CANAL+ SPORT SD"
+      },
+      "canal_311116": {
+        "stream_id": "311116",
+        "name": "FR - CANAL+ FOOT FHD "
+      },
+      "canal_311117": {
+        "stream_id": "311117",
+        "name": "FR - CANAL+ FOOT HEVC "
+      },
+      "canal_853546": {
+        "stream_id": "853546",
+        "name": "FR - CANAL+ FOOT HD"
+      },
+      "canal_311118": {
+        "stream_id": "311118",
+        "name": "FR - CANAL+ FOOT SD "
+      },
+      "canal_203876": {
+        "stream_id": "203876",
+        "name": "FR - CANAL+ PREMIER LEAGUE FHD"
+      },
+      "canal_203880": {
+        "stream_id": "203880",
+        "name": "FR - CANAL+ PREMIER LEAGUE HEVC"
+      },
+      "canal_203881": {
+        "stream_id": "203881",
+        "name": "FR - CANAL+ PREMIER LEAGUE SD"
+      },
+      "canal_1479984": {
+        "stream_id": "1479984",
+        "name": "FR - CANAL+ MOTO GP FHD"
+      },
+      "canal_1137128": {
+        "stream_id": "1137128",
+        "name": "##### CANAL+ LIVE #####"
+      },
+      "canal_1135530": {
+        "stream_id": "1135530",
+        "name": "FR - CANAL+ KIDS FHD"
+      },
+      "canal_1135529": {
+        "stream_id": "1135529",
+        "name": "FR - CANAL+ KIDS HEVC"
+      },
+      "canal_1135528": {
+        "stream_id": "1135528",
+        "name": "FR - CANAL+ KIDS SD"
+      },
+      "canal_1099734": {
+        "stream_id": "1099734",
+        "name": "FR-CAR - CANAL+ KIDS HD"
+      },
+      "canal_1099735": {
+        "stream_id": "1099735",
+        "name": "FR-CAR - CANAL+ PREMIER LEAGUE HD"
+      },
+      "canal_1099737": {
+        "stream_id": "1099737",
+        "name": "FR-CAR - CANAL+ SPORT HD"
+      },
+      "canal_1028689": {
+        "stream_id": "1028689",
+        "name": "FR - CANAL+ SPORT HD"
+      },
+      "canal_1170776": {
+        "stream_id": "1170776",
+        "name": "FR-CAR - CANAL+ FOOT HD"
+      },
+      "canal_1099732": {
+        "stream_id": "1099732",
+        "name": "FR-CAR - CANAL+ HD"
+      },
+      "canal_1170762": {
+        "stream_id": "1170762",
+        "name": "FR-CAR - CANAL+ DOCS HD"
+      },
+      "canal_1170777": {
+        "stream_id": "1170777",
+        "name": "FR-CAR - CANAL+ BOX OFFICE HD"
+      },
+      "canal_987093": {
+        "stream_id": "987093",
+        "name": "FR-REU - CANAL+ PREMIER LEAGUE HD"
+      },
+      "canal_987095": {
+        "stream_id": "987095",
+        "name": "FR-REU - CANAL+ SPORT HD"
+      },
+      "canal_987088": {
+        "stream_id": "987088",
+        "name": "FR-REU - CANAL+ DOCS HD ²"
+      },
+      "canal_987090": {
+        "stream_id": "987090",
+        "name": "FR-REU - CANAL+ HD"
+      },
+      "canal_987091": {
+        "stream_id": "987091",
+        "name": "FR-REU - CANAL+ KIDS HD"
+      },
+      "canal_1348421": {
+        "stream_id": "1348421",
+        "name": "##### NL - EUROSPORT #####"
+      },
+      "canal_1237232": {
+        "stream_id": "1237232",
+        "name": " ##### DE - EUROSPORT  #####"
+      },
+      "canal_1259045": {
+        "stream_id": "1259045",
+        "name": "###### DE - EUROSPORT EXTRA ######"
+      },
+      "canal_20": {
+        "stream_id": "1243161",
+        "name": "DE - EUROSPORT EXTRA 20 FHD"
+      },
+      "canal_21": {
+        "stream_id": "1243162",
+        "name": "DE - EUROSPORT EXTRA 21 FHD"
+      },
+      "canal_22": {
+        "stream_id": "1243163",
+        "name": "DE - EUROSPORT EXTRA 22 FHD"
+      },
+      "canal_23": {
+        "stream_id": "1243164",
+        "name": "DE - EUROSPORT EXTRA 23 FHD"
+      },
+      "canal_24": {
+        "stream_id": "1243165",
+        "name": "DE - EUROSPORT EXTRA 24 FHD"
+      },
+      "canal_25": {
+        "stream_id": "1243166",
+        "name": "DE - EUROSPORT EXTRA 25 FHD"
+      },
+      "canal_26": {
+        "stream_id": "1243167",
+        "name": "DE - EUROSPORT EXTRA 26 FHD"
+      },
+      "canal_27": {
+        "stream_id": "1243168",
+        "name": "DE - EUROSPORT EXTRA 27 FHD"
+      },
+      "canal_28": {
+        "stream_id": "1243169",
+        "name": "DE - EUROSPORT EXTRA 28 FHD"
+      },
+      "canal_29": {
+        "stream_id": "1243170",
+        "name": "DE - EUROSPORT EXTRA 29 FHD"
+      },
+      "canal_30": {
+        "stream_id": "1243171",
+        "name": "DE - EUROSPORT EXTRA 30 FHD"
+      },
+      "canal_31": {
+        "stream_id": "1243172",
+        "name": "DE - EUROSPORT EXTRA 31 FHD"
+      },
+      "canal_32": {
+        "stream_id": "1243173",
+        "name": "DE - EUROSPORT EXTRA 32 FHD"
+      },
+      "canal_27892": {
+        "stream_id": "27892",
+        "name": "AT - CANAL+ ACTION FHD"
+      },
+      "canal_1054610": {
+        "stream_id": "1054610",
+        "name": "CH - CANAL+ DOCS FHD"
+      },
+      "canal_807094": {
+        "stream_id": "807094",
+        "name": "CH - CANAL+ SPORT FHD"
+      },
+      "canal_326353": {
+        "stream_id": "326353",
+        "name": "MT - EUROSPORT HD"
+      },
+      "canal_75799": {
+        "stream_id": "75799",
+        "name": "PL - CANAL+ NOW HD"
+      },
+      "canal_235059": {
+        "stream_id": "235059",
+        "name": "PL - CANAL+ DOMO FHD"
+      },
+      "canal_67879": {
+        "stream_id": "67879",
+        "name": "PL - CANAL+ DOMO HD"
+      },
+      "canal_67875": {
+        "stream_id": "67875",
+        "name": "PL - CANAL+ KUCHINIA FHD"
+      },
+      "canal_235060": {
+        "stream_id": "235060",
+        "name": "PL - CANAL+ KUCHINIA HD"
+      },
+      "canal_1414494": {
+        "stream_id": "1414494",
+        "name": "##### PL - CANAL+ SPORT #####"
+      },
+      "canal_75753": {
+        "stream_id": "75753",
+        "name": "PL - CANAL+ SPORT FHD"
+      },
+      "canal_67805": {
+        "stream_id": "67805",
+        "name": "PL - CANAL+ SPORT HD"
+      },
+      "canal_1414495": {
+        "stream_id": "1414495",
+        "name": "##### PL - CANAL+ EXTRA #####"
+      },
+      "canal_235057": {
+        "stream_id": "235057",
+        "name": "PL - CANAL+ PREMIUM HD"
+      },
+      "canal_75685": {
+        "stream_id": "75685",
+        "name": "PL - CANAL+ FILM HD"
+      },
+      "canal_75654": {
+        "stream_id": "75654",
+        "name": "PL - CANAL+ SERIALE HD"
+      },
+      "canal_67825": {
+        "stream_id": "67825",
+        "name": "PL - CANAL+  DISCOVERY HD"
+      },
+      "canal_75664": {
+        "stream_id": "75664",
+        "name": "PL - CANAL+ DOKUMENT HD"
+      },
+      "canal_235058": {
+        "stream_id": "235058",
+        "name": "PL - CANAL+ DOKUMENT HD"
+      },
+      "canal_44297": {
+        "stream_id": "44297",
+        "name": "NO - EUROSPORT N FHD"
+      },
+      "canal_1240499": {
+        "stream_id": "1240499",
+        "name": "##### EXYU - EUROSPORT ##### "
+      },
+      "canal_272373": {
+        "stream_id": "272373",
+        "name": "SI - EUROSPORT HD"
+      },
+      "canal_1408025": {
+        "stream_id": "1408025",
+        "name": "SK - CANAL+ SPORT FHD"
+      },
+      "canal_1408013": {
+        "stream_id": "1408013",
+        "name": "CZ - CANAL+ SPORT FHD"
+      },
+      "canal_907002": {
+        "stream_id": "907002",
+        "name": "CZ - CANAL+ DOMO HD"
+      }
+    },
+    "total_sport_channels": 175,
+    "status": "available",
+    "assigned_to": null,
+    "assigned_channel": null,
+    "assigned_at": null,
+    "added_at": "2026-11-23T17:26:53.677760"
+  },
+  "http___sunxyz_top_80_31533295846D5A4": {
+    "host": "http://sunxyz.top:80",
+    "username": "31533295846D5A4",
+    "password": "DsQ4SyHtOL",
+    "max_connections": 1,
+    "bein_channels": {
+      "bein_4": {
+        "stream_id": "72388",
+        "name": "US - BeIN SPORTS 4 HD"
+      },
+      "bein_1": {
+        "stream_id": "348325",
+        "name": "UK - BEIN SPORTS 1 ENGLISH FHD"
+      },
+      "bein_2": {
+        "stream_id": "1052426",
+        "name": "MY - BEIN SPORTS 2 HD"
+      },
+      "bein_3": {
+        "stream_id": "1052430",
+        "name": "MY - BEIN SPORTS 3 HD"
+      },
+      "bein_5": {
+        "stream_id": "72387",
+        "name": "US - BeIN SPORTS 5 HD"
+      },
+      "bein_39545": {
+        "stream_id": "39545",
+        "name": "TR - BEIN SPORTS HABER FHD"
+      },
+      "bein_983887": {
+        "stream_id": "983887",
+        "name": "LATINO - BEIN SPORTS XTRA N"
+      },
+      "bein_1121053": {
+        "stream_id": "1121053",
+        "name": "##### FRANCE BEIN SPORTS #####"
+      },
+      "bein_1226644": {
+        "stream_id": "1226644",
+        "name": "##### AR - BEIN UHD #####"
+      },
+      "bein_6": {
+        "stream_id": "72386",
+        "name": "US - BeIN SPORTS 6 HD"
+      },
+      "bein_7": {
+        "stream_id": "72385",
+        "name": "US - BeIN SPORTS 7 HD"
+      },
+      "bein_8": {
+        "stream_id": "72384",
+        "name": "US - BeIN SPORTS 8 HD"
+      },
+      "bein_2023": {
+        "stream_id": "1224831",
+        "name": "AR - BEIN OD 2023 4 UHD"
+      },
+      "bein_1226645": {
+        "stream_id": "1226645",
+        "name": "##### AR - BEIN HD #####"
+      },
+      "bein_1348416": {
+        "stream_id": "1348416",
+        "name": "AR - BEIN STAR MOVIES HD"
+      },
+      "bein_1348414": {
+        "stream_id": "1348414",
+        "name": "AR - BEIN STAR FILMS HD"
+      },
+      "bein_1348417": {
+        "stream_id": "1348417",
+        "name": "AR - BEIN STAR SERIES HD"
+      },
+      "bein_1348415": {
+        "stream_id": "1348415",
+        "name": "AR - BEIN STAR LIFE HD"
+      },
+      "bein_1348418": {
+        "stream_id": "1348418",
+        "name": "AR - BEIN CARTOONITO HD"
+      },
+      "bein_27948": {
+        "stream_id": "27948",
+        "name": "AR - BEIN FOX ACTION MOVIES HD"
+      },
+      "bein_27965": {
+        "stream_id": "27965",
+        "name": "AR - BEIN GOURMET HD"
+      },
+      "bein_1226343": {
+        "stream_id": "1226343",
+        "name": "AR - BEIN BBC EARTH HD"
+      },
+      "bein_1224819": {
+        "stream_id": "1224819",
+        "name": "AR - BEIN DISCOVERY FAMILY HD"
+      },
+      "bein_1224817": {
+        "stream_id": "1224817",
+        "name": "AR - BEIN DREAM WORK HD"
+      },
+      "bein_1224814": {
+        "stream_id": "1224814",
+        "name": "AR - BEIN FOOD NETWORK HD"
+      },
+      "bein_1224816": {
+        "stream_id": "1224816",
+        "name": "AR - BEIN HGTV HD"
+      },
+      "bein_1224815": {
+        "stream_id": "1224815",
+        "name": "AR - BEIN TRAVEL HD"
+      },
+      "bein_1224818": {
+        "stream_id": "1224818",
+        "name": "AR - BEIN JUNIOR KIDS HD"
+      },
+      "bein_986991": {
+        "stream_id": "986991",
+        "name": "##### BEIN SPORTS SA #####"
+      },
+      "bein_9": {
+        "stream_id": "1150954",
+        "name": "AR - BEIN SPORTS 9 XTRA 4K"
+      },
+      "bein_552087": {
+        "stream_id": "552087",
+        "name": "AR - BEIN SPORTS NEWS FHD"
+      },
+      "bein_271226": {
+        "stream_id": "271226",
+        "name": "AR - BEIN SPORTS NEWS HD"
+      },
+      "bein_331736": {
+        "stream_id": "331736",
+        "name": "AR - BEIN SPORTS GLOBAL FHD"
+      },
+      "bein_1347396": {
+        "stream_id": "1347396",
+        "name": "AR - BEIN SPORTS GLOBAL HD"
+      },
+      "bein_207574": {
+        "stream_id": "207574",
+        "name": "##### BEIN SPORTS FM #####"
+      },
+      "bein_986958": {
+        "stream_id": "986958",
+        "name": "AR - BEIN SPORTS NEWS FHD"
+      },
+      "bein_986993": {
+        "stream_id": "986993",
+        "name": "AR - BEIN SPORTS NEWS HD"
+      },
+      "bein_986957": {
+        "stream_id": "986957",
+        "name": "AR - BEIN SPORTS GLOBAL FHD"
+      },
+      "bein_986990": {
+        "stream_id": "986990",
+        "name": "AR - BEIN SPORTS GLOBAL HD"
+      },
+      "bein_1306288": {
+        "stream_id": "1306288",
+        "name": "##### BEIN SPORTS XTRA FM #####"
+      },
+      "bein_1306290": {
+        "stream_id": "1306290",
+        "name": "##### BEIN SPORTS ENGLISH FM #####"
+      },
+      "bein_1306289": {
+        "stream_id": "1306289",
+        "name": "##### BEIN SPORTS AFC FM #####"
+      },
+      "bein_1441989": {
+        "stream_id": "1441989",
+        "name": "##### AR - BEIN TOD #####"
+      },
+      "bein_1029422": {
+        "stream_id": "1029422",
+        "name": "ES - BEIN SPORTS Ñ FHD"
+      },
+      "bein_1029423": {
+        "stream_id": "1029423",
+        "name": "ES - BEIN SPORTS EXTRA Ñ FHD"
+      },
+      "bein_673514": {
+        "stream_id": "673514",
+        "name": "CA -  BEIN SPORTS HD"
+      },
+      "bein_72383": {
+        "stream_id": "72383",
+        "name": "US - BeIN SPORTS HD"
+      },
+      "bein_72390": {
+        "stream_id": "72390",
+        "name": "US - BeIN SPORTS LALIGA UHD"
+      },
+      "bein_72382": {
+        "stream_id": "72382",
+        "name": "US - BeIN SPORTS EN ESPANOL HD"
+      },
+      "bein_174567": {
+        "stream_id": "174567",
+        "name": "US - BEIN SPORTS XTRA HD"
+      },
+      "bein_1052432": {
+        "stream_id": "1052432",
+        "name": "MY - BEIN SPORTS HD"
+      }
+    },
+    "bein_fr_channels": {
+      "bein_1_fr": {
+        "stream_id": "56544",
+        "name": "FR - BEIN SPORTS 1 SD "
+      },
+      "bein_2_fr": {
+        "stream_id": "56543",
+        "name": "FR - BEIN SPORTS 2 SD "
+      },
+      "bein_3_fr": {
+        "stream_id": "56542",
+        "name": "FR - BEIN SPORTS 3 SD"
+      },
+      "bein_4_fr": {
+        "stream_id": "62502",
+        "name": "FR - BEIN SPORTS MAX 4 FHD "
+      },
+      "bein_5_fr": {
+        "stream_id": "62501",
+        "name": "FR - BEIN SPORTS MAX 5 FHD "
+      },
+      "bein_6_fr": {
+        "stream_id": "62500",
+        "name": "FR - BEIN SPORTS MAX 6 FHD "
+      },
+      "bein_7_fr": {
+        "stream_id": "62499",
+        "name": "FR - BEIN SPORTS MAX 7 FHD "
+      },
+      "bein_8_fr": {
+        "stream_id": "62498",
+        "name": "FR - BEIN SPORTS MAX 8 FHD "
+      },
+      "bein_9_fr": {
+        "stream_id": "62497",
+        "name": "FR - BEIN SPORTS MAX 9 FHD "
+      },
+      "bein_10_fr": {
+        "stream_id": "211992",
+        "name": "FR - BEIN SPORTS MAX 10 FHD "
+      },
+      "bein_fr_1306291": {
+        "stream_id": "1306291",
+        "name": "##### AR - BEIN SPORTS FRENCH FM #####"
+      }
+    },
+    "canal_channels": {
+      "canal_4": {
+        "stream_id": "427609",
+        "name": "FR - CANAL+ 4K+"
+      },
+      "canal_1": {
+        "stream_id": "807103",
+        "name": "CH - EUROSPORT 1 FRANCE FHD"
+      },
+      "canal_2": {
+        "stream_id": "497412",
+        "name": "FI - EUROSPORT 2 HD"
+      },
+      "canal_772770": {
+        "stream_id": "772770",
+        "name": "PK - EUROSPORT HD"
+      },
+      "canal_329420": {
+        "stream_id": "329420",
+        "name": "IL - EUROSPORT"
+      },
+      "canal_849417": {
+        "stream_id": "849417",
+        "name": "SAF - CANAL+ PREMIERE CENTRE HD"
+      },
+      "canal_194768": {
+        "stream_id": "194768",
+        "name": "AF - CANAL+ OUEST"
+      },
+      "canal_194769": {
+        "stream_id": "194769",
+        "name": "AF - CANAL+ FAMILY OUEST"
+      },
+      "canal_194770": {
+        "stream_id": "194770",
+        "name": "AF - CANAL+ MAGIC OUEST"
+      },
+      "canal_325816": {
+        "stream_id": "325816",
+        "name": "AF - CANAL+ POP OUEST"
+      },
+      "canal_194772": {
+        "stream_id": "194772",
+        "name": "AF - CANAL+ CINEMA OUEST"
+      },
+      "canal_194773": {
+        "stream_id": "194773",
+        "name": "AF - CANAL+ CENTRE"
+      },
+      "canal_194774": {
+        "stream_id": "194774",
+        "name": "AF - CANAL+ ACTION OUEST"
+      },
+      "canal_3": {
+        "stream_id": "1470267",
+        "name": "FR - CANAL+ BOXOFFICE 3 FHD"
+      },
+      "canal_5": {
+        "stream_id": "1470269",
+        "name": "FR - CANAL+ BOXOFFICE 5 FHD"
+      },
+      "canal_1027765": {
+        "stream_id": "1027765",
+        "name": "AF - CANAL+ CENTR"
+      },
+      "canal_1027768": {
+        "stream_id": "1027768",
+        "name": "AF - CANAL+ MAGIC"
+      },
+      "canal_1060658": {
+        "stream_id": "1060658",
+        "name": "AF - CANAL+ POP CENTRE HD"
+      },
+      "canal_1300926": {
+        "stream_id": "1300926",
+        "name": "AF - CANAL+ MAGIC CENTRE"
+      },
+      "canal_1121066": {
+        "stream_id": "1121066",
+        "name": "##### FRANCE RMC SPORT #####"
+      },
+      "canal_152649": {
+        "stream_id": "152649",
+        "name": "FR - RMC SPORT UHD"
+      },
+      "canal_1121056": {
+        "stream_id": "1121056",
+        "name": "##### FRANCE EUROSPORT #####"
+      },
+      "canal_360": {
+        "stream_id": "807093",
+        "name": "CH - CANAL+ SPORT 360 FHD"
+      },
+      "canal_1121052": {
+        "stream_id": "1121052",
+        "name": "##### CANAL+ SPORTS #####"
+      },
+      "canal_56644": {
+        "stream_id": "56644",
+        "name": "FR - CANAL+ SPORT FHD ◉"
+      },
+      "canal_56569": {
+        "stream_id": "56569",
+        "name": "FR - CANAL+ SPORT HEVC ◉"
+      },
+      "canal_56533": {
+        "stream_id": "56533",
+        "name": "FR - CANAL+ SPORT SD"
+      },
+      "canal_311116": {
+        "stream_id": "311116",
+        "name": "FR - CANAL+ FOOT FHD "
+      },
+      "canal_311117": {
+        "stream_id": "311117",
+        "name": "FR - CANAL+ FOOT HEVC "
+      },
+      "canal_853546": {
+        "stream_id": "853546",
+        "name": "FR - CANAL+ FOOT HD"
+      },
+      "canal_311118": {
+        "stream_id": "311118",
+        "name": "FR - CANAL+ FOOT SD "
+      },
+      "canal_203876": {
+        "stream_id": "203876",
+        "name": "FR - CANAL+ PREMIER LEAGUE FHD"
+      },
+      "canal_203880": {
+        "stream_id": "203880",
+        "name": "FR - CANAL+ PREMIER LEAGUE HEVC"
+      },
+      "canal_203881": {
+        "stream_id": "203881",
+        "name": "FR - CANAL+ PREMIER LEAGUE SD"
+      },
+      "canal_1479984": {
+        "stream_id": "1479984",
+        "name": "FR - CANAL+ MOTO GP FHD"
+      },
+      "canal_1137128": {
+        "stream_id": "1137128",
+        "name": "##### CANAL+ LIVE #####"
+      },
+      "canal_6": {
+        "stream_id": "1470270",
+        "name": "FR - CANAL+ BOXOFFICE 6 FHD"
+      },
+      "canal_7": {
+        "stream_id": "1470271",
+        "name": "FR - CANAL+ BOXOFFICE 7 FHD"
+      },
+      "canal_8": {
+        "stream_id": "1470272",
+        "name": "FR - CANAL+ BOXOFFICE 8 FHD"
+      },
+      "canal_9": {
+        "stream_id": "1470273",
+        "name": "FR - CANAL+ BOXOFFICE 9 FHD"
+      },
+      "canal_10": {
+        "stream_id": "1470274",
+        "name": "FR - CANAL+ BOXOFFICE 10 FHD"
+      },
+      "canal_11": {
+        "stream_id": "1470275",
+        "name": "FR - CANAL+ BOXOFFICE 11 FHD"
+      },
+      "canal_12": {
+        "stream_id": "1470276",
+        "name": "FR - CANAL+ BOXOFFICE 12 FHD"
+      },
+      "canal_13": {
+        "stream_id": "1470277",
+        "name": "FR - CANAL+ BOXOFFICE 13 FHD"
+      },
+      "canal_14": {
+        "stream_id": "1470278",
+        "name": "FR - CANAL+ BOXOFFICE 14 FHD"
+      },
+      "canal_15": {
+        "stream_id": "1470279",
+        "name": "FR - CANAL+ BOXOFFICE 15 FHD"
+      },
+      "canal_16": {
+        "stream_id": "1470280",
+        "name": "FR - CANAL+ BOXOFFICE 16 FHD"
+      },
+      "canal_17": {
+        "stream_id": "1470281",
+        "name": "FR - CANAL+ BOXOFFICE 17 FHD"
+      },
+      "canal_18": {
+        "stream_id": "1470282",
+        "name": "FR - CANAL+ BOXOFFICE 18 FHD"
+      },
+      "canal_19": {
+        "stream_id": "1470283",
+        "name": "FR - CANAL+ BOXOFFICE 19 FHD"
+      },
+      "canal_1135530": {
+        "stream_id": "1135530",
+        "name": "FR - CANAL+ KIDS FHD"
+      },
+      "canal_1135529": {
+        "stream_id": "1135529",
+        "name": "FR - CANAL+ KIDS HEVC"
+      },
+      "canal_1135528": {
+        "stream_id": "1135528",
+        "name": "FR - CANAL+ KIDS SD"
+      },
+      "canal_1425444": {
+        "stream_id": "1425444",
+        "name": "##### CANAL+ BOXOFFICE #####"
+      },
+      "canal_1470264": {
+        "stream_id": "1470264",
+        "name": "FR - CANAL+ BOXOFFICE INFO FHD"
+      },
+      "canal_56840": {
+        "stream_id": "56840",
+        "name": "FR - CANAL+ CINEMA FHD ◉"
+      },
+      "canal_285950": {
+        "stream_id": "285950",
+        "name": "FR - CANAL+ DOCS FHD"
+      },
+      "canal_288410": {
+        "stream_id": "288410",
+        "name": "FR - CANAL+ GRAND ECRAN FHD ◉"
+      },
+      "canal_56993": {
+        "stream_id": "56993",
+        "name": "FR - CANAL+ FHD ◉ "
+      },
+      "canal_906760": {
+        "stream_id": "906760",
+        "name": "FR - CANAL+ FHD ²"
+      },
+      "canal_56838": {
+        "stream_id": "56838",
+        "name": "FR - CANAL+ KIDS FHD"
+      },
+      "canal_56815": {
+        "stream_id": "56815",
+        "name": "FR - CANAL+ CINEMA HEVC ◉"
+      },
+      "canal_285951": {
+        "stream_id": "285951",
+        "name": "FR - CANAL+ DOCS HEVC"
+      },
+      "canal_288409": {
+        "stream_id": "288409",
+        "name": "FR - CANAL+ GRAND ECRAN HEVC"
+      },
+      "canal_56950": {
+        "stream_id": "56950",
+        "name": "FR - CANAL+ HEVC"
+      },
+      "canal_56813": {
+        "stream_id": "56813",
+        "name": "FR - CANAL+ KIDS HEVC"
+      },
+      "canal_56812": {
+        "stream_id": "56812",
+        "name": "FR - CANAL+ SERIES HEVC"
+      },
+      "canal_876959": {
+        "stream_id": "876959",
+        "name": "FR - CANAL+ BOX OFFICE HD"
+      },
+      "canal_487235": {
+        "stream_id": "487235",
+        "name": "FR - CANAL+ BOX OFFICE HD²"
+      },
+      "canal_56790": {
+        "stream_id": "56790",
+        "name": "FR - CANAL+ CINEMA SD"
+      },
+      "canal_56788": {
+        "stream_id": "56788",
+        "name": "FR - CANAL+ KIDS SD"
+      },
+      "canal_56907": {
+        "stream_id": "56907",
+        "name": "FR - CANAL+ SD"
+      },
+      "canal_56787": {
+        "stream_id": "56787",
+        "name": "FR - CANAL+ SERIES SD"
+      },
+      "canal_1044106": {
+        "stream_id": "1044106",
+        "name": "FR - CANAL+ UHD"
+      },
+      "canal_44297": {
+        "stream_id": "44297",
+        "name": "NO - EUROSPORT N FHD"
+      },
+      "canal_1054610": {
+        "stream_id": "1054610",
+        "name": "CH - CANAL+ DOCS FHD"
+      },
+      "canal_807094": {
+        "stream_id": "807094",
+        "name": "CH - CANAL+ SPORT FHD"
+      }
+    },
+    "total_sport_channels": 139,
+    "status": "available",
+    "assigned_to": null,
+    "assigned_channel": null,
+    "assigned_at": null,
+    "added_at": "2026-11-23T17:27:00.093751"
+  },
+  "http___dreamvue_xyz_80_adrianford": {
+    "host": "http://dreamvue.xyz:80",
+    "username": "adrianford",
+    "password": "2801764953",
+    "max_connections": 3,
+    "bein_channels": {
+      "bein_3979": {
+        "stream_id": "3979",
+        "name": "CA Bein Sports HD"
+      },
+      "bein_829388": {
+        "stream_id": "829388",
+        "name": "beIN SPORTS XTRA"
+      },
+      "bein_716600": {
+        "stream_id": "716600",
+        "name": "Pᴀᴄᴋ Fᴜᴛʙᴏʟ ᴴᴰ | BEIN SPORTS XTRA Ñ MX"
+      },
+      "bein_725342": {
+        "stream_id": "725342",
+        "name": "|LAM| beIN Sports N"
+      },
+      "bein_4": {
+        "stream_id": "947",
+        "name": "USA BeIN Sports 4"
+      },
+      "bein_725318": {
+        "stream_id": "725318",
+        "name": "Sports | BEIN SPORTS XTRA Ñ"
+      },
+      "bein_725317": {
+        "stream_id": "725317",
+        "name": "Sports | BEIN SPORTS Ñ UHD"
+      },
+      "bein_3242": {
+        "stream_id": "3242",
+        "name": "USA Latin BEIN Sports en Español"
+      },
+      "bein_830260": {
+        "stream_id": "830260",
+        "name": "USA Latin beIN Sports Xtra en Espanol"
+      },
+      "bein_710441": {
+        "stream_id": "710441",
+        "name": "beIN Sports XTRA"
+      },
+      "bein_710440": {
+        "stream_id": "710440",
+        "name": "beIN Sports XTRA En Español"
+      },
+      "bein_623379": {
+        "stream_id": "623379",
+        "name": "[US] beIN SPORTS XTRA FHD [sᴛᴠ+]"
+      },
+      "bein_940": {
+        "stream_id": "940",
+        "name": "USA Bein Sports"
+      },
+      "bein_5": {
+        "stream_id": "946",
+        "name": "USA BeIN Sports 5"
+      },
+      "bein_6": {
+        "stream_id": "945",
+        "name": "USA BeIN Sports 6"
+      },
+      "bein_7": {
+        "stream_id": "944",
+        "name": "USA BeIN Sports 7"
+      },
+      "bein_8": {
+        "stream_id": "943",
+        "name": "USA BeIN Sports 8"
+      },
+      "bein_942": {
+        "stream_id": "942",
+        "name": "USA Bein Sports en Espanol"
+      },
+      "bein_941": {
+        "stream_id": "941",
+        "name": "USA BeIN Sports La Liga"
+      },
+      "bein_939": {
+        "stream_id": "939",
+        "name": "USA Bein Sports Xtra"
+      }
+    },
+    "bein_fr_channels": {},
+    "canal_channels": {
+      "canal_725297": {
+        "stream_id": "725297",
+        "name": "Sports | EUROSPORTS UHD"
+      },
+      "canal_1": {
+        "stream_id": "709360",
+        "name": "Eurosport 1 HD UK"
+      },
+      "canal_2": {
+        "stream_id": "303631",
+        "name": "CAR: EUROSPORT 2"
+      },
+      "canal_303768": {
+        "stream_id": "303768",
+        "name": "CAR: EUROSPORT"
+      }
+    },
+    "total_sport_channels": 24,
+    "status": "available",
+    "assigned_to": null,
+    "assigned_channel": null,
+    "assigned_at": null,
+    "added_at": "2026-11-23T17:27:36.099838"
+  }
+}
