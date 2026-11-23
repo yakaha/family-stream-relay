@@ -1,3355 +1,548 @@
 [
   {
-    "id": "1338926",
-    "name": "[FR] CANAL+ CAN",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/logos/1338926.png"
-  },
-  {
-    "id": "832133",
-    "name": "[FR] SPORT EN FRANCE HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832133.png"
-  },
-  {
-    "id": "832132",
-    "name": "[FR] AUTOMOTO FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832132.png"
-  },
-  {
-    "id": "832131",
-    "name": "[FR] AUTOMOTO HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832131.png"
-  },
-  {
-    "id": "832130",
-    "name": "[FR] AUTOMOTO SD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832130.png"
-  },
-  {
-    "id": "832129",
-    "name": "[FR] EQUIDIA FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832129.png"
-  },
-  {
-    "id": "832128",
-    "name": "[FR] EQUIDIA HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832128.png"
-  },
-  {
-    "id": "832127",
-    "name": "[FR] EQUIDIA SD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832127.png"
-  },
-  {
-    "id": "832126",
-    "name": "[FR] L'EQUIPE 21 FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832126.png"
-  },
-  {
-    "id": "1086998",
-    "name": "[FR] L'EQUIPE 1 FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/1086998.png"
-  },
-  {
-    "id": "1086999",
-    "name": "[FR] L'EQUIPE 2 FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/1086999.png"
-  },
-  {
-    "id": "832125",
-    "name": "[FR]  INFOSPORT+ FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832125.png"
-  },
-  {
-    "id": "832124",
-    "name": "[FR] INFOSPORT+ H265",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832124.png"
-  },
-  {
-    "id": "832123",
-    "name": "[FR] INFOSPORT+ HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832123.png"
-  },
-  {
-    "id": "832122",
-    "name": "[FR] INFOSPORT+ SD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832122.png"
-  },
-  {
-    "id": "832121",
-    "name": "[FR] GOLF+ FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832121.png"
-  },
-  {
-    "id": "832120",
-    "name": "[FR] GOLF+ HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832120.png"
-  },
-  {
-    "id": "832119",
-    "name": "[FR] GOLF+ SD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832119.png"
-  },
-  {
-    "id": "832118",
-    "name": "[FR] GOLF CHANNEL FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832118.png"
-  },
-  {
-    "id": "1105897",
-    "name": "[FR] OL TV FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/1105897.png"
-  },
-  {
-    "id": "1105898",
-    "name": "[FR] OL TV HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/1105898.png"
-  },
-  {
-    "id": "832116",
-    "name": "[FR] EUROSPORT 1 FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832116.png"
-  },
-  {
-    "id": "832115",
-    "name": "[FR] EUROSPORT 1 H265",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832115.png"
-  },
-  {
-    "id": "832114",
-    "name": "[FR] EUROSPORT 1 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832114.png"
-  },
-  {
-    "id": "832113",
-    "name": "[FR] EUROSPORT 1 SD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832113.png"
-  },
-  {
-    "id": "832112",
-    "name": "[FR] EUROSPORT 2 FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832112.png"
-  },
-  {
-    "id": "832111",
-    "name": "[FR] EUROSPORT 2 H265",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832111.png"
-  },
-  {
-    "id": "832110",
-    "name": "[FR] EUROSPORT 2 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832110.png"
-  },
-  {
-    "id": "832109",
-    "name": "[FR] EUROSPORT 2 SD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832109.png"
-  },
-  {
-    "id": "543422",
-    "name": "[FR] EUROSPORT 360 1 UHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/543422.png"
-  },
-  {
-    "id": "543423",
-    "name": "[FR] EUROSPORT 360 2 UHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/543423.png"
-  },
-  {
-    "id": "543424",
-    "name": "[FR] EUROSPORT 360 3 UHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/543424.png"
-  },
-  {
-    "id": "543425",
-    "name": "[FR] EUROSPORT 360 4 UHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/543425.png"
-  },
-  {
-    "id": "543426",
-    "name": "[FR] EUROSPORT 360 5 UHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/543426.png"
-  },
-  {
-    "id": "543427",
-    "name": "[FR] EUROSPORT 360 6 UHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/543427.png"
-  },
-  {
-    "id": "543428",
-    "name": "[FR] EUROSPORT 360 7 UHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/543428.png"
-  },
-  {
-    "id": "543429",
-    "name": "[FR] EUROSPORT 360 8 UHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/543429.png"
-  },
-  {
-    "id": "831999",
-    "name": "[FR] EXTREME SPORTS",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/831999.png"
-  },
-  {
-    "id": "832106",
-    "name": "[FR] CANAL+ FOOT FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832106.png"
-  },
-  {
-    "id": "832105",
-    "name": "[FR] CANAL+ FOOT H.265",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832105.png"
-  },
-  {
-    "id": "832102",
-    "name": "[FR] CANAL+ SPORT HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832102.png"
-  },
-  {
-    "id": "832101",
-    "name": "[FR] CANAL+ SPORT 360 FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832101.png"
-  },
-  {
-    "id": "832100",
-    "name": "[FR] CANAL+ SPORT 360 H.265",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832100.png"
-  },
-  {
-    "id": "832099",
-    "name": "[FR] CANAL+ SPORT 360 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832099.png"
-  },
-  {
-    "id": "832098",
-    "name": "[FR] CANAL+ PREMIERE LEAGUE HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832098.png"
-  },
-  {
-    "id": "832095",
-    "name": "[FR] CANAL+ TOP 14 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832095.png"
-  },
-  {
-    "id": "832093",
-    "name": "[FR] RMC SPORT 1 FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832093.png"
-  },
-  {
-    "id": "832092",
-    "name": "[FR] RMC SPORT 1 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832092.png"
-  },
-  {
-    "id": "832091",
-    "name": "[FR] RMC SPORT 1 SD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832091.png"
-  },
-  {
-    "id": "832090",
-    "name": "[FR]  RMC SPORT 2 FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832090.png"
-  },
-  {
-    "id": "832089",
-    "name": "[FR] RMC SPORT 2 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832089.png"
-  },
-  {
-    "id": "832088",
-    "name": "[FR]  RMC SPORT 2 SD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832088.png"
-  },
-  {
-    "id": "832086",
-    "name": "[FR] RMC SPORT 3 FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832086.png"
-  },
-  {
-    "id": "832085",
-    "name": "[FR] RMC SPORT 3 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832085.png"
-  },
-  {
-    "id": "832084",
-    "name": "[FR] RMC SPORT 3 SD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/RMCSPORT.png"
-  },
-  {
-    "id": "832083",
-    "name": "[FR] RMC SPORT 4 FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/RMCSPORT.png"
-  },
-  {
-    "id": "832082",
-    "name": "[FR]  RMC SPORT 4 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/RMCSPORT.png"
-  },
-  {
-    "id": "832081",
-    "name": "[FR] RMC SPORT 4 SD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/RMCSPORT.png"
-  },
-  {
-    "id": "832080",
-    "name": "[FR] RMC SPORT LIVE 5 FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/RMCSPORT.png"
-  },
-  {
-    "id": "832079",
-    "name": "[FR] RMC SPORT LIVE 5 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/RMCSPORT.png"
-  },
-  {
-    "id": "832078",
-    "name": "[FR] RMC SPORT LIVE 6 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/RMCSPORT.png"
-  },
-  {
-    "id": "832077",
-    "name": "[FR] RMC SPORT LIVE 6 FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/RMCSPORT.png"
-  },
-  {
-    "id": "832076",
-    "name": "[FR] RMC SPORT LIVE 7 FHD (ONLY ENVENT)",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/RMCSPORT.png"
-  },
-  {
-    "id": "832075",
-    "name": "[FR] RMC SPORT LIVE 7 HD (ONLY ENVENT)",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/RMCSPORT.png"
-  },
-  {
-    "id": "832074",
-    "name": "[FR] RMC SPORT LIVE 8 FHD (ONLY ENVENT)",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/RMCSPORT.png"
-  },
-  {
-    "id": "832073",
-    "name": "[FR] RMC SPORT LIVE 8 HD (ONLY ENVENT)",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/RMCSPORT.png"
-  },
-  {
-    "id": "832068",
-    "name": "[FR] BEIN SPORTS 1 FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/bein/832068.png"
-  },
-  {
-    "id": "832067",
-    "name": "[FR] BEIN SPORTS 1 H.265",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/bein/832067.png"
-  },
-  {
-    "id": "832066",
-    "name": "[FR] BEIN SPORTS 1 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/bein/832066.png"
-  },
-  {
-    "id": "832065",
-    "name": "[FR] BEIN SPORTS 1 SD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/bein/832065.png"
-  },
-  {
-    "id": "832064",
-    "name": "[FR] BEIN SPORTS 2 FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832064.png"
-  },
-  {
-    "id": "832063",
-    "name": "[FR] BEIN SPORTS 2 H.265",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832063.png"
-  },
-  {
-    "id": "832062",
-    "name": "[FR] BEIN SPORTS 2 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832062.png"
-  },
-  {
-    "id": "832061",
-    "name": "[FR] BEIN SPORTS 2 SD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832061.png"
-  },
-  {
-    "id": "832060",
-    "name": "[FR] BEIN SPORTS 3 FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832060.png"
-  },
-  {
-    "id": "832059",
-    "name": "[FR] BEIN SPORTS 3 H.265",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832059.png"
-  },
-  {
-    "id": "832058",
-    "name": "[FR] BEIN SPORTS 3 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832058.png"
-  },
-  {
-    "id": "832057",
-    "name": "[FR] BEIN SPORTS 3 SD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832057.png"
-  },
-  {
-    "id": "832055",
-    "name": "[FR] BEIN SPORTS MAX 4 FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832055.png"
-  },
-  {
-    "id": "832054",
-    "name": "[FR] BEIN SPORTS MAX 4 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832054.png"
-  },
-  {
-    "id": "832053",
-    "name": "[FR] BEIN SPORTS MAX 5 FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832053.png"
-  },
-  {
-    "id": "832052",
-    "name": "[FR]  BEIN SPORTS MAX 5 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832052.png"
-  },
-  {
-    "id": "832051",
-    "name": "[FR] BEIN SPORTS MAX 6 FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832051.png"
-  },
-  {
-    "id": "832050",
-    "name": "[FR] BEIN SPORTS MAX 6 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832050.png"
-  },
-  {
-    "id": "832049",
-    "name": "[FR] BEIN SPORTS MAX 7 FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832049.png"
-  },
-  {
-    "id": "832048",
-    "name": "[FR] BEIN SPORTS MAX 7 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832048.png"
-  },
-  {
-    "id": "832047",
-    "name": "[FR] BEIN SPORTS MAX 8 FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832047.png"
-  },
-  {
-    "id": "832046",
-    "name": "[FR] BEIN SPORTS MAX 8 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832046.png"
-  },
-  {
-    "id": "832045",
-    "name": "[FR] BEIN SPORTS MAX 9 FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832045.png"
-  },
-  {
-    "id": "832044",
-    "name": "[FR] BEIN SPORTS MAX 9 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832044.png"
-  },
-  {
-    "id": "832043",
-    "name": "[FR] BEIN SPORTS MAX 10 FHD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832043.png"
-  },
-  {
-    "id": "832042",
-    "name": "[FR] BEIN SPORTS MAX 10 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/832042.png"
-  },
-  {
-    "id": "963493",
-    "name": "[FR] SKWEEK 1 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/963493.png"
-  },
-  {
-    "id": "963494",
-    "name": "[FR] SKWEEK 2 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/963494.png"
-  },
-  {
-    "id": "963495",
-    "name": "[FR] SKWEEK 3 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/963495.png"
-  },
-  {
-    "id": "963496",
-    "name": "[FR] SKWEEK 4 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/963496.png"
-  },
-  {
-    "id": "963497",
-    "name": "[FR] SKWEEK 5 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/963497.png"
-  },
-  {
-    "id": "963498",
-    "name": "[FR] SKWEEK 6 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/963498.png"
-  },
-  {
-    "id": "1014208",
-    "name": "[FR] DAZN 1 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/1014208.png"
-  },
-  {
-    "id": "963499",
-    "name": "[FR] SKWEEK 7 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/963499.png"
-  },
-  {
-    "id": "963500",
-    "name": "[FR]  SKWEEK 8 HD",
-    "category": "FR SPORTS | TV",
-    "category_id": "1340",
-    "logo": "http://103.176.90.154/picons/logos/france/963500.png"
-  },
-  {
-    "id": "1150880",
-    "name": "[FR] CANAL+ LIVE 1",
-    "category": "FR CANAL+ LIVE | TV",
-    "category_id": "1531",
-    "logo": "http://103.176.90.154/picons/logos/france/1150880.png"
-  },
-  {
-    "id": "1150879",
-    "name": "[FR] CANAL+ LIVE 2",
-    "category": "FR CANAL+ LIVE | TV",
-    "category_id": "1531",
-    "logo": "http://103.176.90.154/picons/logos/france/1150879.png"
-  },
-  {
-    "id": "1150878",
-    "name": "[FR] CANAL+ LIVE 3",
-    "category": "FR CANAL+ LIVE | TV",
-    "category_id": "1531",
-    "logo": "http://103.176.90.154/picons/logos/france/1150878.png"
-  },
-  {
-    "id": "1150877",
-    "name": "[FR] CANAL+ LIVE 4",
-    "category": "FR CANAL+ LIVE | TV",
-    "category_id": "1531",
-    "logo": "http://103.176.90.154/picons/logos/france/1150877.png"
-  },
-  {
-    "id": "1150876",
-    "name": "[FR] CANAL+ LIVE 5",
-    "category": "FR CANAL+ LIVE | TV",
-    "category_id": "1531",
-    "logo": "http://103.176.90.154/picons/logos/france/1150876.png"
-  },
-  {
-    "id": "1150875",
-    "name": "[FR] CANAL+ LIVE 6",
-    "category": "FR CANAL+ LIVE | TV",
-    "category_id": "1531",
-    "logo": "http://103.176.90.154/picons/logos/france/1150875.png"
-  },
-  {
-    "id": "1150874",
-    "name": "[FR] CANAL+ LIVE 7",
-    "category": "FR CANAL+ LIVE | TV",
-    "category_id": "1531",
-    "logo": "http://103.176.90.154/picons/logos/france/1150874.png"
-  },
-  {
-    "id": "1150873",
-    "name": "[FR] CANAL+ LIVE 8",
-    "category": "FR CANAL+ LIVE | TV",
-    "category_id": "1531",
-    "logo": "http://103.176.90.154/picons/logos/france/1150873.png"
-  },
-  {
-    "id": "1150872",
-    "name": "[FR] CANAL+ LIVE 9",
-    "category": "FR CANAL+ LIVE | TV",
-    "category_id": "1531",
-    "logo": "http://103.176.90.154/picons/logos/france/1150872.png"
-  },
-  {
-    "id": "1150871",
-    "name": "[FR] CANAL+ LIVE 10",
-    "category": "FR CANAL+ LIVE | TV",
-    "category_id": "1531",
-    "logo": "http://103.176.90.154/picons/logos/france/1150871.png"
-  },
-  {
-    "id": "1150870",
-    "name": "[FR] CANAL+ LIVE 11",
-    "category": "FR CANAL+ LIVE | TV",
-    "category_id": "1531",
-    "logo": "http://103.176.90.154/picons/logos/france/1150870.png"
-  },
-  {
-    "id": "1150869",
-    "name": "[FR] CANAL+ LIVE 12",
-    "category": "FR CANAL+ LIVE | TV",
-    "category_id": "1531",
-    "logo": "http://103.176.90.154/picons/logos/france/1150869.png"
-  },
-  {
-    "id": "1150868",
-    "name": "[FR] CANAL+ LIVE 13",
-    "category": "FR CANAL+ LIVE | TV",
-    "category_id": "1531",
-    "logo": "http://103.176.90.154/picons/logos/france/1150868.png"
-  },
-  {
-    "id": "1150867",
-    "name": "[FR] CANAL+ LIVE 14",
-    "category": "FR CANAL+ LIVE | TV",
-    "category_id": "1531",
-    "logo": "http://103.176.90.154/picons/logos/france/1150867.png"
-  },
-  {
-    "id": "1150866",
-    "name": "[FR] CANAL+ LIVE 15",
-    "category": "FR CANAL+ LIVE | TV",
-    "category_id": "1531",
-    "logo": "http://103.176.90.154/picons/logos/france/1150866.png"
-  },
-  {
-    "id": "1150865",
-    "name": "[FR] CANAL+ LIVE 16",
-    "category": "FR CANAL+ LIVE | TV",
-    "category_id": "1531",
-    "logo": "http://103.176.90.154/picons/logos/france/1150865.png"
-  },
-  {
-    "id": "1150864",
-    "name": "[FR] CANAL+ LIVE 17",
-    "category": "FR CANAL+ LIVE | TV",
-    "category_id": "1531",
-    "logo": "http://103.176.90.154/picons/logos/france/1150864.png"
-  },
-  {
-    "id": "1150863",
-    "name": "[FR] CANAL+ LIVE 18",
-    "category": "FR CANAL+ LIVE | TV",
-    "category_id": "1531",
-    "logo": "http://103.176.90.154/picons/logos/france/1150863.png"
-  },
-  {
-    "id": "1150862",
-    "name": "[FR] CANAL+ LIVE 19",
-    "category": "FR CANAL+ LIVE | TV",
-    "category_id": "1531",
-    "logo": "http://103.176.90.154/picons/logos/france/1150862.png"
-  },
-  {
-    "id": "1299856",
-    "name": "[FR] LIGUE1+ HD ( Vendredi Match )",
-    "category": "FR LIGUE 1+ VIP | TV",
-    "category_id": "1590",
-    "logo": "http://103.176.90.154/picons/logos/france/1902436.png"
-  },
-  {
-    "id": "1299855",
-    "name": "[FR] LIGUE1+ HD ( Samedi Match 1)",
-    "category": "FR LIGUE 1+ VIP | TV",
-    "category_id": "1590",
-    "logo": "http://103.176.90.154/picons/logos/france/1902435.png"
-  },
-  {
-    "id": "1299854",
-    "name": "[FR] LIGUE1+ HD ( Samedi Match 2)",
-    "category": "FR LIGUE 1+ VIP | TV",
-    "category_id": "1590",
-    "logo": "http://103.176.90.154/picons/logos/france/1902434.png"
-  },
-  {
-    "id": "1299853",
-    "name": "[FR] LIGUE1+ HD (Canal Multiplex LIVE ONLY )",
-    "category": "FR LIGUE 1+ VIP | TV",
-    "category_id": "1590",
-    "logo": "http://103.176.90.154/picons/logos/france/1902433.png"
-  },
-  {
-    "id": "1299852",
-    "name": "[FR] LIGUE1+ HD (Dimanche 1er match)",
-    "category": "FR LIGUE 1+ VIP | TV",
-    "category_id": "1590",
-    "logo": "http://103.176.90.154/picons/logos/france/1902432.png"
-  },
-  {
-    "id": "1299851",
-    "name": "[FR] LIGUE1+ HD ( Dimanche 2eme Match )",
-    "category": "FR LIGUE 1+ VIP | TV",
-    "category_id": "1590",
-    "logo": "http://103.176.90.154/picons/logos/france/1902431.png"
-  },
-  {
-    "id": "1299850",
-    "name": "[FR] LIGUE1+ HD ( Dimanche 3ème Match )",
-    "category": "FR LIGUE 1+ VIP | TV",
-    "category_id": "1590",
-    "logo": "http://103.176.90.154/picons/logos/france/1902430.png"
-  },
-  {
-    "id": "1299849",
-    "name": "[FR] LIGUE1+ HD ( Dimanche 4ème MATCH )",
-    "category": "FR LIGUE 1+ VIP | TV",
-    "category_id": "1590",
-    "logo": "http://103.176.90.154/picons/logos/france/1902429.png"
-  },
-  {
-    "id": "1299848",
-    "name": "[FR] LIGUE1+ FHD ( Vendredi Match )",
-    "category": "FR LIGUE 1+ VIP | TV",
-    "category_id": "1590",
-    "logo": "http://103.176.90.154/picons/logos/france/1902428.png"
-  },
-  {
-    "id": "1299847",
-    "name": "[FR] LIGUE1+ FHD ( Samedi Match 1)",
-    "category": "FR LIGUE 1+ VIP | TV",
-    "category_id": "1590",
-    "logo": "http://103.176.90.154/picons/logos/france/1902427.png"
-  },
-  {
-    "id": "1299846",
-    "name": "[FR] LIGUE1+ FHD ( Samedi Match 2)",
-    "category": "FR LIGUE 1+ VIP | TV",
-    "category_id": "1590",
-    "logo": "http://103.176.90.154/picons/logos/france/1902426.png"
-  },
-  {
-    "id": "1299845",
-    "name": "[FR] LIGUE1+ FHD (Canal Multiplex Live Only )",
-    "category": "FR LIGUE 1+ VIP | TV",
-    "category_id": "1590",
-    "logo": "http://103.176.90.154/picons/logos/france/1902425.png"
-  },
-  {
-    "id": "1299844",
-    "name": "[FR] LIGUE1+ FHD (Dimanche 1er Match)",
-    "category": "FR LIGUE 1+ VIP | TV",
-    "category_id": "1590",
-    "logo": "http://103.176.90.154/picons/logos/france/1902424.png"
-  },
-  {
-    "id": "1299843",
-    "name": "[FR] LIGUE1+ FHD ( Dimanche 2eme Match )",
-    "category": "FR LIGUE 1+ VIP | TV",
-    "category_id": "1590",
-    "logo": "http://103.176.90.154/picons/logos/france/1902423.png"
-  },
-  {
-    "id": "1299842",
-    "name": "[FR] LIGUE1+ FHD ( Dimanche 3eme Match )",
-    "category": "FR LIGUE 1+ VIP | TV",
-    "category_id": "1590",
-    "logo": "http://103.176.90.154/picons/logos/france/1902422.png"
-  },
-  {
-    "id": "1299841",
-    "name": "[FR] LIGUE1+ FHD ( Dimanche 4eme MATCH )",
-    "category": "FR LIGUE 1+ VIP | TV",
-    "category_id": "1590",
-    "logo": "http://103.176.90.154/picons/logos/france/1902421.png"
-  },
-  {
-    "id": "1410044",
-    "name": "FR - DAZN 1 FHD",
-    "category": "FR DAZN LA LIGA | TV",
-    "category_id": "1666",
-    "logo": "http://103.176.90.154/picons/logos/PPV/DAZN.png"
-  },
-  {
-    "id": "1410043",
-    "name": "FR - DAZN 2 FHD",
-    "category": "FR DAZN LA LIGA | TV",
-    "category_id": "1666",
-    "logo": "http://103.176.90.154/picons/logos/PPV/DAZN.png"
-  },
-  {
-    "id": "1410042",
-    "name": "FR - DAZN 3 FHD",
-    "category": "FR DAZN LA LIGA | TV",
-    "category_id": "1666",
-    "logo": "http://103.176.90.154/picons/logos/PPV/DAZN.png"
-  },
-  {
-    "id": "1410041",
-    "name": "FR - DAZN 4 FHD",
-    "category": "FR DAZN LA LIGA | TV",
-    "category_id": "1666",
-    "logo": "http://103.176.90.154/picons/logos/PPV/DAZN.png"
-  },
-  {
-    "id": "1410040",
-    "name": "FR - DAZN 5 FHD",
-    "category": "FR DAZN LA LIGA | TV",
-    "category_id": "1666",
-    "logo": "http://103.176.90.154/picons/logos/PPV/DAZN.png"
-  },
-  {
-    "id": "1410039",
-    "name": "FR - DAZN 6 FHD",
-    "category": "FR DAZN LA LIGA | TV",
-    "category_id": "1666",
-    "logo": "http://103.176.90.154/picons/logos/PPV/DAZN.png"
-  },
-  {
-    "id": "1410038",
-    "name": "FR - DAZN 7 FHD",
-    "category": "FR DAZN LA LIGA | TV",
-    "category_id": "1666",
-    "logo": "http://103.176.90.154/picons/logos/PPV/DAZN.png"
-  },
-  {
-    "id": "1410037",
-    "name": "FR - DAZN 8 FHD",
-    "category": "FR DAZN LA LIGA | TV",
-    "category_id": "1666",
-    "logo": "http://103.176.90.154/picons/logos/PPV/DAZN.png"
-  },
-  {
-    "id": "1410036",
-    "name": "FR - DAZN 9 FHD",
-    "category": "FR DAZN LA LIGA | TV",
-    "category_id": "1666",
-    "logo": "http://103.176.90.154/picons/logos/PPV/DAZN.png"
-  },
-  {
-    "id": "1410035",
-    "name": "FR - DAZN 10 FHD",
-    "category": "FR DAZN LA LIGA | TV",
-    "category_id": "1666",
-    "logo": "http://103.176.90.154/picons/logos/PPV/DAZN.png"
-  },
-  {
-    "id": "1410034",
-    "name": "FR - DAZN 11 FHD",
-    "category": "FR DAZN LA LIGA | TV",
-    "category_id": "1666",
-    "logo": "http://103.176.90.154/picons/logos/PPV/DAZN.png"
-  },
-  {
-    "id": "1410033",
-    "name": "FR - DAZN 12 FHD",
-    "category": "FR DAZN LA LIGA | TV",
-    "category_id": "1666",
-    "logo": "http://103.176.90.154/picons/logos/PPV/DAZN.png"
-  },
-  {
-    "id": "1122216",
-    "name": "[FR] L'ÉQUIPE LIVE FOOT HD",
-    "category": "FR L'EQUIPE LIVE | TV",
-    "category_id": "1510",
-    "logo": "http://103.176.90.154/picons/logos/PPV/LEQUIPE.png"
-  },
-  {
-    "id": "1122215",
-    "name": "[FR] L'ÉQUIPE LIVE FOOT RAW",
-    "category": "FR L'EQUIPE LIVE | TV",
-    "category_id": "1510",
-    "logo": "http://103.176.90.154/picons/logos/PPV/LEQUIPE.png"
-  },
-  {
-    "id": "1122218",
-    "name": "[FR] L'ÉQUIPE SPORT HD",
-    "category": "FR L'EQUIPE LIVE | TV",
-    "category_id": "1510",
-    "logo": "http://103.176.90.154/picons/logos/PPV/LEQUIPE.png"
-  },
-  {
-    "id": "1122217",
-    "name": "[FR] L'ÉQUIPE SPORT RAW",
-    "category": "FR L'EQUIPE LIVE | TV",
-    "category_id": "1510",
-    "logo": "http://103.176.90.154/picons/logos/PPV/LEQUIPE.png"
-  },
-  {
-    "id": "1122220",
-    "name": "[FR] L'ÉQUIPE SPORT 1 HD",
-    "category": "FR L'EQUIPE LIVE | TV",
-    "category_id": "1510",
-    "logo": "http://103.176.90.154/picons/logos/PPV/LEQUIPE.png"
-  },
-  {
-    "id": "1122219",
-    "name": "[FR] L'ÉQUIPE SPORT 1RAW",
-    "category": "FR L'EQUIPE LIVE | TV",
-    "category_id": "1510",
-    "logo": "http://103.176.90.154/picons/logos/PPV/LEQUIPE.png"
-  },
-  {
-    "id": "1122222",
-    "name": "[FR] L'ÉQUIPE SPORT 2 HD",
-    "category": "FR L'EQUIPE LIVE | TV",
-    "category_id": "1510",
-    "logo": "http://103.176.90.154/picons/logos/PPV/LEQUIPE.png"
-  },
-  {
-    "id": "1122221",
-    "name": "[FR] L'ÉQUIPE SPORT 2RAW",
-    "category": "FR L'EQUIPE LIVE | TV",
-    "category_id": "1510",
-    "logo": "http://103.176.90.154/picons/logos/PPV/LEQUIPE.png"
-  },
-  {
-    "id": "1191124",
-    "name": "[FR] L'ÉQUIPE LIVE 1 FHD",
-    "category": "FR L'EQUIPE LIVE | TV",
-    "category_id": "1510",
-    "logo": "http://103.176.90.154/picons/logos/PPV/LEQUIPE.png"
-  },
-  {
-    "id": "1191123",
-    "name": "[FR] L'ÉQUIPE LIVE 2 FHD",
-    "category": "FR L'EQUIPE LIVE | TV",
-    "category_id": "1510",
-    "logo": "http://103.176.90.154/picons/logos/PPV/LEQUIPE.png"
-  },
-  {
-    "id": "1191122",
-    "name": "[FR] L'ÉQUIPE LIVE 3 FHD",
-    "category": "FR L'EQUIPE LIVE | TV",
-    "category_id": "1510",
-    "logo": "http://103.176.90.154/picons/logos/PPV/LEQUIPE.png"
-  },
-  {
-    "id": "1191121",
-    "name": "[FR] L'ÉQUIPE LIVE 4 FHD",
-    "category": "FR L'EQUIPE LIVE | TV",
-    "category_id": "1510",
-    "logo": "http://103.176.90.154/picons/logos/PPV/LEQUIPE.png"
-  },
-  {
-    "id": "1191120",
-    "name": "[FR] L'ÉQUIPE LIVE 5 FHD",
-    "category": "FR L'EQUIPE LIVE | TV",
-    "category_id": "1510",
-    "logo": "http://103.176.90.154/picons/logos/PPV/LEQUIPE.png"
-  },
-  {
-    "id": "1191119",
-    "name": "[FR] L'ÉQUIPE LIVE 6 FHD",
-    "category": "FR L'EQUIPE LIVE | TV",
-    "category_id": "1510",
-    "logo": "http://103.176.90.154/picons/logos/PPV/LEQUIPE.png"
-  },
-  {
-    "id": "1191118",
-    "name": "[FR] L'ÉQUIPE LIVE 7 FHD",
-    "category": "FR L'EQUIPE LIVE | TV",
-    "category_id": "1510",
-    "logo": "http://103.176.90.154/picons/logos/PPV/LEQUIPE.png"
-  },
-  {
-    "id": "1191117",
-    "name": "[FR] L'ÉQUIPE LIVE 8 FHD",
-    "category": "FR L'EQUIPE LIVE | TV",
-    "category_id": "1510",
-    "logo": "http://103.176.90.154/picons/logos/PPV/LEQUIPE.png"
-  },
-  {
-    "id": "1191116",
-    "name": "[FR] L'ÉQUIPE LIVE 9 FHD",
-    "category": "FR L'EQUIPE LIVE | TV",
-    "category_id": "1510",
-    "logo": "http://103.176.90.154/picons/logos/PPV/LEQUIPE.png"
-  },
-  {
-    "id": "1409303",
-    "name": "End | MLTT - Week 6: Atlanta Blazers vs. Portland Paddlers | all | 22-11-2026 | 00:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 1",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409302",
-    "name": "End | MLTT - Week 6: Atlanta Blazers vs. Portland Paddlers | all | 22-11-2026 | 00:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 1",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409301",
-    "name": "End | Clippers vs. Mavericks | all | 22-11-2026 | 00:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 3",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409300",
-    "name": "End | Pelicans vs. Spurs | all | 22-11-2026 | 00:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 4",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409299",
-    "name": "End | Grizzlies vs. Timberwolves | all | 22-11-2026 | 00:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 5",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409298",
-    "name": "End | Trail Blazers vs. Knicks | all | 22-11-2026 | 00:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 6",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409297",
-    "name": "End | Sydney, Nova Scotia - Day 5 - Men’s & Women’s Semi-Finals | all | 22-11-2026 | 00:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 7",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409296",
-    "name": "End | Grizzlies vs. Timberwolves | all | 22-11-2026 | 00:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 5",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409295",
-    "name": "End | MLS El Resumen | all | 22-11-2026 | 00:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 9",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409294",
-    "name": "End | MLS Wrap-Up | all | 22-11-2026 | 00:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 10",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409293",
-    "name": "End | Séoul | 2e journée ISU Short-Track World Tour | all | 22-11-2026 | 00:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 11",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409292",
-    "name": "End | Obihiro | 3e journée ISU World Cup Speed Skating | all | 22-11-2026 | 00:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 12",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409291",
-    "name": "End | Barcelona - Coppa Shell AM World Final Race | all | 22-11-2026 | 00:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 13",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409290",
-    "name": "End | Ski alpin : Coupe du monde | all | 22-11-2026 | 00:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 14",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409289",
-    "name": "End | Gurgl | Slalom (H) – 1re manche Coupe du monde FIS | all | 22-11-2026 | 00:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 15",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409288",
-    "name": "End | Jimmy White - Brian Ochoiski Leasing Options UK Championship | Qualifications | all | 22-11-2026 | 00:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 16",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409287",
-    "name": "End | Oliver Sykes - Peter Lines Leasing Options UK Championship | Qualifications | all | 22-11-2026 | 00:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 17",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409286",
-    "name": "End | Oliver Brown - Anton Kazakov Leasing Options UK Championship | Qualifications | all | 22-11-2026 | 00:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 18",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409285",
-    "name": "End | Sahil Nayyar - Mark Joyce Leasing Options UK Championship | Qualifications | all | 22-11-2026 | 00:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 19",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409284",
-    "name": "End | Lillehammer 2 | HS 140 (F) Coupe du monde FIS | all | 22-11-2026 | 00:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 20",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409283",
-    "name": "End | Barcelona - Coppa Shell World Final Race | all | 22-11-2026 | 00:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 21",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409282",
-    "name": "End | Saut à ski : Coupe du monde: Lillehammer : HS 140 Dames | all | 22-11-2026 | 00:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 22",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409281",
-    "name": "End | Juventus vs. Venezia | all | 22-11-2026 | 00:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 23",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409280",
-    "name": "End | Ternana vs. Inter | all | 22-11-2026 | 00:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 24",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409279",
-    "name": "End | Manchester City v Tottenham Hotspur | all | 22-11-2026 | 12:55 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 25",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409278",
-    "name": "End | Gurgl | Slalom (H) – 2e manche Coupe du monde FIS | all | 22-11-2026 | 00:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 26",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409277",
-    "name": "Live | Barcelona vs. Villarreal | all | 8K EXCLUSIVE | FR: SOCCER PPV 27",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409276",
-    "name": "End | Ski alpin : Coupe du monde - Levi: Gurgl : Slalom Messieurs, 2e run | all | 22-11-2026 | 00:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 28",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409275",
-    "name": "End | Cyclo-cross : X²O Badkamers Trofee: Beringen : Dames | all | 22-11-2026 | 00:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 29",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409274",
-    "name": "Live | Beringen | Course élite (F) X²O Badkamers Trofee | all | 8K EXCLUSIVE | FR: SOCCER PPV 30",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409273",
-    "name": "End | Vérone | Saut d'obstacles : GCL Super Cup – Finale Longines Global Champions Tour | all | 22-11-2026 | 00:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 31",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409272",
-    "name": "Live | Lillehammer 2 | HS 140 (H) – Qualifications Coupe du monde FIS | all | 8K EXCLUSIVE | FR: SOCCER PPV 32",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409271",
-    "name": "Live | Paris FC vs. Angers | all | 8K EXCLUSIVE | FR: SOCCER PPV 33",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409270",
-    "name": "Live | US Avellino 1912 vs. Mantova 1911 | all | 8K EXCLUSIVE | FR: SOCCER PPV 34",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409269",
-    "name": "Live | Cyclo-cross : X²O Badkamers Trofee: Beringen : Messieurs | all | 8K EXCLUSIVE | FR: SOCCER PPV 35",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409268",
-    "name": "Live | Beringen | Course élite (H) X²O Badkamers Trofee | all | 8K EXCLUSIVE | FR: SOCCER PPV 36",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409267",
-    "name": "Live | Tennis: ATP Finals - Turin: Finale, Double | all | 8K EXCLUSIVE | FR: SOCCER PPV 37",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409266",
-    "name": "Live | Pavic/Arevalo vs. Olivetti/Arribage | all | 8K EXCLUSIVE | FR: SOCCER PPV 38",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409265",
-    "name": "Next | Santander vs. Real Sociedad | all | 22-11-2026 | 15:53 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 39",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409264",
-    "name": "Next | Lorient vs. Rennes | all | 22-11-2026 | 16:45 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 40",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409263",
-    "name": "End | SS Arezzo vs. Calcio Padova Spa | all | 22-11-2026 | 17:05 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 41",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409262",
-    "name": "Next | Le Club-Journée 11 | all | 22-11-2026 | 19:10 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 42",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409261",
-    "name": "Next | Marseille vs. Le Mans | all | 22-11-2026 | 20:38 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 43",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409260",
-    "name": "Next | Le Club-Journée 11 | all | 22-11-2026 | 22:40 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 44",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409259",
-    "name": "Live | Iulian Boiko - Leone Crowley Leasing Options UK Championship | Qualifications | all | 8K EXCLUSIVE | FR: SOCCER PPV 45",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409258",
-    "name": "Live | David Grace - Artemijs Zizins Leasing Options UK Championship | Qualifications | all | 8K EXCLUSIVE | FR: SOCCER PPV 46",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409257",
-    "name": "Live | Verona - Longines Global Champions Tour Super Cup Final | all | 8K EXCLUSIVE | FR: SOCCER PPV 47",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409256",
-    "name": "Live | Barcelona - Trofeo Pirelli World Final Race | all | 8K EXCLUSIVE | FR: SOCCER PPV 48",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409255",
-    "name": "Live | Sparta Rotterdam vs. AZ | all | 8K EXCLUSIVE | FR: SOCCER PPV 49",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409254",
-    "name": "Live | Ajax vs. ADO Den Haag | all | 8K EXCLUSIVE | FR: SOCCER PPV 50",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409253",
-    "name": "Live | Bologna vs. Udinese | all | 8K EXCLUSIVE | FR: SOCCER PPV 51",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409252",
-    "name": "Live | Sassuolo vs. Genoa | all | 8K EXCLUSIVE | FR: SOCCER PPV 52",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409251",
-    "name": "Live | Arsenal v West Ham United | all | 8K EXCLUSIVE | FR: SOCCER PPV 53",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409250",
-    "name": "Live | He Guoqiang - Farakh Ajaib Leasing Options UK Championship | Qualifications | all | 8K EXCLUSIVE | FR: SOCCER PPV 54",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409249",
-    "name": "Live | Marco Fu - Gong Chenzhi Leasing Options UK Championship | Qualifications | all | 8K EXCLUSIVE | FR: SOCCER PPV 55",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409248",
-    "name": "End | Paris vs. Gravelines-Dunkerque | all | 22-11-2026 | 16:13 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 56",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409247",
-    "name": "Next | Lillehammer 2 | HS 140 (H) Coupe du monde FIS | all | 22-11-2026 | 15:45 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 57",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409246",
-    "name": "Next | Saut à ski : Coupe du monde: Lillehammer : HS 140 Messieurs | all | 22-11-2026 | 16:15 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 58",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409245",
-    "name": "Next | Eurosport Tennis Club Magazine | Nitto ATP Finals – Finale | all | 22-11-2026 | 17:29 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 59",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409244",
-    "name": "Next | Tennis : ATP Finals Turin: Finale, Simple | all | 22-11-2026 | 17:58 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 60",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409243",
-    "name": "Next | Zverev vs. Alcaraz | all | 22-11-2026 | 17:59 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 61",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409242",
-    "name": "Next | Eurosport Tennis Club Magazine | Nitto ATP Finals – Finale | all | 22-11-2026 | 19:59 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 62",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409241",
-    "name": "Live | Fiorentina vs. Como 1907 | all | 8K EXCLUSIVE | FR: SOCCER PPV 63",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409240",
-    "name": "Next | Liam Davies - Stuart Carrington Leasing Options UK Championship | Qualifications | all | 22-11-2026 | 20:30 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 64",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409239",
-    "name": "Next | Matthew Stevens - Alfie Burden Leasing Options UK Championship | Qualifications | all | 22-11-2026 | 20:30 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 65",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409238",
-    "name": "Next | Louis Heathcote - Riley Powell Leasing Options UK Championship | Qualifications | all | 22-11-2026 | 20:30 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 66",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409237",
-    "name": "End | Liam Highfield - Chatchapong Nasa Leasing Options UK Championship | Qualifications | all | 22-11-2026 | 20:30 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 67",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409236",
-    "name": "Next | Saut d'obstacles | Verone Global Champions League | all | 22-11-2026 | 16:00 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 68",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409235",
-    "name": "Next | RB Leipzig vs. Wolfsburg | all | 22-11-2026 | 15:49 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 69",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409234",
-    "name": "Next | Sydney, Nova Scotia - Day 6 - Women’s Final | all | 22-11-2026 | 15:52 (GMT) | 8K EXCLUSIVE | FR: SOCCER PPV 70",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409233",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 71",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409232",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 72",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409231",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 73",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409230",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 74",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409229",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 75",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409228",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 76",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409227",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 77",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409226",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 78",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409225",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 79",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409224",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 80",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409223",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 81",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409222",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 82",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409221",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 83",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409220",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 84",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409219",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 85",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409218",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 86",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409217",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 87",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409216",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 88",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409215",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 89",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409214",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 90",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409213",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 91",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409212",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 92",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409211",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 93",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409210",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 94",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409209",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 95",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409208",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 96",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409207",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 97",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409206",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 98",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409205",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 99",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409204",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 100",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409203",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 101",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409202",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 102",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409201",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 103",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409200",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 104",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409199",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 105",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409198",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 106",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409197",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 107",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409196",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 108",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409195",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 109",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409194",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 110",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409193",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 111",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409192",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 112",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409191",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 113",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409190",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 114",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409189",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 115",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409188",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 116",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409187",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 117",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409186",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 118",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409185",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 119",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409184",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 120",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409183",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 121",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409182",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 122",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409181",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 123",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409180",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 124",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409179",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 125",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409178",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 126",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409177",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 127",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409176",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 128",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409175",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 129",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409174",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 130",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409173",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 131",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409172",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 132",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409171",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 133",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409170",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 134",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409169",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 135",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409168",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 136",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409167",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 137",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409166",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 138",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409165",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 139",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409164",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 140",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409163",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 141",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409162",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 142",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409161",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 143",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409160",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 144",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409159",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 145",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409158",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 146",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409157",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 147",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409156",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 148",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409155",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 149",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409154",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 150",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409153",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 151",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409152",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 152",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409151",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 153",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409150",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 154",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409149",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 155",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409148",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 156",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409147",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 157",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409146",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 158",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409145",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 159",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409144",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 160",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409143",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 161",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409142",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 162",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409141",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 163",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409140",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 164",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409139",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 165",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409138",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 166",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409137",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 167",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409136",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 168",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409135",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 169",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409134",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 170",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409133",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 171",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409132",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 172",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409131",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 173",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409130",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 174",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409129",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 175",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409128",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 176",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409127",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 177",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409126",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 178",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409125",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 179",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409124",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 180",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409123",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 181",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409122",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 182",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409121",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 183",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409120",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 184",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409119",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 185",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409118",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 186",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409117",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 187",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409116",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 188",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409115",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 189",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409114",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 190",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409113",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 191",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409112",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 192",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409111",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 193",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409110",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 194",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409109",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 195",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409108",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 196",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409107",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 197",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409106",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 198",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409105",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 199",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "1409104",
-    "name": "NO EVENT STREAMING NOW - | 8K EXCLUSIVE | FR: SOCCER PPV 200",
-    "category": "FR SOCCER PPV | TV",
-    "category_id": "1660",
-    "logo": "http://103.176.90.154/picons/logos/PPV/PPVLIVE.png"
-  },
-  {
-    "id": "987846",
-    "name": "##### BEIN SPORTS ᵁᴴᴰ #####",
-    "category": "[AR] BEIN SPORTS UHD",
-    "category_id": "1433",
-    "logo": "http://103.176.90.154/picons/logos/bein/987846.png"
-  },
-  {
-    "id": "987833",
-    "name": "BEIN SPORTS AFC UHD",
-    "category": "[AR] BEIN SPORTS UHD",
-    "category_id": "1433",
-    "logo": "http://103.176.90.154/picons/logos/bein/987833.png"
-  },
-  {
-    "id": "987832",
-    "name": "BEIN SPORTS 1 AFC UHD",
-    "category": "[AR] BEIN SPORTS UHD",
-    "category_id": "1433",
-    "logo": "http://103.176.90.154/picons/logos/bein/987832.png"
-  },
-  {
-    "id": "987831",
-    "name": "BEIN SPORTS 2 AFC UHD",
-    "category": "[AR] BEIN SPORTS UHD",
-    "category_id": "1433",
-    "logo": "http://103.176.90.154/picons/logos/bein/987831.png"
-  },
-  {
-    "id": "987845",
-    "name": "BEIN SPORTS 1 UHD",
-    "category": "[AR] BEIN SPORTS UHD",
-    "category_id": "1433",
-    "logo": "http://103.176.90.154/picons/logos/bein/987845.png"
-  },
-  {
-    "id": "987844",
-    "name": "BEIN SPORTS 2 UHD",
-    "category": "[AR] BEIN SPORTS UHD",
-    "category_id": "1433",
-    "logo": "http://103.176.90.154/picons/logos/bein/987844.png"
-  },
-  {
-    "id": "987843",
-    "name": "BEIN SPORTS 3 UHD",
-    "category": "[AR] BEIN SPORTS UHD",
-    "category_id": "1433",
-    "logo": "http://103.176.90.154/picons/logos/bein/987843.png"
-  },
-  {
-    "id": "987842",
-    "name": "BEIN SPORTS 4 UHD",
-    "category": "[AR] BEIN SPORTS UHD",
-    "category_id": "1433",
-    "logo": "http://103.176.90.154/picons/logos/bein/987842.png"
-  },
-  {
-    "id": "987841",
-    "name": "BEIN SPORTS 5 UHD",
-    "category": "[AR] BEIN SPORTS UHD",
-    "category_id": "1433",
-    "logo": "http://103.176.90.154/picons/logos/bein/987841.png"
-  },
-  {
-    "id": "987840",
-    "name": "BEIN SPORTS 6 UHD",
-    "category": "[AR] BEIN SPORTS UHD",
-    "category_id": "1433",
-    "logo": "http://103.176.90.154/picons/logos/bein/987840.png"
-  },
-  {
-    "id": "987839",
-    "name": "BEIN SPORTS 7 UHD",
-    "category": "[AR] BEIN SPORTS UHD",
-    "category_id": "1433",
-    "logo": "http://103.176.90.154/picons/logos/bein/987839.png"
-  },
-  {
-    "id": "987838",
-    "name": "BEIN SPORTS 8 UHD",
-    "category": "[AR] BEIN SPORTS UHD",
-    "category_id": "1433",
-    "logo": "http://103.176.90.154/picons/logos/bein/987838.png"
-  },
-  {
-    "id": "987837",
-    "name": "BEIN SPORTS 9 UHD",
-    "category": "[AR] BEIN SPORTS UHD",
-    "category_id": "1433",
-    "logo": "http://103.176.90.154/picons/logos/bein/987837.png"
-  },
-  {
-    "id": "987836",
-    "name": "BEIN SPORTS XTRA 1 UHD",
-    "category": "[AR] BEIN SPORTS UHD",
-    "category_id": "1433",
-    "logo": "http://103.176.90.154/picons/logos/bein/987836.png"
-  },
-  {
-    "id": "987835",
-    "name": "BEIN SPORTS XTRA 2 UHD",
-    "category": "[AR] BEIN SPORTS UHD",
-    "category_id": "1433",
-    "logo": "http://103.176.90.154/picons/logos/bein/987835.png"
-  },
-  {
-    "id": "987834",
-    "name": "BEIN SPORTS XTRA 3 UHD",
-    "category": "[AR] BEIN SPORTS UHD",
-    "category_id": "1433",
-    "logo": "http://103.176.90.154/picons/logos/bein/987834.png"
-  },
-  {
-    "id": "1178456",
-    "name": "####### BEIN SPORTS ᴴᴰ #######",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178456.png"
-  },
-  {
-    "id": "1178455",
-    "name": "8K - BEIN SPORTS NEWS ᴴᴰ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178455.png"
-  },
-  {
-    "id": "1178454",
-    "name": "8K - BEIN SPORTS GLOBAL ᴴᴰ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/bein/1178454.png"
-  },
-  {
-    "id": "1178453",
-    "name": "8K - BEIN SPORTS 1 ᴴᴰ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178453.png"
-  },
-  {
-    "id": "1178452",
-    "name": "8K - BEIN SPORTS 2 ᴴᴰ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178452.png"
-  },
-  {
-    "id": "1178451",
-    "name": "8K - BEIN SPORTS 3 ᴴᴰ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178451.png"
-  },
-  {
-    "id": "1178450",
-    "name": "8K - BEIN SPORTS 4 ᴴᴰ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178450.png"
-  },
-  {
-    "id": "1178449",
-    "name": "8K - BEIN SPORTS 5 ᴴᴰ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178449.png"
-  },
-  {
-    "id": "1178448",
-    "name": "8K - BEIN SPORTS 6 ᴴᴰ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178448.png"
-  },
-  {
-    "id": "1178447",
-    "name": "8K - BEIN SPORTS 7 ᴴᴰ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178447.png"
-  },
-  {
-    "id": "1178446",
-    "name": "8K - BEIN SPORTS 8 ᴴᴰ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178446.png"
-  },
-  {
-    "id": "1178445",
-    "name": "8K - BEIN SPORTS 9 ᴴᴰ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178445.png"
-  },
-  {
-    "id": "1178444",
-    "name": "8K - BEIN SPORTS 1 XTRA ᴴᴰ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178444.png"
-  },
-  {
-    "id": "1178443",
-    "name": "8K - BEIN SPORTS 2 XTRA ᴴᴰ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178443.png"
-  },
-  {
-    "id": "1178442",
-    "name": "8K - BEIN SPORTS 3 XTRA ᴴᴰ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178442.png"
-  },
-  {
-    "id": "1178441",
-    "name": "8K - BEIN SPORTS 1 ENGLISH ᴴᴰ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178441.png"
-  },
-  {
-    "id": "1178440",
-    "name": "8K - BEIN SPORTS 2 ENGLISH ᴴᴰ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178440.png"
-  },
-  {
-    "id": "1178439",
-    "name": "8K - BEIN SPORTS 1 FRANCE ᴴᴰ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178439.png"
-  },
-  {
-    "id": "1178438",
-    "name": "8K - BEIN SPORTS 2 FRANCE ᴴᴰ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178438.png"
-  },
-  {
-    "id": "1178437",
-    "name": "8K - BEIN SPORTS 3 FRANCE ᴴᴰ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178437.png"
-  },
-  {
-    "id": "1178436",
-    "name": "####### BEIN SPORTS SD #######",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178436.png"
-  },
-  {
-    "id": "1178435",
-    "name": "8K - BEIN SPORTS NEWS SD",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178435.png"
-  },
-  {
-    "id": "1178434",
-    "name": "8K - BEIN SPORTS GLOBAL SD",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/bein/1178434.png"
-  },
-  {
-    "id": "1178433",
-    "name": "8K - BEIN SPORTS 1 SD",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178433.png"
-  },
-  {
-    "id": "1178432",
-    "name": "8K - BEIN SPORTS 2 SD",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178432.png"
-  },
-  {
-    "id": "1178431",
-    "name": "8K - BEIN SPORTS 3 SD",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178431.png"
-  },
-  {
-    "id": "1178430",
-    "name": "8K - BEIN SPORTS 4 SD",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178430.png"
-  },
-  {
-    "id": "1178429",
-    "name": "8K - BEIN SPORTS 5 SD",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178429.png"
-  },
-  {
-    "id": "1178428",
-    "name": "8K - BEIN SPORTS 6 SD",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178428.png"
-  },
-  {
-    "id": "1178427",
-    "name": "8K - BEIN SPORTS 7 SD",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178427.png"
-  },
-  {
-    "id": "1178426",
-    "name": "8K - BEIN SPORTS 8 SD",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178426.png"
-  },
-  {
-    "id": "1178425",
-    "name": "8K - BEIN SPORTS 9 SD",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178425.png"
-  },
-  {
-    "id": "1178424",
-    "name": "8K - BEIN SPORTS 1 XTRA SD",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178424.png"
-  },
-  {
-    "id": "1178423",
-    "name": "8K - BEIN SPORTS 2 XTRA SD",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178423.png"
-  },
-  {
-    "id": "1178422",
-    "name": "8K - BEIN SPORTS 3 XTRA SD",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178422.png"
-  },
-  {
-    "id": "1178421",
-    "name": "8K - BEIN SPORTS 1 ENGLISH SD",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178421.png"
-  },
-  {
-    "id": "1178420",
-    "name": "8K - BEIN SPORTS 2 ENGLISH SD",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178420.png"
-  },
-  {
-    "id": "1178419",
-    "name": "####### BEIN SPORTS LQ #######",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178419.png"
-  },
-  {
-    "id": "1178418",
-    "name": "8K - BEIN SPORTS NEWS LQ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178418.png"
-  },
-  {
-    "id": "1178417",
-    "name": "8K - BEIN SPORTS GLOBAL LQ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/bein/1178417.png"
-  },
-  {
-    "id": "1178416",
-    "name": "8K - BEIN SPORTS 1 LQ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178416.png"
-  },
-  {
-    "id": "1178415",
-    "name": "8K - BEIN SPORTS 2 LQ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178415.png"
-  },
-  {
-    "id": "1178414",
-    "name": "8K - BEIN SPORTS 3 LQ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178414.png"
-  },
-  {
-    "id": "1178413",
-    "name": "8K - BEIN SPORTS 4 LQ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178413.png"
-  },
-  {
-    "id": "1178412",
-    "name": "8K - BEIN SPORTS 5 LQ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178412.png"
-  },
-  {
-    "id": "1178411",
-    "name": "8K - BEIN SPORTS 6 LQ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178411.png"
-  },
-  {
-    "id": "1178410",
-    "name": "8K - BEIN SPORTS 7 LQ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178410.png"
-  },
-  {
-    "id": "1178409",
-    "name": "8K - BEIN SPORTS 8 LQ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178409.png"
-  },
-  {
-    "id": "1178408",
-    "name": "8K - BEIN SPORTS 9 LQ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178408.png"
-  },
-  {
-    "id": "1178407",
-    "name": "8K - BEIN SPORTS 1 XTRA LQ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178407.png"
-  },
-  {
-    "id": "1178406",
-    "name": "8K - BEIN SPORTS 2 XTRA LQ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178406.png"
-  },
-  {
-    "id": "1178405",
-    "name": "8K - BEIN SPORTS 3 XTRA LQ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178405.png"
-  },
-  {
-    "id": "1178404",
-    "name": "####### BEIN SPORTS ʰᵉᵛᶜ #######",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178404.png"
-  },
-  {
-    "id": "1178403",
-    "name": "8K - BEIN SPORTS 1 ʰᵉᵛᶜ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178403.png"
-  },
-  {
-    "id": "1178402",
-    "name": "8K - BEIN SPORTS 2 ʰᵉᵛᶜ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178402.png"
-  },
-  {
-    "id": "1178401",
-    "name": "8K - BEIN SPORTS 3 ʰᵉᵛᶜ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178401.png"
-  },
-  {
-    "id": "1178400",
-    "name": "8K - BEIN SPORTS 4 ʰᵉᵛᶜ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178400.png"
-  },
-  {
-    "id": "1178399",
-    "name": "8K - BEIN SPORTS 5 ʰᵉᵛᶜ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178399.png"
-  },
-  {
-    "id": "1178398",
-    "name": "8K - BEIN SPORTS 6 ʰᵉᵛᶜ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178398.png"
-  },
-  {
-    "id": "1178397",
-    "name": "8K - BEIN SPORTS 7 ʰᵉᵛᶜ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178397.png"
-  },
-  {
-    "id": "1178396",
-    "name": "8K - BEIN SPORTS 8 ʰᵉᵛᶜ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178396.png"
-  },
-  {
-    "id": "1178395",
-    "name": "8K - BEIN SPORTS 9 ʰᵉᵛᶜ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178395.png"
-  },
-  {
-    "id": "1178394",
-    "name": "8K - BEIN SPORTS 1 XTRA ʰᵉᵛᶜ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178394.png"
-  },
-  {
-    "id": "1178393",
-    "name": "8K - BEIN SPORTS 2 XTRA ʰᵉᵛᶜ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178393.png"
-  },
-  {
-    "id": "1178392",
-    "name": "8K - BEIN SPORTS 3 XTRA ʰᵉᵛᶜ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178392.png"
-  },
-  {
-    "id": "1178391",
-    "name": "8K - BEIN SPORTS 1 ENGLISH ʰᵉᵛᶜ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178391.png"
-  },
-  {
-    "id": "1178390",
-    "name": "8K - BEIN SPORTS 2 ENGLISH ʰᵉᵛᶜ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178390.png"
-  },
-  {
-    "id": "1178389",
-    "name": "####### BEIN SPORTS ᴿᴬᵂ #######",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178389.png"
-  },
-  {
-    "id": "1178388",
-    "name": "8K - BEIN SPORTS NEWS ᴿᴬᵂ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178388.png"
-  },
-  {
-    "id": "1178387",
-    "name": "8K - BEIN SPORTS GLOBAL ᴿᴬᵂ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/bein/1178387.png"
-  },
-  {
-    "id": "1178386",
-    "name": "8K - BEIN SPORTS 1 ᴿᴬᵂ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178386.png"
-  },
-  {
-    "id": "1178385",
-    "name": "8K - BEIN SPORTS 2 ᴿᴬᵂ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178385.png"
-  },
-  {
-    "id": "1178384",
-    "name": "8K - BEIN SPORTS 3 ᴿᴬᵂ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178384.png"
-  },
-  {
-    "id": "1178383",
-    "name": "8K - BEIN SPORTS 4 ᴿᴬᵂ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178383.png"
-  },
-  {
-    "id": "1178382",
-    "name": "8K - BEIN SPORTS 5 ᴿᴬᵂ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178382.png"
-  },
-  {
-    "id": "1178381",
-    "name": "8K - BEIN SPORTS 6 ᴿᴬᵂ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178381.png"
-  },
-  {
-    "id": "1178380",
-    "name": "8K - BEIN SPORTS 7 ᴿᴬᵂ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178380.png"
-  },
-  {
-    "id": "1178379",
-    "name": "8K - BEIN SPORTS 8 ᴿᴬᵂ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178379.png"
-  },
-  {
-    "id": "1178378",
-    "name": "8K - BEIN SPORTS 9 ᴿᴬᵂ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178378.png"
-  },
-  {
-    "id": "1178377",
-    "name": "8K - BEIN SPORTS 1 XTRA ᴿᴬᵂ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178377.png"
-  },
-  {
-    "id": "1178376",
-    "name": "8K - BEIN SPORTS 2 XTRA ᴿᴬᵂ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178376.png"
-  },
-  {
-    "id": "1178375",
-    "name": "8K - BEIN SPORTS 3 XTRA ᴿᴬᵂ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178375.png"
-  },
-  {
-    "id": "1178374",
-    "name": "8K - BEIN SPORTS 1 ENGLISH ᴿᴬᵂ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178374.png"
-  },
-  {
-    "id": "1178373",
-    "name": "8K - BEIN SPORTS 2 ENGLISH ᴿᴬᵂ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178373.png"
-  },
-  {
-    "id": "1178372",
-    "name": "8K - BEIN SPORTS 1 FRANCE ᴿᴬᵂ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178372.png"
-  },
-  {
-    "id": "1178371",
-    "name": "8K - BEIN SPORTS 2 FRANCE ᴿᴬᵂ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178371.png"
-  },
-  {
-    "id": "1178370",
-    "name": "8K - BEIN SPORTS 3 FRANCE ᴿᴬᵂ",
-    "category": "[AR] BEIN SPORTS",
-    "category_id": "1164",
-    "logo": "http://103.176.90.154/picons/logos/arabic/1178370.png"
-  },
-  {
-    "id": "1143622",
-    "name": "##### LIGUE 1+ #####",
-    "category": "FR LIGUE1 + | TV",
-    "category_id": "1526",
-    "logo": "http://103.176.90.154/picons/logos/logos/ligue1.png"
-  },
-  {
-    "id": "1143621",
-    "name": "[FR] LIGUE1 + 1",
-    "category": "FR LIGUE1 + | TV",
-    "category_id": "1526",
-    "logo": "http://103.176.90.154/picons/logos/logos/ligue1.png"
-  },
-  {
-    "id": "1143620",
-    "name": "[FR] LIGUE1 + 2",
-    "category": "FR LIGUE1 + | TV",
-    "category_id": "1526",
-    "logo": "http://103.176.90.154/picons/logos/logos/ligue1.png"
-  },
-  {
-    "id": "1143619",
-    "name": "[FR] LIGUE1 + 3",
-    "category": "FR LIGUE1 + | TV",
-    "category_id": "1526",
-    "logo": "http://103.176.90.154/picons/logos/logos/ligue1.png"
-  },
-  {
-    "id": "1143618",
-    "name": "[FR] LIGUE1 + 4",
-    "category": "FR LIGUE1 + | TV",
-    "category_id": "1526",
-    "logo": "http://103.176.90.154/picons/logos/logos/ligue1.png"
-  },
-  {
-    "id": "1143617",
-    "name": "[FR] LIGUE1 + 5",
-    "category": "FR LIGUE1 + | TV",
-    "category_id": "1526",
-    "logo": "http://103.176.90.154/picons/logos/logos/ligue1.png"
-  },
-  {
-    "id": "1143616",
-    "name": "[FR] LIGUE1 + 6",
-    "category": "FR LIGUE1 + | TV",
-    "category_id": "1526",
-    "logo": "http://103.176.90.154/picons/logos/logos/ligue1.png"
-  },
-  {
-    "id": "1143615",
-    "name": "[FR] LIGUE1 + 7",
-    "category": "FR LIGUE1 + | TV",
-    "category_id": "1526",
-    "logo": "http://103.176.90.154/picons/logos/logos/ligue1.png"
-  },
-  {
-    "id": "1143614",
-    "name": "[FR] LIGUE1 + 8",
-    "category": "FR LIGUE1 + | TV",
-    "category_id": "1526",
-    "logo": "http://103.176.90.154/picons/logos/logos/ligue1.png"
-  },
-  {
-    "id": "1143613",
-    "name": "[FR] LIGUE1 + 9",
-    "category": "FR LIGUE1 + | TV",
-    "category_id": "1526",
-    "logo": "http://103.176.90.154/picons/logos/logos/ligue1.png"
-  },
-  {
-    "id": "1143612",
-    "name": "[FR] LIGUE1 + 10",
-    "category": "FR LIGUE1 + | TV",
-    "category_id": "1526",
-    "logo": "http://103.176.90.154/picons/logos/logos/ligue1.png"
+    "id": "bein_1",
+    "name": "beIN SPORTS 1",
+    "category": "beIN Sports (Arabe)",
+    "default_stream_id": "551241",
+    "variants": {
+      "4k": {
+        "id": "1023969",
+        "name": "AR - BEIN SPORTS 1 4K",
+        "quality": "4K",
+        "label": "4K Ultra HD"
+      },
+      "fhd": {
+        "id": "551241",
+        "name": "AR - BEIN SPORTS 1 FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "27898",
+        "name": "AR - BEIN SPORTS 1 HD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "bein_2",
+    "name": "beIN SPORTS 2",
+    "category": "beIN Sports (Arabe)",
+    "default_stream_id": "27897",
+    "variants": {
+      "4k": {
+        "id": "551242",
+        "name": "AR - BEIN SPORTS 2 4K",
+        "quality": "4K",
+        "label": "4K Ultra HD"
+      },
+      "fhd": {
+        "id": "27897",
+        "name": "AR - BEIN SPORTS 2 FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "18110",
+        "name": "AR - BEIN SPORTS 2 HD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "bein_3",
+    "name": "beIN SPORTS 3",
+    "category": "beIN Sports (Arabe)",
+    "default_stream_id": "551294",
+    "variants": {
+      "4k": {
+        "id": "986975",
+        "name": "AR - BEIN SPORTS 3 4K",
+        "quality": "4K",
+        "label": "4K Ultra HD"
+      },
+      "fhd": {
+        "id": "551294",
+        "name": "AR - BEIN SPORTS 3 FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "551274",
+        "name": "AR - BEIN SPORTS 3 HD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "bein_4",
+    "name": "beIN SPORTS 4",
+    "category": "beIN Sports (Arabe)",
+    "default_stream_id": "551275",
+    "variants": {
+      "4k": {
+        "id": "986976",
+        "name": "AR - BEIN SPORTS 4 4K",
+        "quality": "4K",
+        "label": "4K Ultra HD"
+      },
+      "fhd": {
+        "id": "551275",
+        "name": "AR - BEIN SPORTS 4 FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "551244",
+        "name": "AR - BEIN SPORTS 4 HD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "bein_5",
+    "name": "beIN SPORTS 5",
+    "category": "beIN Sports (Arabe)",
+    "default_stream_id": "551276",
+    "variants": {
+      "4k": {
+        "id": "986977",
+        "name": "AR - BEIN SPORTS 5 4K",
+        "quality": "4K",
+        "label": "4K Ultra HD"
+      },
+      "fhd": {
+        "id": "551276",
+        "name": "AR - BEIN SPORTS 5 FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "551245",
+        "name": "AR - BEIN SPORTS 5 HD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "bein_6",
+    "name": "beIN SPORTS 6",
+    "category": "beIN Sports (Arabe)",
+    "default_stream_id": "551277",
+    "variants": {
+      "4k": {
+        "id": "986978",
+        "name": "AR - BEIN SPORTS 6 4K",
+        "quality": "4K",
+        "label": "4K Ultra HD"
+      },
+      "fhd": {
+        "id": "551277",
+        "name": "AR - BEIN SPORTS 6 FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "551246",
+        "name": "AR - BEIN SPORTS 6 HD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "bein_7",
+    "name": "beIN SPORTS 7",
+    "category": "beIN Sports (Arabe)",
+    "default_stream_id": "551278",
+    "variants": {
+      "4k": {
+        "id": "986979",
+        "name": "AR - BEIN SPORTS 7 4K",
+        "quality": "4K",
+        "label": "4K Ultra HD"
+      },
+      "fhd": {
+        "id": "551278",
+        "name": "AR - BEIN SPORTS 7 FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "551247",
+        "name": "AR - BEIN SPORTS 7 HD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "bein_8",
+    "name": "beIN SPORTS 8",
+    "category": "beIN Sports (Arabe)",
+    "default_stream_id": "551279",
+    "variants": {
+      "4k": {
+        "id": "986980",
+        "name": "AR - BEIN SPORTS 8 4K",
+        "quality": "4K",
+        "label": "4K Ultra HD"
+      },
+      "fhd": {
+        "id": "551279",
+        "name": "AR - BEIN SPORTS 8 FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "551248",
+        "name": "AR - BEIN SPORTS 8 HD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "bein_9",
+    "name": "beIN SPORTS 9",
+    "category": "beIN Sports (Arabe)",
+    "default_stream_id": "551280",
+    "variants": {
+      "4k": {
+        "id": "986981",
+        "name": "AR - BEIN SPORTS 9 4K",
+        "quality": "4K",
+        "label": "4K Ultra HD"
+      },
+      "fhd": {
+        "id": "551280",
+        "name": "AR - BEIN SPORTS 9 FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "551249",
+        "name": "AR - BEIN SPORTS 9 HD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "bein_news",
+    "name": "beIN SPORTS NEWS",
+    "category": "beIN Sports (Arabe)",
+    "default_stream_id": "27925",
+    "variants": {
+      "4k": {
+        "id": "27925",
+        "name": "AR - BEIN SPORTS NEWS 4K",
+        "quality": "4K",
+        "label": "4K Ultra HD"
+      },
+      "fhd": {
+        "id": "27925",
+        "name": "AR - BEIN SPORTS NEWS",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "27925",
+        "name": "AR - BEIN SPORTS NEWS",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "bein_uhd",
+    "name": "beIN SPORTS 4K UHD",
+    "category": "beIN Sports (Arabe)",
+    "default_stream_id": "1441958",
+    "variants": {
+      "4k": {
+        "id": "1441958",
+        "name": "AR - BEIN SPORTS 4K UHD",
+        "quality": "4K",
+        "label": "4K Ultra HD"
+      },
+      "fhd": {
+        "id": "1441958",
+        "name": "AR - BEIN SPORTS 4K UHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "1441958",
+        "name": "AR - BEIN SPORTS 4K UHD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "canal_foot",
+    "name": "CANAL+ FOOT",
+    "category": "France Sports",
+    "default_stream_id": "311116",
+    "variants": {
+      "4k": {
+        "id": "311117",
+        "name": "FR - CANAL+ FOOT HEVC",
+        "quality": "4K",
+        "label": "4K / HEVC"
+      },
+      "fhd": {
+        "id": "311116",
+        "name": "FR - CANAL+ FOOT FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "853546",
+        "name": "FR - CANAL+ FOOT HD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "canal_sport",
+    "name": "CANAL+ SPORT",
+    "category": "France Sports",
+    "default_stream_id": "56644",
+    "variants": {
+      "4k": {
+        "id": "56569",
+        "name": "FR - CANAL+ SPORT HEVC",
+        "quality": "4K",
+        "label": "4K / HEVC"
+      },
+      "fhd": {
+        "id": "56644",
+        "name": "FR - CANAL+ SPORT FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "56533",
+        "name": "FR - CANAL+ SPORT SD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "canal_sport_360",
+    "name": "CANAL+ SPORT 360",
+    "category": "France Sports",
+    "default_stream_id": "311207",
+    "variants": {
+      "4k": {
+        "id": "311208",
+        "name": "FR - CANAL+ 360 HEVC",
+        "quality": "4K",
+        "label": "4K / HEVC"
+      },
+      "fhd": {
+        "id": "311207",
+        "name": "FR - CANAL+ 360 FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "311209",
+        "name": "FR - CANAL+ 360 SD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "canal_premier_league",
+    "name": "CANAL+ PREMIER LEAGUE",
+    "category": "France Sports",
+    "default_stream_id": "203876",
+    "variants": {
+      "4k": {
+        "id": "203880",
+        "name": "FR - CANAL+ PREMIER LEAGUE HEVC",
+        "quality": "4K",
+        "label": "4K / HEVC"
+      },
+      "fhd": {
+        "id": "203876",
+        "name": "FR - CANAL+ PREMIER LEAGUE FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "203881",
+        "name": "FR - CANAL+ PREMIER LEAGUE SD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "canal_live_1",
+    "name": "CANAL+ LIVE 1",
+    "category": "France Sports",
+    "default_stream_id": "1069960",
+    "variants": {
+      "4k": {
+        "id": "1069960",
+        "name": "FR - CANAL+ LIVE 1 FHD",
+        "quality": "4K",
+        "label": "4K / FHD"
+      },
+      "fhd": {
+        "id": "1069960",
+        "name": "FR - CANAL+ LIVE 1 FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "1019732",
+        "name": "FR - CANAL+ LIVE 1 HD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "canal_live_2",
+    "name": "CANAL+ LIVE 2",
+    "category": "France Sports",
+    "default_stream_id": "1069961",
+    "variants": {
+      "4k": {
+        "id": "1069961",
+        "name": "FR - CANAL+ LIVE 2 FHD",
+        "quality": "4K",
+        "label": "4K / FHD"
+      },
+      "fhd": {
+        "id": "1069961",
+        "name": "FR - CANAL+ LIVE 2 FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "1019733",
+        "name": "FR - CANAL+ LIVE 2 HD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "canal_live_3",
+    "name": "CANAL+ LIVE 3",
+    "category": "France Sports",
+    "default_stream_id": "1069962",
+    "variants": {
+      "4k": {
+        "id": "1069962",
+        "name": "FR - CANAL+ LIVE 3 FHD",
+        "quality": "4K",
+        "label": "4K / FHD"
+      },
+      "fhd": {
+        "id": "1069962",
+        "name": "FR - CANAL+ LIVE 3 FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "1019734",
+        "name": "FR - CANAL+ LIVE 3 HD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "canal_live_4",
+    "name": "CANAL+ LIVE 4",
+    "category": "France Sports",
+    "default_stream_id": "1069963",
+    "variants": {
+      "4k": {
+        "id": "1069963",
+        "name": "FR - CANAL+ LIVE 4 FHD",
+        "quality": "4K",
+        "label": "4K / FHD"
+      },
+      "fhd": {
+        "id": "1069963",
+        "name": "FR - CANAL+ LIVE 4 FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "1019735",
+        "name": "FR - CANAL+ LIVE 4 HD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "canal_live_5",
+    "name": "CANAL+ LIVE 5",
+    "category": "France Sports",
+    "default_stream_id": "1069964",
+    "variants": {
+      "4k": {
+        "id": "1069964",
+        "name": "FR - CANAL+ LIVE 5 FHD",
+        "quality": "4K",
+        "label": "4K / FHD"
+      },
+      "fhd": {
+        "id": "1069964",
+        "name": "FR - CANAL+ LIVE 5 FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "1019736",
+        "name": "FR - CANAL+ LIVE 5 HD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
+  },
+  {
+    "id": "bein_1_fr",
+    "name": "beIN SPORTS 1 FR",
+    "category": "France Sports",
+    "default_stream_id": "56655",
+    "variants": {
+      "4k": {
+        "id": "56580",
+        "name": "FR - BEIN SPORTS 1 HEVC",
+        "quality": "4K",
+        "label": "4K / HEVC"
+      },
+      "fhd": {
+        "id": "56655",
+        "name": "FR - BEIN SPORTS 1 FHD",
+        "quality": "FHD",
+        "label": "Full HD 1080p"
+      },
+      "sd": {
+        "id": "56544",
+        "name": "FR - BEIN SPORTS 1 SD",
+        "quality": "SD",
+        "label": "SD Eco"
+      }
+    }
   }
 ]
