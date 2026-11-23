@@ -585,24 +585,21 @@ def start_stream_for_channel(stream_id, force_restart=False):
             if proc is not None and proc.poll() is None:
                 info["last_active"] = now
                 return True
+            else:
+                # Previous process died, remove it so we can start fresh
+                ACTIVE_STREAMS.pop(stream_id, None)
 
         # 2. STRICT SINGLE-STREAM ENFORCEMENT:
         # Upstream IPTV accounts strictly allow only 1 concurrent connection (max_connections = 1).
-        # Stop ALL previous FFmpeg streams immediately before starting the new one!
         for other_sid in list(ACTIVE_STREAMS.keys()):
-            if other_sid != stream_id:
-                old_info = ACTIVE_STREAMS.pop(other_sid, None)
-                if old_info and old_info.get("proc"):
-                    print(f"[Single-Connection] Killing previous stream {other_sid} to free connection slot...", flush=True)
-                    try:
-                        old_info["proc"].kill()
-                    except Exception:
-                        pass
-        try:
-            subprocess.run(["pkill", "-9", "-f", "ffmpeg"], timeout=1)
-        except Exception:
-            pass
-        time.sleep(0.12)
+            old_info = ACTIVE_STREAMS.pop(other_sid, None)
+            if old_info and old_info.get("proc"):
+                print(f"[Single-Connection] Killing previous stream {other_sid} to free connection slot...", flush=True)
+                try:
+                    old_info["proc"].kill()
+                    old_info["proc"].wait(timeout=0.3)
+                except Exception:
+                    pass
         ACTIVE_STREAMS.clear()
 
         real_stream_id = resolve_stream_id(stream_id)
@@ -628,15 +625,15 @@ def start_stream_for_channel(stream_id, force_restart=False):
 
         cmd = [
             "ffmpeg",
-            "-rw_timeout", "6000000",
+            "-rw_timeout", "10000000",
             "-fflags", "nobuffer+fastseek+flush_packets",
-            "-analyzeduration", "100000",
-            "-probesize", "100000",
+            "-analyzeduration", "1500000",
+            "-probesize", "1000000",
             "-reconnect", "1",
             "-reconnect_at_eof", "1",
             "-reconnect_streamed", "1",
             "-reconnect_delay_max", "2",
-            "-user_agent", "VLC/3.0.18 LibVLC/3.0.18",
+            "-user_agent", "VLC/3.0.18",
             "-i", stream_url,
             "-c", "copy",
             "-f", "hls",
@@ -651,12 +648,20 @@ def start_stream_for_channel(stream_id, force_restart=False):
         ]
 
         print(f"[Multi-Stream] Starting parallel FFmpeg for channel {stream_id} ({ch_name}): {stream_url}", flush=True)
-        proc = subprocess.Popen(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        log_path = f"/tmp/ffmpeg_{stream_id}.log"
+        try:
+            log_file = open(log_path, "w")
+            proc = subprocess.Popen(cmd, stdout=log_file, stderr=subprocess.STDOUT)
+        except Exception:
+            proc = subprocess.Popen(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+            log_path = None
+
         ACTIVE_STREAMS[stream_id] = {
             "proc": proc,
             "last_active": now,
             "name": ch_name,
-            "playlist": playlist_path
+            "playlist": playlist_path,
+            "log": log_path
         }
 
     # Wait up to 3.5s for initial segments to be ready
@@ -728,6 +733,21 @@ class OnDemandRelayHandler(http.server.SimpleHTTPRequestHandler):
         if path.endswith(".ts"):
             segment_name = os.path.basename(path)
             self.serve_ts_segment(segment_name)
+            return
+
+        # 3b. Diagnostic Logs API
+        if path == "/api/ffmpeg_log":
+            sid = urllib.parse.parse_qs(parsed.query).get("id", [""])[0]
+            log_p = f"/tmp/ffmpeg_{sid}.log" if sid else "/tmp/http.log"
+            content = "Log not found"
+            if os.path.exists(log_p):
+                try:
+                    with open(log_p, "r", errors="ignore") as f:
+                        lines = f.readlines()
+                    content = "".join(lines[-35:])
+                except Exception as e:
+                    content = str(e)
+            self.render_json({"file": log_p, "log": content})
             return
 
         # 4. Status API
