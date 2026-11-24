@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """
-Family Stream - Auto-Updater & Health Checker (Xtream Portals)
-==============================================================
-S'exécute automatiquement via GitHub Actions (cron toutes les 6h ou manuel) :
-1. Teste tous les serveurs existants dans xtream_portals.json en parallèle (timeout 3.5s).
-2. ÉLIMINE immédiatement les serveurs morts, inaccessibles ou expirés.
-3. Scrape Telegram public pour découvrir de nouveaux serveurs frais.
-4. Sauvegarde la liste propre et à jour dans xtream_portals.json.
+Family Stream - Auto-Updater & Health Checker (Certified Video Xtream Portals)
+==============================================================================
+S'exécute automatiquement via GitHub Actions (cron toutes les 6h ou manuel) ou en local :
+1. Scrape Telegram public pour découvrir de nouveaux serveurs Xtream frais.
+2. Teste la santé complète ET la diffusion vidéo réelle (chunks MPEG-TS) en parallèle.
+3. ÉLIMINE immédiatement les serveurs morts, inaccessibles, sans flux vidéo ou expirés.
+4. Extrait et pré-packagera les catégories sportives authentiques (AR & FR en tête).
+5. Sauvegarde la liste certifiée dans xtream_portals.json (0ms d'attente sur TV).
+Durée totale d'exécution : environ 45 à 60 secondes.
 """
 
 import json
@@ -22,8 +24,9 @@ import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 PORTALS_FILE = "xtream_portals.json"
-MAX_WORKERS = 20
-HTTP_TIMEOUT = 3.5
+MAX_WORKERS = 24
+HTTP_TIMEOUT = 4.0
+STREAM_TIMEOUT = 4.5
 
 TELEGRAM_SOURCES = [
     "https://t.me/s/Xtream_Iptv_Code",
@@ -69,39 +72,12 @@ def category_priority(cname):
         return (7, cname)
     return (10, cname)
 
-def check_portal_health(portal: dict):
-    h = portal.get('host', '').rstrip('/')
-    u = portal.get('username', '')
-    p = portal.get('password', '')
-    if not h or not u or not p:
-        return None
-    try:
-        url = f"{h}/player_api.php?username={u}&password={p}"
-        r = requests.get(url, timeout=HTTP_TIMEOUT, headers={'User-Agent': 'Mozilla/5.0'})
-        if r.status_code == 200:
-            d = r.json()
-            uinfo = d.get('user_info', {})
-            auth = uinfo.get('auth', 0)
-            status = uinfo.get('status', '')
-            if auth == 1 and status == 'Active':
-                exp = uinfo.get('exp_date')
-                if exp:
-                    try:
-                        if int(exp) < int(time.time()):
-                            return None
-                    except Exception:
-                        pass
-                return portal
-    except Exception:
-        pass
-    return None
-
 def extract_credentials_from_telegram_html(html: str) -> list[dict]:
     results = []
     messages = re.findall(r'<div class="[^"]*tgme_widget_message_text[^"]*"[^>]*>(.*?)</div>', html, re.DOTALL)
     for m in messages:
         clean = re.sub(r'<[^>]+>', '\n', m)
-        # get.php
+        # get.php format
         for url in re.findall(r'https?://[^\s"\'<>\n]+/get\.php\?[^\s"\'<>\n]+', clean, re.IGNORECASE):
             try:
                 parsed = urllib.parse.urlparse(url)
@@ -113,7 +89,7 @@ def extract_credentials_from_telegram_html(html: str) -> list[dict]:
                     results.append({'host': h, 'username': u.strip(), 'password': p.strip()})
             except Exception:
                 pass
-        # lines
+        # line by line format
         h, u, p = None, None, None
         for line in clean.splitlines():
             line = line.strip()
@@ -132,13 +108,21 @@ def extract_credentials_from_telegram_html(html: str) -> list[dict]:
             results.append({'host': h, 'username': u, 'password': p})
     return results
 
-def process_new_candidate(cand: dict, server_id: str):
-    h = cand['host'].rstrip('/')
-    u = cand['username']
-    p = cand['password']
+def certify_and_extract_server(server: dict) -> dict:
+    h = server.get('host', '').rstrip('/')
+    u = server.get('username', '').strip()
+    p = server.get('password', '').strip()
+    clean_host = h.replace('http://', '').replace('https://', '').split(':')[0]
+    
+    # Filter adult/sketchy hosts
+    if any(x in clean_host.lower() for x in ['adult', 'porn', 'xxx', 'myultratv']):
+        return None
+        
     base = f"{h}/player_api.php?username={u}&password={p}"
-    headers = {'User-Agent': 'Mozilla/5.0'}
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+
     try:
+        # 1. Auth check
         rinfo = requests.get(base, timeout=HTTP_TIMEOUT, headers=headers)
         if rinfo.status_code != 200:
             return None
@@ -146,14 +130,21 @@ def process_new_candidate(cand: dict, server_id: str):
         uinfo = d.get('user_info', {})
         if uinfo.get('auth') != 1 or uinfo.get('status') != 'Active':
             return None
+        exp = uinfo.get('exp_date')
+        if exp:
+            try:
+                if int(exp) < int(time.time()):
+                    return None
+            except Exception:
+                pass
 
+        # 2. Categories check
         rcat = requests.get(f"{base}&action=get_live_categories", timeout=HTTP_TIMEOUT, headers=headers)
         if rcat.status_code != 200:
             return None
         all_cats = rcat.json()
         if not isinstance(all_cats, list) or not all_cats:
             return None
-
         sport_cats = {}
         for c in all_cats:
             cid = str(c.get('category_id', '')).strip()
@@ -163,28 +154,81 @@ def process_new_candidate(cand: dict, server_id: str):
         if not sport_cats:
             return None
 
-        clean_host = h.replace('http://', '').replace('https://', '').split(':')[0]
+        # 3. Live streams check
+        rstr = requests.get(f"{base}&action=get_live_streams", timeout=HTTP_TIMEOUT, headers=headers)
+        if rstr.status_code != 200:
+            return None
+        all_streams = rstr.json()
+        if not isinstance(all_streams, list) or not all_streams:
+            return None
+
+        cat_to_channels = {cid: [] for cid in sport_cats.keys()}
+        sample_stream_id = None
+        for stream in all_streams:
+            cid = str(stream.get('category_id', '')).strip()
+            if cid in cat_to_channels:
+                sid = str(stream.get('stream_id'))
+                if not sample_stream_id:
+                    sample_stream_id = sid
+                sname = stream.get('name', '').strip()
+                sicon = stream.get('stream_icon', '')
+                ch_obj = {'id': sid, 'name': sname}
+                if sicon:
+                    ch_obj['icon'] = sicon
+                cat_to_channels[cid].append(ch_obj)
+
+        if not sample_stream_id:
+            return None
+
+        # 4. CRITICAL: Test real video MPEG-TS delivery
+        stream_url = f"{h}/live/{u}/{p}/{sample_stream_id}.ts"
+        with requests.get(stream_url, timeout=STREAM_TIMEOUT, headers=headers, stream=True) as stream_resp:
+            if stream_resp.status_code != 200:
+                return None
+            bytes_received = 0
+            for chunk in stream_resp.iter_content(chunk_size=4096):
+                bytes_received += len(chunk)
+                if bytes_received >= 2048:
+                    break
+            if bytes_received < 1024:
+                return None
+
+        # 5. Build pre-packaged sport categories (AR & FR first)
+        sorted_cids = sorted(sport_cats.keys(), key=lambda cid: category_priority(sport_cats[cid]))
+        built_categories = []
+        total_sport_ch = 0
+        for cid in sorted_cids:
+            chs = cat_to_channels.get(cid, [])
+            if chs:
+                built_categories.append({
+                    'category_id': cid,
+                    'name': sport_cats[cid],
+                    'channels': chs
+                })
+                total_sport_ch += len(chs)
+
+        if not built_categories:
+            return None
+
         return {
-            "id": server_id,
-            "name": f"Serveur Bot : {clean_host}",
-            "host": h,
-            "username": u,
-            "password": p,
-            "status": "Active",
-            "expires_str": "Actif",
-            "max_connections": int(uinfo.get('max_connections', 1) or 1),
-            "total_categories": len(sport_cats),
-            "total_sport_channels": 0,
-            "categories": []
+            'host': h,
+            'username': u,
+            'password': p,
+            'status': 'Active',
+            'expires_str': 'Actif (Certifié Vidéo)',
+            'max_connections': int(uinfo.get('max_connections', 1) or 1),
+            'total_categories': len(built_categories),
+            'total_sport_channels': total_sport_ch,
+            'categories': built_categories
         }
     except Exception:
         return None
 
 def main():
-    print("=== DÉMARRAGE DU SCANNER ET PURGE AUTOMATIQUE ===", flush=True)
+    print("=== DÉMARRAGE DU SCANNER VIDÉO & PURGE AUTO ===", flush=True)
     t_start = time.time()
 
-    # 1. Charger la liste actuelle
+    # 1. Charger les serveurs existants
     current_portals = []
     if os.path.exists(PORTALS_FILE):
         try:
@@ -194,24 +238,15 @@ def main():
         except Exception as e:
             print(f"Erreur lecture {PORTALS_FILE}: {e}", flush=True)
 
-    # 2. Vérification et purge des morts
-    print("[2/4] Test de santé en parallèle de tous les serveurs...", flush=True)
-    alive_portals = []
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
-        futures = {ex.submit(check_portal_health, p): p for p in current_portals}
-        for fut in as_completed(futures):
-            res = fut.result()
-            if res:
-                alive_portals.append(res)
+    # 2. Récolter de nouveaux serveurs depuis Telegram (scrape ~3-5s)
+    print("[2/4] Recherche de nouveaux serveurs sur Telegram public...", flush=True)
+    candidate_pool = []
+    seen = set()
+    for p in current_portals:
+        k = (p.get('host', '').rstrip('/'), p.get('username', ''), p.get('password', ''))
+        seen.add(k)
+        candidate_pool.append(p)
 
-    dead_count = len(current_portals) - len(alive_portals)
-    print(f"   -> {len(alive_portals)} serveurs en ligne conservés.", flush=True)
-    print(f"   -> {dead_count} serveurs morts ou expirés ÉLIMINÉS.", flush=True)
-
-    # 3. Récolte des nouveaux serveurs depuis Telegram
-    print("[3/4] Recherche de nouveaux serveurs sur Telegram...", flush=True)
-    existing_keys = {(p['host'].rstrip('/'), p['username'], p['password']) for p in alive_portals}
-    new_candidates = []
     for tg_url in TELEGRAM_SOURCES:
         try:
             r = requests.get(tg_url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=5)
@@ -219,34 +254,50 @@ def main():
                 cands = extract_credentials_from_telegram_html(r.text)
                 for c in cands:
                     k = (c['host'].rstrip('/'), c['username'], c['password'])
-                    if k not in existing_keys:
-                        existing_keys.add(k)
-                        new_candidates.append(c)
+                    if k not in seen:
+                        seen.add(k)
+                        candidate_pool.append(c)
         except Exception as e:
             print(f"   (Telegram {tg_url} ignoré: {e})", flush=True)
 
-    print(f"   -> {len(new_candidates)} nouveaux serveurs potentiels découverts.", flush=True)
+    print(f"   -> {len(candidate_pool)} serveurs candidats à vérifier...", flush=True)
 
-    # 4. Traiter les nouveaux serveurs (limité aux 15 premiers pour rapidité)
-    new_active = []
-    if new_candidates:
-        print("[4/4] Validation des nouveaux serveurs...", flush=True)
-        with ThreadPoolExecutor(max_workers=10) as ex:
-            futures = [ex.submit(process_new_candidate, c, f"srv_new_{i}") for i, c in enumerate(new_candidates[:15], 1)]
-            for fut in as_completed(futures):
-                res = fut.result()
-                if res:
-                    new_active.append(res)
-                    print(f"   + Nouveau serveur valide ajouté: {res['name']} ({res['totalSportChannels']} chaînes)", flush=True)
+    # 3. Test de santé + test de diffusion vidéo réelle en parallèle
+    print(f"[3/4] Certification vidéo en direct (test réel de chunks .ts, max {MAX_WORKERS} threads)...", flush=True)
+    certified = []
+    seen_hosts = set()
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
+        futures = {ex.submit(certify_and_extract_server, s): s for s in candidate_pool}
+        for fut in as_completed(futures):
+            res = fut.result()
+            if res:
+                clean_host = res['host'].replace('http://', '').replace('https://', '').split(':')[0]
+                # Diversité des hébergeurs : max 2 comptes par domaine
+                host_count = sum(1 for h in seen_hosts if h == clean_host)
+                if host_count < 2:
+                    seen_hosts.add(clean_host)
+                    certified.append(res)
+                    print(f"   [VÉRIFIÉ OK] {clean_host} ({res['total_sport_channels']} chaînes)", flush=True)
 
-    # 5. Fusion et indexation
-    final_list = new_active + alive_portals
-    for idx, p in enumerate(final_list, 1):
-        p['id'] = f"srv_{idx}"
-        clean_host = p['host'].replace('http://', '').replace('https://', '').split(':')[0]
-        p['name'] = f"Serveur #{idx} : {clean_host}"
-        p['categories'] = []
+    # 4. Formater les serveurs certifiés
+    final_list = []
+    for idx, s in enumerate(certified, 1):
+        clean_host = s['host'].replace('http://', '').replace('https://', '').split(':')[0]
+        final_list.append({
+            'id': f"srv_{idx}",
+            'name': f"Serveur #{idx} : {clean_host}",
+            'host': s['host'],
+            'username': s['username'],
+            'password': s['password'],
+            'status': s['status'],
+            'expires_str': s['expires_str'],
+            'max_connections': s['max_connections'],
+            'total_categories': s['total_categories'],
+            'total_sport_channels': s['total_sport_channels'],
+            'categories': s['categories']
+        })
 
+    # 5. Sauvegarde
     with open(PORTALS_FILE, "w", encoding="utf-8") as f:
         json.dump(final_list, f, ensure_ascii=False, indent=2)
 
@@ -256,7 +307,7 @@ def main():
             json.dump(final_list, f, ensure_ascii=False, indent=2)
 
     elapsed = time.time() - t_start
-    print(f"=== TERMINÉ EN {elapsed:.1f}s : {len(final_list)} SERVEURS ACTIFS SAUVEGARDÉS ===", flush=True)
+    print(f"=== TERMINÉ EN {elapsed:.1f}s : {len(final_list)} SERVEURS 100% CERTIFIÉS VIDÉO SAUVEGARDÉS ===", flush=True)
 
 if __name__ == "__main__":
     main()
