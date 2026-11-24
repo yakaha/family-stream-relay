@@ -29,6 +29,7 @@ HTTP_TIMEOUT = 4.0
 STREAM_TIMEOUT = 4.5
 
 TELEGRAM_SOURCES = [
+    "https://t.me/s/VORTEXIPTVSUITE",
     "https://t.me/s/Xtream_Iptv_Code",
     "https://t.me/s/xtream_code_iptv",
     "https://t.me/s/FreeIPTVxtream"
@@ -71,6 +72,40 @@ def category_priority(cname):
     if 'AR' in up or 'ARAB' in up:
         return (7, cname)
     return (10, cname)
+
+def extract_from_txt_file(path: str) -> list[dict]:
+    results = []
+    if not os.path.exists(path):
+        return results
+    try:
+        with open(path, 'r', encoding='utf-8', errors='ignore') as f:
+            content = f.read()
+        for url in re.findall(r'https?://[^\s"\'<>\n]+/get\.php\?[^\s"\'<>\n]+', content, re.I):
+            try:
+                parsed = urllib.parse.urlparse(url)
+                params = urllib.parse.parse_qs(parsed.query)
+                h = f"{parsed.scheme}://{parsed.netloc}".rstrip('/')
+                u = (params.get('username') or params.get('user') or [None])[0]
+                p = (params.get('password') or params.get('pass') or [None])[0]
+                if h and u and p:
+                    results.append({'host': h, 'username': u.strip(), 'password': p.strip()})
+            except Exception:
+                pass
+        for block in re.split(r'━{5,}|={5,}', content):
+            h, u, p = None, None, None
+            for line in block.splitlines():
+                line = line.strip()
+                mh = re.search(r'(?:PORTAL|HOST|SERVER|URL)\s*[:|=]\s*(https?://[^\s\n\r]+)', line, re.I)
+                if mh: h = mh.group(1).rstrip('/')
+                mu = re.search(r'(?:USER|USERNAME|USR)\s*[:|=]\s*([^\s\n\r]+)', line, re.I)
+                if mu: u = mu.group(1).strip()
+                mp = re.search(r'(?:PASS|PASSWORD|PWD)\s*[:|=]\s*([^\s\n\r]+)', line, re.I)
+                if mp: p = mp.group(1).strip()
+            if h and u and p:
+                results.append({'host': h, 'username': u, 'password': p})
+    except Exception:
+        pass
+    return results
 
 def extract_credentials_from_telegram_html(html: str) -> list[dict]:
     results = []
@@ -259,6 +294,19 @@ def main():
                         candidate_pool.append(c)
         except Exception as e:
             print(f"   (Telegram {tg_url} ignoré: {e})", flush=True)
+
+    # 2.bis Scanner les fichiers .txt locaux (ex: Vortex Hits téléchargés)
+    local_tg_dir = r"C:\Users\Yacine\Downloads\Telegram Desktop"
+    if os.path.exists(local_tg_dir):
+        print(f"   Scan des fichiers .txt dans {local_tg_dir}...", flush=True)
+        for fname in os.listdir(local_tg_dir):
+            if fname.endswith(".txt"):
+                txt_cands = extract_from_txt_file(os.path.join(local_tg_dir, fname))
+                for c in txt_cands:
+                    k = (c['host'].rstrip('/'), c['username'], c['password'])
+                    if k not in seen:
+                        seen.add(k)
+                        candidate_pool.append(c)
 
     print(f"   -> {len(candidate_pool)} serveurs candidats à vérifier...", flush=True)
 
