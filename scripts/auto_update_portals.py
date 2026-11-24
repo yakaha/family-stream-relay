@@ -163,35 +163,6 @@ def process_new_candidate(cand: dict, server_id: str):
         if not sport_cats:
             return None
 
-        rstr = requests.get(f"{base}&action=get_live_streams", timeout=HTTP_TIMEOUT + 1.0, headers=headers)
-        if rstr.status_code != 200:
-            return None
-        all_streams = rstr.json()
-        if not isinstance(all_streams, list) or not all_streams:
-            return None
-
-        cat_streams = {cid: [] for cid in sport_cats.keys()}
-        for s in all_streams:
-            scat = str(s.get('category_id', '')).strip()
-            if scat in cat_streams:
-                s_id = str(s.get('stream_id', '')).strip()
-                s_name = s.get('name', '').strip()
-                s_icon = s.get('stream_icon', '')
-                if s_id and s_name:
-                    cat_streams[scat].append({"id": s_id, "name": s_name, "icon": s_icon})
-
-        sorted_cids = sorted(sport_cats.keys(), key=lambda cid: category_priority(sport_cats[cid]))
-        portal_categories = []
-        total_sport_ch = 0
-        for cid in sorted_cids:
-            chs = cat_streams[cid]
-            if chs:
-                portal_categories.append({"categoryId": cid, "name": sport_cats[cid], "channels": chs})
-                total_sport_ch += len(chs)
-
-        if not portal_categories:
-            return None
-
         clean_host = h.replace('http://', '').replace('https://', '').split(':')[0]
         return {
             "id": server_id,
@@ -200,11 +171,11 @@ def process_new_candidate(cand: dict, server_id: str):
             "username": u,
             "password": p,
             "status": "Active",
-            "expiresStr": "Actif",
-            "maxConnections": int(uinfo.get('max_connections', 1) or 1),
-            "totalCategories": len(portal_categories),
-            "totalSportChannels": total_sport_ch,
-            "categories": portal_categories
+            "expires_str": "Actif",
+            "max_connections": int(uinfo.get('max_connections', 1) or 1),
+            "total_categories": len(sport_cats),
+            "total_sport_channels": 0,
+            "categories": []
         }
     except Exception:
         return None
@@ -274,6 +245,7 @@ def main():
         p['id'] = f"srv_{idx}"
         clean_host = p['host'].replace('http://', '').replace('https://', '').split(':')[0]
         p['name'] = f"Serveur #{idx} : {clean_host}"
+        p['categories'] = []
 
     with open(PORTALS_FILE, "w", encoding="utf-8") as f:
         json.dump(final_list, f, ensure_ascii=False, indent=2)
