@@ -5,19 +5,16 @@ Family Stream - Bot Telegram Xtream Pool Scanner & Watcher
 Scrape:
   1. https://t.me/Xtream_Iptv_Code
   2. Groupe "M3U & Xtream [VIP GROUP]" (résolution auto dans vos dialogues Telegram)
+  3. Fichiers .txt et .m3u attachés aux messages (FreshM3U, dumps, vortex, etc.)
+  4. Canaux additionnels (xtream_code_iptv, FreeIPTVxtream)
 
 Fonctionnalités :
+  - Support des messages texte ET des fichiers .txt / .m3u attachés
   - Recherche automatique des groupes par URL ou nom de dialogue
-  - Extraction multi-formats robuste des codes Xtream (get.php, triplet, PORTAL/USER/PASS)
-  - Test multi-threadé ULTRA-RAPIDE (10-15 workers concurrents)
+  - Test multi-threadé ultra-rapide (15 workers concurrents)
   - Détection précise des chaînes beIN Sports (France & Arabe) et Canal+
-  - Affichage direct du rapport de serveurs DISPONIBLES dans le terminal
-  - Export dans 'resultats_scan.txt' et mise à jour de 'xtream_pool.json'
-  - Surveillance temps réel permanente après le scan initial
-
-Usage:
-  python3 bot_xtream.py             # Scan complet + veille temps réel
-  python3 bot_xtream.py --scan-only # Scan complet + rapport + arrêt
+  - Rapport complet avec statistiques détaillées
+  - Mise à jour automatique de 'xtream_pool.json' et 'resultats_scan.txt'
 """
 
 import asyncio
@@ -47,14 +44,10 @@ API_ID   = 39352626
 API_HASH = "938a87cb1245b0a95c1d85827082fecc"
 SESSION  = "xtream_bot_session"
 
-# Sources cibles demandées par l'utilisateur
+# Sources cibles prioritaires
 TARGET_SOURCES = [
     "https://t.me/Xtream_Iptv_Code",
     "M3U & Xtream [VIP GROUP]",
-]
-
-# Canaux additionnels optionnels
-EXTRA_CHANNELS = [
     "https://t.me/xtream_code_iptv",
     "https://t.me/FreeIPTVxtream",
 ]
@@ -66,10 +59,11 @@ REPORT_FILE = os.path.join(BASE_DIR, "resultats_scan.txt")
 POOL_LOCK = threading.RLock()
 
 # Limites & Délais
-MESSAGES_LIMIT = 250        # Nombre de messages récents à analyser par source
-TEST_WORKERS = 12           # Tests simultanés en parallèle
-HTTP_TIMEOUT = 7            # Timeout par requête HTTP
-SERVER_TTL = 6 * 3600       # Durée de vie d'un serveur dans le pool (6h)
+MESSAGES_LIMIT = 300        # Nombre de messages récents par source
+MAX_FILE_SIZE = 3 * 1024 * 1024  # Télécharger les pièces jointes .txt/.m3u < 3 Mo
+TEST_WORKERS = 15           # Tests simultanés en parallèle
+HTTP_TIMEOUT = 6            # Timeout par requête HTTP
+SERVER_TTL = 12 * 3600      # Durée de vie d'un serveur dans le pool (12h)
 SESSION_TTL = 4 * 3600      # Durée de session utilisateur (4h)
 
 # Patterns sports
@@ -190,32 +184,30 @@ def extract_xtream_codes(text: str) -> list[dict]:
     # 1. URL get.php
     pat_m3u = re.findall(r'https?://[^\s"\'<>]+/get\.php\?[^\s"\'<>]+', text, re.IGNORECASE)
     for url in pat_m3u:
-        parsed = urllib.parse.urlparse(url)
-        params = urllib.parse.parse_qs(parsed.query)
-        host = f"{parsed.scheme}://{parsed.netloc}".rstrip('/')
-        user = (params.get("username") or params.get("user") or [None])[0]
-        pwd  = (params.get("password") or params.get("pass") or [None])[0]
-        if host and user and pwd:
-            results.append({"host": host, "username": user.strip(), "password": pwd.strip(), "source": "m3u_url"})
+        try:
+            parsed = urllib.parse.urlparse(url)
+            params = urllib.parse.parse_qs(parsed.query)
+            host = f"{parsed.scheme}://{parsed.netloc}".rstrip('/')
+            user = (params.get("username") or params.get("user") or [None])[0]
+            pwd  = (params.get("password") or params.get("pass") or [None])[0]
+            if host and user and pwd:
+                results.append({"host": host, "username": user.strip(), "password": pwd.strip(), "source": "m3u_url"})
+        except Exception:
+            pass
 
-    # 2. Format blocs : HOST/PORTAL ... USER ... PASS ...
+    # 2. Format blocs : PORTAL / HOST ... USER ... PASS ...
     block_patterns = [
-        r'(?:PORTAL|HOST|SERVER|URL)\s*[:|=]\s*(https?://[^\s\n]+)[\s\S]*?(?:USER|USERNAME|USR)\s*[:|=]\s*([^\s\n]+)[\s\S]*?(?:PASS|PASSWORD|PWD)\s*[:|=]\s*([^\s\n]+)',
-        r'(?:USER|USERNAME|USR)\s*[:|=]\s*([^\s\n]+)[\s\S]*?(?:PASS|PASSWORD|PWD)\s*[:|=]\s*([^\s\n]+)[\s\S]*?(?:PORTAL|HOST|SERVER|URL)\s*[:|=]\s*(https?://[^\s\n]+)',
+        r'(?:PORTAL|HOST|SERVER|URL)\s*[:|=]\s*(https?://[^\s\n\r]+)[\s\S]*?(?:USER|USERNAME|USR)\s*[:|=]\s*([^\s\n\r]+)[\s\S]*?(?:PASS|PASSWORD|PWD)\s*[:|=]\s*([^\s\n\r]+)',
+        r'(?:USER|USERNAME|USR)\s*[:|=]\s*([^\s\n\r]+)[\s\S]*?(?:PASS|PASSWORD|PWD)\s*[:|=]\s*([^\s\n\r]+)[\s\S]*?(?:PORTAL|HOST|SERVER|URL)\s*[:|=]\s*(https?://[^\s\n\r]+)',
     ]
-    for b in re.findall(block_patterns[0], text, re.IGNORECASE):
-        h = b[0].strip().rstrip('/')
-        u = b[1].strip()
-        p = b[2].strip()
-        if h and u and p and len(u) >= 2 and len(p) >= 2:
-            results.append({"host": h, "username": u, "password": p, "source": "block_portal"})
-
-    for b in re.findall(block_patterns[1], text, re.IGNORECASE):
-        u = b[0].strip()
-        p = b[1].strip()
-        h = b[2].strip().rstrip('/')
-        if h and u and p and len(u) >= 2 and len(p) >= 2:
-            results.append({"host": h, "username": u, "password": p, "source": "block_user_first"})
+    for pat in block_patterns:
+        for b in re.findall(pat, text, re.IGNORECASE):
+            if pat.startswith('(?:USER'):
+                u, p, h = b[0].strip(), b[1].strip(), b[2].strip().rstrip('/')
+            else:
+                h, u, p = b[0].strip().rstrip('/'), b[1].strip(), b[2].strip()
+            if h and u and p and len(u) >= 2 and len(p) >= 2:
+                results.append({"host": h, "username": u, "password": p, "source": "block"})
 
     # 3. Format triplet ligne : http://host:port user pass
     for line in text.splitlines():
@@ -229,6 +221,18 @@ def extract_xtream_codes(text: str) -> list[dict]:
                 "source": "triplet"
             })
 
+    # 4. Format combiné host:port:user:pass ou host:port/user/pass
+    for line in text.splitlines():
+        line = line.strip()
+        m2 = re.match(r'^(https?://[\w.\-]+(?::\d+)?)[/:]([A-Za-z0-9_.\-@]{3,})[:/]([A-Za-z0-9_.\-@!#$%&*]{3,})$', line)
+        if m2 and not line.endswith('.m3u') and not line.endswith('.ts'):
+            results.append({
+                "host": m2.group(1).rstrip('/'),
+                "username": m2.group(2).strip(),
+                "password": m2.group(3).strip(),
+                "source": "combined"
+            })
+
     # Déduplication
     seen = set()
     unique = []
@@ -240,10 +244,10 @@ def extract_xtream_codes(text: str) -> list[dict]:
     return unique
 
 # ══════════════════════════════════════════════════════════════════════════════
-#  TEST RAPIDE D'UN SERVEUR XTREAM
+#  TEST D'UN SERVEUR XTREAM
 # ══════════════════════════════════════════════════════════════════════════════
 
-def test_xtream_server(host: str, username: str, password: str, timeout: int = HTTP_TIMEOUT) -> dict | None:
+def test_xtream_server(host: str, username: str, password: str, timeout: int = HTTP_TIMEOUT) -> tuple[dict | None, str]:
     host = host.rstrip('/')
     api_url = f"{host}/player_api.php?username={username}&password={password}"
 
@@ -255,18 +259,20 @@ def test_xtream_server(host: str, username: str, password: str, timeout: int = H
     try:
         r = requests.get(api_url, timeout=timeout, headers=headers, verify=False)
         if r.status_code != 200:
-            return None
+            return None, f"HTTP {r.status_code}"
         data = r.json()
-    except Exception:
-        return None
+    except requests.exceptions.Timeout:
+        return None, "Timeout"
+    except Exception as e:
+        return None, f"Connexion ({type(e).__name__})"
 
     if not isinstance(data, dict) or "user_info" not in data:
-        return None
+        return None, "Réponse non-Xtream"
 
     user_info = data.get("user_info", {})
     status = str(user_info.get("status", "")).lower()
     if status not in ("active", "1"):
-        return None
+        return None, f"Compte inactif ({status})"
 
     # Expiration
     exp_ts = user_info.get("exp_date")
@@ -276,7 +282,7 @@ def test_xtream_server(host: str, username: str, password: str, timeout: int = H
         if exp_ts:
             exp_dt = datetime.fromtimestamp(int(exp_ts), tz=timezone.utc)
             if exp_dt < datetime.now(tz=timezone.utc):
-                return None  # Expiré
+                return None, f"Expiré ({exp_dt.strftime('%Y-%m-%d')})"
             exp_str = exp_dt.strftime("%Y-%m-%d %H:%M")
     except Exception:
         pass
@@ -291,7 +297,7 @@ def test_xtream_server(host: str, username: str, password: str, timeout: int = H
     canal_channels = {}
 
     try:
-        rc = requests.get(streams_url, timeout=timeout + 3, headers=headers, verify=False)
+        rc = requests.get(streams_url, timeout=timeout + 4, headers=headers, verify=False)
         if rc.status_code == 200:
             channels = rc.json()
             if isinstance(channels, list):
@@ -344,7 +350,7 @@ def test_xtream_server(host: str, username: str, password: str, timeout: int = H
 
     total_sport = len(bein_channels) + len(bein_fr_channels) + len(canal_channels)
     if total_sport == 0:
-        return None
+        return None, "0 chaîne sport trouvée"
 
     return {
         "host": host,
@@ -364,19 +370,13 @@ def test_xtream_server(host: str, username: str, password: str, timeout: int = H
         "assigned_at": None,
         "added_at": datetime.now(tz=timezone.utc).isoformat(),
         "last_verified": datetime.now(tz=timezone.utc).isoformat(),
-    }
+    }, "OK"
 
 # ══════════════════════════════════════════════════════════════════════════════
 #  RÉSOLUTION DES ENTITÉS TELEGRAM (CANAUX & GROUPES)
 # ══════════════════════════════════════════════════════════════════════════════
 
 async def resolve_target(client, target: str):
-    """
-    Résout un canal ou groupe Telegram :
-      - Par URL (ex: https://t.me/Xtream_Iptv_Code)
-      - Par @username
-      - Par nom de dialogue dans le compte (ex: 'M3U & Xtream [VIP GROUP]')
-    """
     target = target.strip()
 
     # 1. URL ou @username direct
@@ -424,29 +424,30 @@ async def resolve_target(client, target: str):
         return None, target
 
 # ══════════════════════════════════════════════════════════════════════════════
-#  SCAN INITIAL PARALLÉLISÉ & RAPIDE
+#  SCAN COMPLET : TEXTE + FICHIERS ATTACHÉS (.txt, .m3u)
 # ══════════════════════════════════════════════════════════════════════════════
 
 async def run_fast_scan(client, targets: list[str], limit: int = MESSAGES_LIMIT) -> list[dict]:
     log.info("\n" + "=" * 70)
-    log.info("🔍 DÉMARRAGE DU SCAN DES CANAUX & GROUPES DEMANDÉS")
+    log.info("🔍 DÉMARRAGE DU SCAN DES CANAUX & GROUPES (TEXTE + FICHIERS .TXT/.M3U)")
     log.info("=" * 70)
 
     all_raw_codes = []
     seen_keys = set()
-    active_entities = []
 
-    # 1. Résolution des cibles et collecte des messages
     for target in targets:
         entity, title = await resolve_target(client, target)
         if not entity:
             continue
-        active_entities.append((entity, title))
 
         log.info(f"📡 Analyse des {limit} derniers messages de : '{title}'...")
-        count_found = 0
+        count_from_text = 0
+        count_from_files = 0
+        file_count = 0
+
         try:
             async for msg in client.iter_messages(entity, limit=limit):
+                # 1. Texte du message / légende
                 if msg.text:
                     codes = extract_xtream_codes(msg.text)
                     for c in codes:
@@ -454,66 +455,101 @@ async def run_fast_scan(client, targets: list[str], limit: int = MESSAGES_LIMIT)
                         if k not in seen_keys:
                             seen_keys.add(k)
                             c['channel_title'] = title
+                            c['origin'] = 'message_text'
                             all_raw_codes.append(c)
-                            count_found += 1
-            log.info(f"   ↳ {count_found} code(s) Xtream uniques extrait(s) de '{title}'")
+                            count_from_text += 1
+
+                # 2. Pièces jointes (fichiers .txt ou .m3u)
+                if msg.document and msg.file and msg.file.name:
+                    fname = msg.file.name.lower()
+                    if any(fname.endswith(ext) for ext in ['.txt', '.m3u', '.m3u8']):
+                        fsize = getattr(msg.file, 'size', 0)
+                        if fsize and fsize < MAX_FILE_SIZE:
+                            file_count += 1
+                            try:
+                                file_bytes = await msg.download_media(bytes)
+                                if file_bytes:
+                                    content_str = file_bytes.decode('utf-8', errors='ignore')
+                                    file_codes = extract_xtream_codes(content_str)
+                                    for c in file_codes:
+                                        k = (c['host'], c['username'], c['password'])
+                                        if k not in seen_keys:
+                                            seen_keys.add(k)
+                                            c['channel_title'] = f"{title} [{msg.file.name}]"
+                                            c['origin'] = f"file:{msg.file.name}"
+                                            all_raw_codes.append(c)
+                                            count_from_files += 1
+                            except Exception as fe:
+                                log.debug(f"Erreur téléchargement fichier {fname}: {fe}")
+
+            log.info(f"   ↳ '{title}' : {count_from_text} codes dans messages + {count_from_files} codes dans {file_count} fichier(s) joint(s)")
         except Exception as e:
             log.error(f"   ⚠️ Erreur lecture messages de '{title}': {e}")
 
     log.info(f"\n📊 Total de codes uniques à tester : {len(all_raw_codes)}")
     if not all_raw_codes:
         log.warning("Aucun code trouvé à tester.")
+        output_report([], 0, 0, {})
         return []
 
     # 2. Test multi-threadé rapide
     log.info(f"⚡ Lancement des tests avec {TEST_WORKERS} threads en parallèle (timeout={HTTP_TIMEOUT}s)...")
     valid_servers = []
+    fail_reasons = {}
     tested = 0
     total = len(all_raw_codes)
 
     def _worker(c):
-        res = test_xtream_server(c['host'], c['username'], c['password'])
+        res, reason = test_xtream_server(c['host'], c['username'], c['password'])
         if res:
             res['found_in'] = c.get('channel_title', 'Telegram')
-        return res
+            res['origin'] = c.get('origin', 'text')
+        return res, reason
 
     with ThreadPoolExecutor(max_workers=TEST_WORKERS) as executor:
         future_map = {executor.submit(_worker, c): c for c in all_raw_codes}
         for future in as_completed(future_map):
             tested += 1
             try:
-                res = future.result()
+                res, reason = future.result()
                 if res:
                     valid_servers.append(res)
                     save_server_to_pool(res)
                     log.info(f"  [+] VALIDE ({len(valid_servers)} trouvés) : {res['host']} ({res['username']}) | {res['total_sport_channels']} chaînes sport | Exp: {res['expires_str']}")
                 else:
-                    if tested % 15 == 0 or tested == total:
+                    fail_reasons[reason] = fail_reasons.get(reason, 0) + 1
+                    if tested % 25 == 0 or tested == total:
                         log.info(f"  Progression : {tested}/{total} testés ({len(valid_servers)} valides)")
             except Exception:
                 pass
 
-    # 3. Génération du Rapport Final
-    output_report(valid_servers, total, tested)
+    # 3. Rapport final
+    output_report(valid_servers, total, tested, fail_reasons)
     return valid_servers
 
 # ══════════════════════════════════════════════════════════════════════════════
 #  AFFICHAGE DU RAPPORT
 # ══════════════════════════════════════════════════════════════════════════════
 
-def output_report(valid_servers: list[dict], total_codes: int, tested_codes: int):
+def output_report(valid_servers: list[dict], total_codes: int, tested_codes: int, fail_reasons: dict):
     lines = []
     lines.append("=" * 78)
-    lines.append("🏆 RAPPORT FINAL - SERVEURS XTREAM DISPONIBLES ET OPÉRATIONNELS")
+    lines.append("🏆 RAPPORT DU SCAN XTREAM - SERVEURS OPÉRATIONNELS DISPONIBLES")
     lines.append("=" * 78)
     lines.append(f"Date du scan       : {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     lines.append(f"Codes uniques vus  : {total_codes}")
     lines.append(f"Codes testés       : {tested_codes}")
     lines.append(f"Serveurs VALIDES   : {len(valid_servers)}")
+
+    if fail_reasons:
+        lines.append("\n📊 Détail des tests négatifs :")
+        for reason, count in sorted(fail_reasons.items(), key=lambda x: -x[1])[:6]:
+            lines.append(f"   • {reason} : {count} serveurs")
+
     lines.append("-" * 78)
 
     if not valid_servers:
-        lines.append("❌ Aucun serveur fonctionnel n'a été trouvé lors de ce scan.")
+        lines.append("❌ Aucun nouveau serveur fonctionnel trouvé dans les derniers messages.")
     else:
         for idx, s in enumerate(valid_servers, 1):
             lines.append(f"\n[{idx}] SERVEUR : {s['host']}")
@@ -521,9 +557,9 @@ def output_report(valid_servers: list[dict], total_codes: int, tested_codes: int
             lines.append(f"    🔑 Mot de passe  : {s['password']}")
             lines.append(f"    📅 Expiration    : {s.get('expires_str', 'Inconnue')}")
             lines.append(f"    👥 Connexions    : {s['active_connections']} / {s['max_connections']} max")
-            lines.append(f"    📡 Source        : {s.get('found_in', 'Telegram')}")
-            lines.append(f"    ⚽ Couverture Sport ({s['total_sport_channels']} chaînes) :")
-            
+            lines.append(f"    📡 Trouvé dans   : {s.get('found_in', 'Telegram')}")
+            lines.append(f"    ⚽ Chaînes Sport ({s['total_sport_channels']} chaînes) :")
+
             ar_keys = list(s.get("bein_channels", {}).keys())
             fr_keys = list(s.get("bein_fr_channels", {}).keys())
             canal_keys = list(s.get("canal_channels", {}).keys())
@@ -536,8 +572,8 @@ def output_report(valid_servers: list[dict], total_codes: int, tested_codes: int
                 lines.append(f"       • Canal+/RMC : {len(canal_keys)} flux ({', '.join(canal_keys)})")
 
     lines.append("\n" + "=" * 78)
-    lines.append(f"💾 Pool global sauvegardé dans : {POOL_FILE}")
-    lines.append(f"📄 Ce rapport est enregistré dans: {REPORT_FILE}")
+    lines.append(f"💾 Pool complet sauvegardé dans : {POOL_FILE}")
+    lines.append(f"📄 Rapport enregistré dans      : {REPORT_FILE}")
     lines.append("=" * 78)
 
     report_text = "\n".join(lines)
@@ -550,7 +586,7 @@ def output_report(valid_servers: list[dict], total_codes: int, tested_codes: int
         log.error(f"Erreur écriture rapport: {e}")
 
 # ══════════════════════════════════════════════════════════════════════════════
-#  SURVEILLANCE TEMPS RÉEL (TEMPS RÉEL APRÈS SCAN)
+#  SURVEILLANCE TEMPS RÉEL
 # ══════════════════════════════════════════════════════════════════════════════
 
 async def watch_target_sources(client, targets: list[str]):
@@ -561,20 +597,30 @@ async def watch_target_sources(client, targets: list[str]):
 
         @client.on(events.NewMessage(chats=entity))
         async def handler(event, src_title=title):
-            if not event.message.text:
-                return
-            codes = extract_xtream_codes(event.message.text)
+            codes = []
+            if event.message.text:
+                codes.extend(extract_xtream_codes(event.message.text))
+            if event.message.document and event.message.file and event.message.file.name:
+                fname = event.message.file.name.lower()
+                if any(fname.endswith(ext) for ext in ['.txt', '.m3u', '.m3u8']):
+                    try:
+                        b = await event.message.download_media(bytes)
+                        if b:
+                            codes.extend(extract_xtream_codes(b.decode('utf-8', errors='ignore')))
+                    except Exception:
+                        pass
+
             if not codes:
                 return
             log.info(f"\n⚡ NOUVEAU MESSAGE sur '{src_title}' : {len(codes)} code(s) détecté(s) !")
             for c in codes:
-                res = test_xtream_server(c['host'], c['username'], c['password'])
+                res, reason = test_xtream_server(c['host'], c['username'], c['password'])
                 if res:
                     res['found_in'] = src_title
                     save_server_to_pool(res)
                     log.info(f"  🎉 NOUVEAU SERVEUR AJOUTÉ AU POOL : {res['host']} | {res['total_sport_channels']} chaînes sport | Exp: {res['expires_str']}")
                 else:
-                    log.info(f"  ❌ Code invalide/inactif : {c['host']} ({c['username']})")
+                    log.info(f"  ❌ Invalide ({reason}) : {c['host']} ({c['username']})")
 
         log.info(f"👁️ Surveillance temps réel active sur : '{title}'")
 
@@ -583,19 +629,19 @@ async def watch_target_sources(client, targets: list[str]):
 # ══════════════════════════════════════════════════════════════════════════════
 
 async def main():
-    log.info("🚀 Family Stream - Bot Xtream VIP Scanner")
+    log.info("🚀 Family Stream - Bot Xtream VIP Scanner (Texte + Fichiers)")
     cleanup_expired_servers()
 
     client = TelegramClient(SESSION, API_ID, API_HASH)
     await client.start()
     log.info("✅ Telegram connecté avec succès !")
 
-    # 1. Scan initial des cibles spécifiées par l'utilisateur
+    # 1. Scan initial des cibles spécifiées
     await run_fast_scan(client, TARGET_SOURCES, limit=MESSAGES_LIMIT)
 
     # Si mode --scan-only, on quitte directement
     if "--scan-only" in sys.argv:
-        log.info("Option --scan-only spécifiée. Fin du traitement.")
+        log.info("Option --scan-only terminée. Fin du traitement.")
         await client.disconnect()
         return
 
