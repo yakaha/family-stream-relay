@@ -1,0 +1,37 @@
+name: Auto Update & Purge Xtream Portals
+
+on:
+  schedule:
+    # S'exécute automatiquement toutes les 6 heures (à 00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Permet de lancer manuellement le scan et la purge en 1 clic sur GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  update-portals:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupération du code source
+        uses: actions/checkout@v4
+
+      - name: Configuration de Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Installation des dépendances
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests urllib3
+
+      - name: Exécution du Scanner & Purge des serveurs morts
+        run: python scripts/auto_update_portals.py
+
+      - name: Sauvegarde et publication automatique sur GitHub
+        run: |
+          git config --local user.email "bot@familystream.tv"
+          git config --local user.name "FamilyStream Bot"
+          git add xtream_portals.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Mise à jour automatique des serveurs Xtream (purge des morts & ajout des nouveaux)" && git push)
